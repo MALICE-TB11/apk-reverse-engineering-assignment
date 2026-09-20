@@ -1,0 +1,12 @@
+# 本地反编译输出与工具工作文件
+/work/
+/jadx-output/
+/apktool-output/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Ghidra 工程及锁文件；报告中的分析结果单独提交
+*.gpr
+*.rep/
