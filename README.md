@@ -1,60 +1,67 @@
 # Android 飞行器控制 APK 通信与控制函数逆向分析
 
-本仓库用于记录课程作业的样本信息、静态分析过程、关键函数证据和调用链。
+课程作业的静态分析工程。已定位连接生命周期、状态回调、四轴与起降编码、JNI 绑定和实际 UDP 发送函数，并保存可复现证据。未进行设备连接、控制发送或动态验证。
 
-**当前状态：已记录样本文件信息，尚未完成连接与控制函数定位。本文中的分析目标不代表已经验证的结论。**
-
-## 样本信息
+## 样本
 
 | 项目 | 内容 |
 | --- | --- |
-| 文件 | `sample.apk`（仓库根目录，Git LFS 管理） |
-| 文件大小 | 112,446,698 字节，约 107.24 MiB |
+| 文件 | `sample.apk`，Git LFS 管理，保留在根目录 |
+| 大小 | 112,446,698 字节，约 107.24 MiB |
 | SHA-256 | `49b469e51e4a0e849b5f846b9af94b3f98acbf91735ec8d04f8451c514c684b0` |
-| DEX 文件 | 7 个 |
-| Native 库 | `lib/arm64-v8a/` 下 43 个 `.so` |
-| 包名 / 版本 | 待从 AndroidManifest.xml 提取 |
+| 应用 / 包名 | WiFi_CAM / `com.tzh.wifi.wificam.activity` |
+| 版本 | 6.0.7（20250905） |
+| DEX / Native | 7 个 DEX；43 个 arm64-v8a `.so` |
 
-以上文件信息来自本地 APK 的哈希计算和 ZIP 目录检查；尚未分析 native 库的实际用途。
+## 主要结果
 
-## 获取样本
+```text
+按钮 / 摇杆 → WiFiPresenter → WiFiModelImpl → BaseCmd
+ → Camera.iCmdSend → libCamera.so → Socket::sendCmd → UDP sendto
+```
 
-安装 Git 和 Git LFS 后执行：
+- 初始化通信目标为 `192.168.4.153`，命令端口 `8090`、图像端口 `8080`。后续接收可能覆盖地址结构，详见 native 报告。
+- 已还原 8/20 字节控制帧、四轴字段、XOR 校验与短时功能位；20 字节格式的起飞与降落共用一位，已核对原始字节码，设备语义未验证。
+- `iCmdSend` 固定返回 0；界面连接状态也不等于控制执行成功。报告明确区分静态事实、推断与未知项。
+
+## 阅读顺序
+
+1. [分析报告](docs/analysis.md)
+2. [关键函数索引](docs/functions.md)与[逐边调用链](docs/call-chain.md)
+3. [控制与协议](docs/control-protocol.md)
+4. [JNI / native](docs/native-analysis.md)
+5. [工具与复现步骤](tools/README.md)、[源码摘录说明](src-extract/README.md)
+
+## 获取与复现
 
 ```powershell
 git lfs install
-git clone https://github.com/seeingly520-cpu/apk-reverse-engineering-assignment.git
+git clone https://github.com/MALICE-TB11/apk-reverse-engineering-assignment.git
 cd apk-reverse-engineering-assignment
 git lfs pull
 Get-FileHash .\sample.apk -Algorithm SHA256
 ```
 
-哈希应与上表一致。仅获取 LFS 指针文件无法进行 APK 分析。
+需完整 APK，LFS 指针不能分析。具备 Python 与 JDK 后，在根目录执行：
 
-## 阅读顺序
-
-1. [工具与复现步骤](tools/README.md)
-2. [分析报告](docs/analysis.md)
-3. [关键函数索引](docs/functions.md)
-4. [调用链与证据](docs/call-chain.md)
-5. [源码摘录规范](src-extract/README.md)
-
-## 目录
-
-```text
-sample.apk               原始样本，保持现有位置
-docs/analysis.md          样本、方法、结论及局限
-docs/functions.md         已定位函数及判断依据
-docs/call-chain.md        逐条验证的调用关系
-docs/screenshots/         支撑结论的截图
-src-extract/              少量关键代码摘录及原始位置
-tools/README.md           工具版本与复现方法
-work/                    本地完整反编译结果，不提交
+```powershell
+python tools/bootstrap_jadx.py --check-version
+python -m pip install --target work/tools/native-deps capstone==5.0.6 pyelftools==0.32
+.\tools\run_analysis.ps1
 ```
 
-## 分析目标
+工具版本、网络受限时的安装方式及验证边界见 [tools/README.md](tools/README.md)。
 
-- 定位连接建立、断开及状态检测逻辑。
-- 定位实际数据发送入口，并向上追踪协议编码及 UI 调用者。
-- 根据 Java/Kotlin 到 JNI 的实际引用关系，决定需要分析的 native 库。
-- 区分已证实的行为、合理推断和未验证假设；为结论提供代码位置或截图。
+## 目录与目标完成情况
+
+| 目录 | 内容 |
+| --- | --- |
+| `docs/` | 分析结论、函数索引、调用链、协议与 native 专题 |
+| `docs/evidence/` | 样本和依赖哈希、Manifest、JNI/重定位证据 |
+| `src-extract/connection/` | Java 生命周期与状态回调摘录 |
+| `src-extract/control/` | 编码、线程、输入调用、Smali 与 UI 资源证据 |
+| `src-extract/native/` | 含原始指令字节与 ELF 地址的汇编摘录 |
+| `tools/` | 锁定依赖安装、静态分析及证据重建脚本 |
+| `work/` | 完整反编译结果、工具缓存与全库反汇编；不提交 |
+
+原定四项目标均已在静态范围内落实：连接/断开/状态、发送入口及上游编码/UI、依据实际 JNI 引用选择 native 库、按代码位置保存证据并标明局限。实机行为、固件兼容性和真实收发时序仍未验证。

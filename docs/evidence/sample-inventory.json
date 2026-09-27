@@ -1,0 +1,1196 @@
+{
+  "schema_version": 1,
+  "sample": {
+    "file": "sample.apk",
+    "size_bytes": 112446698,
+    "sha256": "49b469e51e4a0e849b5f846b9af94b3f98acbf91735ec8d04f8451c514c684b0"
+  },
+  "verification": {
+    "all_zip_entries_read_and_crc_checked": true,
+    "duplicate_entry_names": [],
+    "unsafe_entry_paths": [],
+    "cryptographic_apk_signature_verified": false,
+    "note": "ZIP CRC and DEX header checks establish internal consistency, not publisher authenticity."
+  },
+  "zip": {
+    "entry_count": 3758,
+    "file_count": 3758,
+    "uncompressed_size_bytes": 185721590
+  },
+  "android_manifest": {
+    "path": "AndroidManifest.xml",
+    "size_bytes": 82724,
+    "compressed_size_bytes": 12473,
+    "compression_method": 8,
+    "crc32": "a46f60b8",
+    "sha256": "3ead6c49fc4439193f0ad83bd14eab26fe37dbb986ff150f08cc029224fb2a45"
+  },
+  "dex_count": 7,
+  "dex_files": [
+    {
+      "path": "classes.dex",
+      "size_bytes": 8152648,
+      "compressed_size_bytes": 3438049,
+      "compression_method": 8,
+      "crc32": "bec581aa",
+      "sha256": "55c1405dacab63090a50cc1ad091fe7b1535efb71851fdc86e700c9908c5ea3b",
+      "standard_dex_header": true,
+      "version": "035",
+      "declared_size_bytes": 8152648,
+      "declared_size_matches": true,
+      "adler32_matches": true,
+      "sha1_signature_matches": true,
+      "string_ids_count": 53457,
+      "type_ids_count": 9234,
+      "method_ids_count": 65238,
+      "class_defs_count": 7412
+    },
+    {
+      "path": "classes2.dex",
+      "size_bytes": 596,
+      "compressed_size_bytes": 379,
+      "compression_method": 8,
+      "crc32": "b79a1e91",
+      "sha256": "45f772be0bae7d207305eae3bccd96e35386a99ac0b97d3164bc61a9a8635f7d",
+      "standard_dex_header": true,
+      "version": "035",
+      "declared_size_bytes": 596,
+      "declared_size_matches": true,
+      "adler32_matches": true,
+      "sha1_signature_matches": true,
+      "string_ids_count": 7,
+      "type_ids_count": 4,
+      "method_ids_count": 2,
+      "class_defs_count": 1
+    },
+    {
+      "path": "classes3.dex",
+      "size_bytes": 7875404,
+      "compressed_size_bytes": 3156814,
+      "compression_method": 8,
+      "crc32": "c06d613c",
+      "sha256": "96028923356f5ba5732a579d3907bbcd0c7e94c98267eb529e111361b61e308c",
+      "standard_dex_header": true,
+      "version": "035",
+      "declared_size_bytes": 7875404,
+      "declared_size_matches": true,
+      "adler32_matches": true,
+      "sha1_signature_matches": true,
+      "string_ids_count": 59251,
+      "type_ids_count": 9268,
+      "method_ids_count": 65012,
+      "class_defs_count": 7419
+    },
+    {
+      "path": "classes4.dex",
+      "size_bytes": 7987844,
+      "compressed_size_bytes": 3173059,
+      "compression_method": 8,
+      "crc32": "afa03e3f",
+      "sha256": "4d495c20ee078d13242610c9ad7316fac8861506e6390b44e8d8ce7ed517081d",
+      "standard_dex_header": true,
+      "version": "035",
+      "declared_size_bytes": 7987844,
+      "declared_size_matches": true,
+      "adler32_matches": true,
+      "sha1_signature_matches": true,
+      "string_ids_count": 53970,
+      "type_ids_count": 11229,
+      "method_ids_count": 65112,
+      "class_defs_count": 9824
+    },
+    {
+      "path": "classes5.dex",
+      "size_bytes": 9092432,
+      "compressed_size_bytes": 3732553,
+      "compression_method": 8,
+      "crc32": "f1cbde39",
+      "sha256": "9759705e461f3a9143d17c37795cd4b3a7898a7e58360fe43a998d1f553603d4",
+      "standard_dex_header": true,
+      "version": "035",
+      "declared_size_bytes": 9092432,
+      "declared_size_matches": true,
+      "adler32_matches": true,
+      "sha1_signature_matches": true,
+      "string_ids_count": 51865,
+      "type_ids_count": 10447,
+      "method_ids_count": 65336,
+      "class_defs_count": 8960
+    },
+    {
+      "path": "classes6.dex",
+      "size_bytes": 8934308,
+      "compressed_size_bytes": 3413168,
+      "compression_method": 8,
+      "crc32": "14f63656",
+      "sha256": "e4d88582ab9caaa71521888dd209c6bfe2f1a3ec414f0113eb38887c3954de2c",
+      "standard_dex_header": true,
+      "version": "035",
+      "declared_size_bytes": 8934308,
+      "declared_size_matches": true,
+      "adler32_matches": true,
+      "sha1_signature_matches": true,
+      "string_ids_count": 60085,
+      "type_ids_count": 10475,
+      "method_ids_count": 65390,
+      "class_defs_count": 8396
+    },
+    {
+      "path": "classes7.dex",
+      "size_bytes": 6276828,
+      "compressed_size_bytes": 2316993,
+      "compression_method": 8,
+      "crc32": "416cdebe",
+      "sha256": "c00b9cda630126ac2ee564d2c10022f8c845d12a370642455b03fd23a8cca1b3",
+      "standard_dex_header": true,
+      "version": "035",
+      "declared_size_bytes": 6276828,
+      "declared_size_matches": true,
+      "adler32_matches": true,
+      "sha1_signature_matches": true,
+      "string_ids_count": 35105,
+      "type_ids_count": 6436,
+      "method_ids_count": 43456,
+      "class_defs_count": 5144
+    }
+  ],
+  "native_library_count": 43,
+  "abi_counts": {
+    "arm64-v8a": 43
+  },
+  "native_libraries": [
+    {
+      "path": "lib/arm64-v8a/libCamera.so",
+      "size_bytes": 435056,
+      "compressed_size_bytes": 153292,
+      "compression_method": 8,
+      "crc32": "416fc30c",
+      "sha256": "e001492721af2cd8e089440a5752f320a2441ca07584be92ae0b28ff53cae928",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libInno.so",
+      "size_bytes": 113496,
+      "compressed_size_bytes": 47278,
+      "compression_method": 8,
+      "crc32": "e1ce3b64",
+      "sha256": "65f18544ca612336bb407e909547e454321a8caddea6064353d4d605f0fe4012",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libInnoSecure.so",
+      "size_bytes": 67664,
+      "compressed_size_bytes": 34107,
+      "compression_method": 8,
+      "crc32": "f0eb9251",
+      "sha256": "f1fda4395a23ed61e5fd68497d20a8a8442ca9c76e8e4827cbc11e1246bd14b6",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libRSSupport.so",
+      "size_bytes": 2184400,
+      "compressed_size_bytes": 469672,
+      "compression_method": 8,
+      "crc32": "bdf77d31",
+      "sha256": "602b2ef88bee7f41d448f533e6c314b443bece52f73474251910f5aac6c0dafc",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libads-ac.so",
+      "size_bytes": 10080,
+      "compressed_size_bytes": 2208,
+      "compression_method": 8,
+      "crc32": "0d4ce2e6",
+      "sha256": "4ada48cdf529787f0c16a6ced4a361f048fc96345907925ee034d8e9406c49a0",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libads-c.so",
+      "size_bytes": 10512,
+      "compressed_size_bytes": 3698,
+      "compression_method": 8,
+      "crc32": "aff60bcf",
+      "sha256": "70de887586376d1f797c94d3393432cd32a1a977e41d657bd1f6baf1e209e2a9",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libane.so",
+      "size_bytes": 104392,
+      "compressed_size_bytes": 41557,
+      "compression_method": 8,
+      "crc32": "7e4b11a2",
+      "sha256": "425e12824cd0b419fd7aeb5d0da70383ea036b623c4c7f58f211de87891e7124",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libappstoresec.so",
+      "size_bytes": 215096,
+      "compressed_size_bytes": 71926,
+      "compression_method": 8,
+      "crc32": "b2782e00",
+      "sha256": "66907d104db147943bb7f7daf941fd58c2e38da4cbfced923218b0d98251f500",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libavcodec.so",
+      "size_bytes": 15375920,
+      "compressed_size_bytes": 7414619,
+      "compression_method": 8,
+      "crc32": "2b94a51a",
+      "sha256": "fc17a361b8edfdfaa12ea7964406b6e9360a80b0222ed5d515e9459c950a3939",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libavdevice.so",
+      "size_bytes": 67704,
+      "compressed_size_bytes": 8651,
+      "compression_method": 8,
+      "crc32": "973e4b03",
+      "sha256": "2a8ce86a9439308517a83e46b45e4c523a43b8e291ccee7198b566ed8be054ef",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libavfilter.so",
+      "size_bytes": 2802336,
+      "compressed_size_bytes": 1154042,
+      "compression_method": 8,
+      "crc32": "8e7451cf",
+      "sha256": "d1b87b70bc20d23daf09035f2e49dfa1328b804e8f1e9ed594b4cd91643a75a0",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libavformat.so",
+      "size_bytes": 4871008,
+      "compressed_size_bytes": 2475038,
+      "compression_method": 8,
+      "crc32": "c31adced",
+      "sha256": "32a1e2a5e8a521b9b9def9188230ad34e5d1657cc28edab2276076b795780181",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libavutil.so",
+      "size_bytes": 461328,
+      "compressed_size_bytes": 206040,
+      "compression_method": 8,
+      "crc32": "710bf011",
+      "sha256": "47868bbe9afd42ad6461cbbbd70e05a52a53ee8cf44abb98a25ca903164597cf",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libc++_shared.so",
+      "size_bytes": 1055016,
+      "compressed_size_bytes": 303851,
+      "compression_method": 8,
+      "crc32": "605970d7",
+      "sha256": "cca380109a7b6285a1a62bad15ee70fe33f14fc3017ffcd5d37dbaa664c40880",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libcrypto.so",
+      "size_bytes": 1456848,
+      "compressed_size_bytes": 645693,
+      "compression_method": 8,
+      "crc32": "98ab3f98",
+      "sha256": "63803d9911eb57e6a77d9456eaba160524298940333ebc66f3931a2b3f14d061",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libfaac.so",
+      "size_bytes": 81056,
+      "compressed_size_bytes": 41264,
+      "compression_method": 8,
+      "crc32": "905e4ab3",
+      "sha256": "d0456fa4b61e959ed9ddb1cdc213d28862cc3cf9582157a63e12e9d8383745cf",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libgnustl_shared.so",
+      "size_bytes": 1104416,
+      "compressed_size_bytes": 328749,
+      "compression_method": 8,
+      "crc32": "de2494f5",
+      "sha256": "5ba6011b18413b9ab5600274870f602aa7016019ac0a61217b456a2567379a39",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libjpeg.so",
+      "size_bytes": 329280,
+      "compressed_size_bytes": 145215,
+      "compression_method": 8,
+      "crc32": "edbe32b6",
+      "sha256": "30b6e370358fff465e602d07b2c81683c900fae70b313ff558a98fef2ff003f5",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libmain.so",
+      "size_bytes": 1561544,
+      "compressed_size_bytes": 563465,
+      "compression_method": 8,
+      "crc32": "a16ced9b",
+      "sha256": "5a8988a7c64b8cfd9a8b63d56337e0e0689f48b7b2d23e1438fb1687792db301",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libmimo_1011.so",
+      "size_bytes": 135358,
+      "compressed_size_bytes": 116763,
+      "compression_method": 8,
+      "crc32": "0ff337ed",
+      "sha256": "6d5740b8cf1df6699a368447e842bf74db97a3f13ca25344cee00bf6f542bda1",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/liboctopus.so",
+      "size_bytes": 280632,
+      "compressed_size_bytes": 90229,
+      "compression_method": 8,
+      "crc32": "28edc27a",
+      "sha256": "3d85ab948e100ba11a00aae257b2024d5cc87d1f669393f59e4afb3dec89d74c",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libopencv_java3.so",
+      "size_bytes": 18696224,
+      "compressed_size_bytes": 7619983,
+      "compression_method": 8,
+      "crc32": "0d05156e",
+      "sha256": "30801bf3fd3a3db06b6852c2d9e55b51a8c856a29ad5fe643c049275324acef6",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libopluslog.so",
+      "size_bytes": 63264,
+      "compressed_size_bytes": 26394,
+      "compression_method": 8,
+      "crc32": "60d7495c",
+      "sha256": "0011664442dce59f78b532d892b69b5b420339a4c0136ec238cf73d5d691e5a4",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libpangleflipped.so",
+      "size_bytes": 10064,
+      "compressed_size_bytes": 3051,
+      "compression_method": 8,
+      "crc32": "d66afc0a",
+      "sha256": "f8bc883be882330cd919f94ab6aad4493a80004ef0ab77337c6bd727a514742d",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libplt-base.so",
+      "size_bytes": 373056,
+      "compressed_size_bytes": 167881,
+      "compression_method": 8,
+      "crc32": "ce327596",
+      "sha256": "17af566643b0b771874c095af96922b95ec879d841bce1cf8b34384437fd6295",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libpocketsphinx_jni.so",
+      "size_bytes": 592896,
+      "compressed_size_bytes": 258629,
+      "compression_method": 8,
+      "crc32": "e2c7b3cc",
+      "sha256": "35f7d7a8ed7da5d27913528c164d3983a1c45db2fb15955d61e51f46156ce74b",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libqmcheat.so",
+      "size_bytes": 243664,
+      "compressed_size_bytes": 93887,
+      "compression_method": 8,
+      "crc32": "08f10aea",
+      "sha256": "070eb15c3fb6f4081437819f6bf306b8fb3210dd4599bb1c42e1c62a6f6a87aa",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/librsjni.so",
+      "size_bytes": 72000,
+      "compressed_size_bytes": 22356,
+      "compression_method": 8,
+      "crc32": "771d8c05",
+      "sha256": "d3f7a396993a6e5fb9019d650b025e549d589290fff866a32e2bacbe18eeb39a",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/librsjni_androidx.so",
+      "size_bytes": 62152,
+      "compressed_size_bytes": 21151,
+      "compression_method": 8,
+      "crc32": "9788fbd9",
+      "sha256": "3196a5812f44f2d0f49c46fcf04d418c9c83e0d5dedb8be46ef2ff7abc06133a",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libscorpion.so",
+      "size_bytes": 502248,
+      "compressed_size_bytes": 178464,
+      "compression_method": 8,
+      "crc32": "5d1489e6",
+      "sha256": "54268e5c0f6ba16cbec6a6cb7891d13f31af429db530a2ddd512dc68b65335cf",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libsecsdk.so",
+      "size_bytes": 349040,
+      "compressed_size_bytes": 185979,
+      "compression_method": 8,
+      "crc32": "868ed7b1",
+      "sha256": "104672f1eb99be54be6e44e9ea2f22504ab02d56412a59512841e9c27a0878be",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libsgcore.so",
+      "size_bytes": 92360,
+      "compressed_size_bytes": 39716,
+      "compression_method": 8,
+      "crc32": "33809834",
+      "sha256": "7f653053fd392fe8bfd02916ce9dd08756d9f085da5d70353b4506f26bd5d7fb",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libsls_producer.so",
+      "size_bytes": 169920,
+      "compressed_size_bytes": 67165,
+      "compression_method": 8,
+      "crc32": "847c93bc",
+      "sha256": "d4972302374785931e50a40072e22aa3ecc919d7f2dc14da710d5755ed9920f1",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libssl.so",
+      "size_bytes": 325536,
+      "compressed_size_bytes": 130200,
+      "compression_method": 8,
+      "crc32": "83d43dfd",
+      "sha256": "d9c9beeda1dd21deba0aff1e8f3ffa22cb060634e57273d8f5be85ff44872a88",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libswresample.so",
+      "size_bytes": 133072,
+      "compressed_size_bytes": 37769,
+      "compression_method": 8,
+      "crc32": "5fc2b347",
+      "sha256": "893f475dfe61cb7083dd39261ce363e4d20ddaee9fc1e6e0661f94daf479cac6",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libswscale.so",
+      "size_bytes": 460824,
+      "compressed_size_bytes": 163961,
+      "compression_method": 8,
+      "crc32": "0bcd6600",
+      "sha256": "5635b796b7bf4d3346f7ce967bad79b1ad2fba6bcb8b045ef38ffad8928cce4c",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libtanx.so",
+      "size_bytes": 108504,
+      "compressed_size_bytes": 59615,
+      "compression_method": 8,
+      "crc32": "8db10739",
+      "sha256": "69308f87b01cb286df9c8866f329ac06bda0bccc4717f8e98ba13e66e33d43d4",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libtensorflowlite_jni.so",
+      "size_bytes": 1369416,
+      "compressed_size_bytes": 494090,
+      "compression_method": 8,
+      "crc32": "4d144477",
+      "sha256": "5d1b9e6647b744c063ab703d99de13630969a307031e0a90710d76448558064b",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libti-monitor.so",
+      "size_bytes": 115872,
+      "compressed_size_bytes": 41336,
+      "compression_method": 8,
+      "crc32": "aa8f0113",
+      "sha256": "9851b6db817b44810dcc39af63962cbf5040a13454c966bb1406141f11da3200",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libturbojpeg.so",
+      "size_bytes": 419912,
+      "compressed_size_bytes": 191534,
+      "compression_method": 8,
+      "crc32": "b563428d",
+      "sha256": "3e99c207359b66a1df2554480875c6d842618e6d2b03be3b1f684793fbb75a24",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libvivoantisdk.so",
+      "size_bytes": 567536,
+      "compressed_size_bytes": 215381,
+      "compression_method": 8,
+      "crc32": "ec430c93",
+      "sha256": "787fea13f1af42bd73a07ec9decc3837ece7b2492cbaf0f6c0557d6fa4ef85ae",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libvsecbox.so",
+      "size_bytes": 55264,
+      "compressed_size_bytes": 28185,
+      "compression_method": 8,
+      "crc32": "eadf569f",
+      "sha256": "9e81c11134267e0524de13f63381252449e60a726b64869e7c365954512d3f53",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    },
+    {
+      "path": "lib/arm64-v8a/libyuv.so",
+      "size_bytes": 415112,
+      "compressed_size_bytes": 176586,
+      "compression_method": 8,
+      "crc32": "15b416b6",
+      "sha256": "9128c7877b661af0cadb87240f5ff436820bbf98cfbabc8133af8ba90b7ff287",
+      "abi": "arm64-v8a",
+      "elf": true,
+      "bits": 64,
+      "byte_order": "little",
+      "machine": 183
+    }
+  ],
+  "v1_signature_zip_entries": [
+    {
+      "path": "META-INF/CERT.RSA",
+      "size_bytes": 1574,
+      "compressed_size_bytes": 1139,
+      "compression_method": 8,
+      "crc32": "0eccb446",
+      "sha256": "3477bc75566be5dfb77ad4533f42ab847dadda8be8af68abf0b95c47f6583727"
+    },
+    {
+      "path": "META-INF/CERT.SF",
+      "size_bytes": 319330,
+      "compressed_size_bytes": 149696,
+      "compression_method": 8,
+      "crc32": "2497f4e0",
+      "sha256": "c11c3a73eddd3d1b6d529decce75cee870303a77be03b13b2aac43d9d9ec3bf9"
+    },
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "size_bytes": 319256,
+      "compressed_size_bytes": 147218,
+      "compression_method": 8,
+      "crc32": "8ff394f7",
+      "sha256": "d5ca2e0cd1b3f1211c3d6d22c6ef42667744dcaec4da2ac7aef1a6e8830b4587"
+    }
+  ],
+  "apk_signing_block": {
+    "central_directory_offset": 112224972,
+    "present": true,
+    "offset": 112220876,
+    "size_bytes": 4096,
+    "entries": [
+      {
+        "id": "0x7109871a",
+        "type": "APK Signature Scheme v2",
+        "value_size_bytes": 1673,
+        "value_sha256": "376e15dd93c589d66d06c00e6d6c093b6a111393c754a38ed9b5c39ee2e6a097"
+      },
+      {
+        "id": "0x42726577",
+        "type": "Verity padding",
+        "value_size_bytes": 2367,
+        "value_sha256": "224a17a097a8ff2c2048c419366a8e0c9eb59697d29a72ff76d6b333c652814f"
+      }
+    ],
+    "signature_verified": false
+  },
+  "zip_entries_scope": "dex_native_signature",
+  "zip_entries": [
+    {
+      "path": "META-INF/CERT.RSA",
+      "size_bytes": 1574,
+      "compressed_size_bytes": 1139,
+      "compression_method": 8,
+      "crc32": "0eccb446",
+      "sha256": "3477bc75566be5dfb77ad4533f42ab847dadda8be8af68abf0b95c47f6583727"
+    },
+    {
+      "path": "META-INF/CERT.SF",
+      "size_bytes": 319330,
+      "compressed_size_bytes": 149696,
+      "compression_method": 8,
+      "crc32": "2497f4e0",
+      "sha256": "c11c3a73eddd3d1b6d529decce75cee870303a77be03b13b2aac43d9d9ec3bf9"
+    },
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "size_bytes": 319256,
+      "compressed_size_bytes": 147218,
+      "compression_method": 8,
+      "crc32": "8ff394f7",
+      "sha256": "d5ca2e0cd1b3f1211c3d6d22c6ef42667744dcaec4da2ac7aef1a6e8830b4587"
+    },
+    {
+      "path": "classes.dex",
+      "size_bytes": 8152648,
+      "compressed_size_bytes": 3438049,
+      "compression_method": 8,
+      "crc32": "bec581aa",
+      "sha256": "55c1405dacab63090a50cc1ad091fe7b1535efb71851fdc86e700c9908c5ea3b"
+    },
+    {
+      "path": "classes2.dex",
+      "size_bytes": 596,
+      "compressed_size_bytes": 379,
+      "compression_method": 8,
+      "crc32": "b79a1e91",
+      "sha256": "45f772be0bae7d207305eae3bccd96e35386a99ac0b97d3164bc61a9a8635f7d"
+    },
+    {
+      "path": "classes3.dex",
+      "size_bytes": 7875404,
+      "compressed_size_bytes": 3156814,
+      "compression_method": 8,
+      "crc32": "c06d613c",
+      "sha256": "96028923356f5ba5732a579d3907bbcd0c7e94c98267eb529e111361b61e308c"
+    },
+    {
+      "path": "classes4.dex",
+      "size_bytes": 7987844,
+      "compressed_size_bytes": 3173059,
+      "compression_method": 8,
+      "crc32": "afa03e3f",
+      "sha256": "4d495c20ee078d13242610c9ad7316fac8861506e6390b44e8d8ce7ed517081d"
+    },
+    {
+      "path": "classes5.dex",
+      "size_bytes": 9092432,
+      "compressed_size_bytes": 3732553,
+      "compression_method": 8,
+      "crc32": "f1cbde39",
+      "sha256": "9759705e461f3a9143d17c37795cd4b3a7898a7e58360fe43a998d1f553603d4"
+    },
+    {
+      "path": "classes6.dex",
+      "size_bytes": 8934308,
+      "compressed_size_bytes": 3413168,
+      "compression_method": 8,
+      "crc32": "14f63656",
+      "sha256": "e4d88582ab9caaa71521888dd209c6bfe2f1a3ec414f0113eb38887c3954de2c"
+    },
+    {
+      "path": "classes7.dex",
+      "size_bytes": 6276828,
+      "compressed_size_bytes": 2316993,
+      "compression_method": 8,
+      "crc32": "416cdebe",
+      "sha256": "c00b9cda630126ac2ee564d2c10022f8c845d12a370642455b03fd23a8cca1b3"
+    },
+    {
+      "path": "lib/arm64-v8a/libCamera.so",
+      "size_bytes": 435056,
+      "compressed_size_bytes": 153292,
+      "compression_method": 8,
+      "crc32": "416fc30c",
+      "sha256": "e001492721af2cd8e089440a5752f320a2441ca07584be92ae0b28ff53cae928"
+    },
+    {
+      "path": "lib/arm64-v8a/libInno.so",
+      "size_bytes": 113496,
+      "compressed_size_bytes": 47278,
+      "compression_method": 8,
+      "crc32": "e1ce3b64",
+      "sha256": "65f18544ca612336bb407e909547e454321a8caddea6064353d4d605f0fe4012"
+    },
+    {
+      "path": "lib/arm64-v8a/libInnoSecure.so",
+      "size_bytes": 67664,
+      "compressed_size_bytes": 34107,
+      "compression_method": 8,
+      "crc32": "f0eb9251",
+      "sha256": "f1fda4395a23ed61e5fd68497d20a8a8442ca9c76e8e4827cbc11e1246bd14b6"
+    },
+    {
+      "path": "lib/arm64-v8a/libRSSupport.so",
+      "size_bytes": 2184400,
+      "compressed_size_bytes": 469672,
+      "compression_method": 8,
+      "crc32": "bdf77d31",
+      "sha256": "602b2ef88bee7f41d448f533e6c314b443bece52f73474251910f5aac6c0dafc"
+    },
+    {
+      "path": "lib/arm64-v8a/libads-ac.so",
+      "size_bytes": 10080,
+      "compressed_size_bytes": 2208,
+      "compression_method": 8,
+      "crc32": "0d4ce2e6",
+      "sha256": "4ada48cdf529787f0c16a6ced4a361f048fc96345907925ee034d8e9406c49a0"
+    },
+    {
+      "path": "lib/arm64-v8a/libads-c.so",
+      "size_bytes": 10512,
+      "compressed_size_bytes": 3698,
+      "compression_method": 8,
+      "crc32": "aff60bcf",
+      "sha256": "70de887586376d1f797c94d3393432cd32a1a977e41d657bd1f6baf1e209e2a9"
+    },
+    {
+      "path": "lib/arm64-v8a/libane.so",
+      "size_bytes": 104392,
+      "compressed_size_bytes": 41557,
+      "compression_method": 8,
+      "crc32": "7e4b11a2",
+      "sha256": "425e12824cd0b419fd7aeb5d0da70383ea036b623c4c7f58f211de87891e7124"
+    },
+    {
+      "path": "lib/arm64-v8a/libappstoresec.so",
+      "size_bytes": 215096,
+      "compressed_size_bytes": 71926,
+      "compression_method": 8,
+      "crc32": "b2782e00",
+      "sha256": "66907d104db147943bb7f7daf941fd58c2e38da4cbfced923218b0d98251f500"
+    },
+    {
+      "path": "lib/arm64-v8a/libavcodec.so",
+      "size_bytes": 15375920,
+      "compressed_size_bytes": 7414619,
+      "compression_method": 8,
+      "crc32": "2b94a51a",
+      "sha256": "fc17a361b8edfdfaa12ea7964406b6e9360a80b0222ed5d515e9459c950a3939"
+    },
+    {
+      "path": "lib/arm64-v8a/libavdevice.so",
+      "size_bytes": 67704,
+      "compressed_size_bytes": 8651,
+      "compression_method": 8,
+      "crc32": "973e4b03",
+      "sha256": "2a8ce86a9439308517a83e46b45e4c523a43b8e291ccee7198b566ed8be054ef"
+    },
+    {
+      "path": "lib/arm64-v8a/libavfilter.so",
+      "size_bytes": 2802336,
+      "compressed_size_bytes": 1154042,
+      "compression_method": 8,
+      "crc32": "8e7451cf",
+      "sha256": "d1b87b70bc20d23daf09035f2e49dfa1328b804e8f1e9ed594b4cd91643a75a0"
+    },
+    {
+      "path": "lib/arm64-v8a/libavformat.so",
+      "size_bytes": 4871008,
+      "compressed_size_bytes": 2475038,
+      "compression_method": 8,
+      "crc32": "c31adced",
+      "sha256": "32a1e2a5e8a521b9b9def9188230ad34e5d1657cc28edab2276076b795780181"
+    },
+    {
+      "path": "lib/arm64-v8a/libavutil.so",
+      "size_bytes": 461328,
+      "compressed_size_bytes": 206040,
+      "compression_method": 8,
+      "crc32": "710bf011",
+      "sha256": "47868bbe9afd42ad6461cbbbd70e05a52a53ee8cf44abb98a25ca903164597cf"
+    },
+    {
+      "path": "lib/arm64-v8a/libc++_shared.so",
+      "size_bytes": 1055016,
+      "compressed_size_bytes": 303851,
+      "compression_method": 8,
+      "crc32": "605970d7",
+      "sha256": "cca380109a7b6285a1a62bad15ee70fe33f14fc3017ffcd5d37dbaa664c40880"
+    },
+    {
+      "path": "lib/arm64-v8a/libcrypto.so",
+      "size_bytes": 1456848,
+      "compressed_size_bytes": 645693,
+      "compression_method": 8,
+      "crc32": "98ab3f98",
+      "sha256": "63803d9911eb57e6a77d9456eaba160524298940333ebc66f3931a2b3f14d061"
+    },
+    {
+      "path": "lib/arm64-v8a/libfaac.so",
+      "size_bytes": 81056,
+      "compressed_size_bytes": 41264,
+      "compression_method": 8,
+      "crc32": "905e4ab3",
+      "sha256": "d0456fa4b61e959ed9ddb1cdc213d28862cc3cf9582157a63e12e9d8383745cf"
+    },
+    {
+      "path": "lib/arm64-v8a/libgnustl_shared.so",
+      "size_bytes": 1104416,
+      "compressed_size_bytes": 328749,
+      "compression_method": 8,
+      "crc32": "de2494f5",
+      "sha256": "5ba6011b18413b9ab5600274870f602aa7016019ac0a61217b456a2567379a39"
+    },
+    {
+      "path": "lib/arm64-v8a/libjpeg.so",
+      "size_bytes": 329280,
+      "compressed_size_bytes": 145215,
+      "compression_method": 8,
+      "crc32": "edbe32b6",
+      "sha256": "30b6e370358fff465e602d07b2c81683c900fae70b313ff558a98fef2ff003f5"
+    },
+    {
+      "path": "lib/arm64-v8a/libmain.so",
+      "size_bytes": 1561544,
+      "compressed_size_bytes": 563465,
+      "compression_method": 8,
+      "crc32": "a16ced9b",
+      "sha256": "5a8988a7c64b8cfd9a8b63d56337e0e0689f48b7b2d23e1438fb1687792db301"
+    },
+    {
+      "path": "lib/arm64-v8a/libmimo_1011.so",
+      "size_bytes": 135358,
+      "compressed_size_bytes": 116763,
+      "compression_method": 8,
+      "crc32": "0ff337ed",
+      "sha256": "6d5740b8cf1df6699a368447e842bf74db97a3f13ca25344cee00bf6f542bda1"
+    },
+    {
+      "path": "lib/arm64-v8a/liboctopus.so",
+      "size_bytes": 280632,
+      "compressed_size_bytes": 90229,
+      "compression_method": 8,
+      "crc32": "28edc27a",
+      "sha256": "3d85ab948e100ba11a00aae257b2024d5cc87d1f669393f59e4afb3dec89d74c"
+    },
+    {
+      "path": "lib/arm64-v8a/libopencv_java3.so",
+      "size_bytes": 18696224,
+      "compressed_size_bytes": 7619983,
+      "compression_method": 8,
+      "crc32": "0d05156e",
+      "sha256": "30801bf3fd3a3db06b6852c2d9e55b51a8c856a29ad5fe643c049275324acef6"
+    },
+    {
+      "path": "lib/arm64-v8a/libopluslog.so",
+      "size_bytes": 63264,
+      "compressed_size_bytes": 26394,
+      "compression_method": 8,
+      "crc32": "60d7495c",
+      "sha256": "0011664442dce59f78b532d892b69b5b420339a4c0136ec238cf73d5d691e5a4"
+    },
+    {
+      "path": "lib/arm64-v8a/libpangleflipped.so",
+      "size_bytes": 10064,
+      "compressed_size_bytes": 3051,
+      "compression_method": 8,
+      "crc32": "d66afc0a",
+      "sha256": "f8bc883be882330cd919f94ab6aad4493a80004ef0ab77337c6bd727a514742d"
+    },
+    {
+      "path": "lib/arm64-v8a/libplt-base.so",
+      "size_bytes": 373056,
+      "compressed_size_bytes": 167881,
+      "compression_method": 8,
+      "crc32": "ce327596",
+      "sha256": "17af566643b0b771874c095af96922b95ec879d841bce1cf8b34384437fd6295"
+    },
+    {
+      "path": "lib/arm64-v8a/libpocketsphinx_jni.so",
+      "size_bytes": 592896,
+      "compressed_size_bytes": 258629,
+      "compression_method": 8,
+      "crc32": "e2c7b3cc",
+      "sha256": "35f7d7a8ed7da5d27913528c164d3983a1c45db2fb15955d61e51f46156ce74b"
+    },
+    {
+      "path": "lib/arm64-v8a/libqmcheat.so",
+      "size_bytes": 243664,
+      "compressed_size_bytes": 93887,
+      "compression_method": 8,
+      "crc32": "08f10aea",
+      "sha256": "070eb15c3fb6f4081437819f6bf306b8fb3210dd4599bb1c42e1c62a6f6a87aa"
+    },
+    {
+      "path": "lib/arm64-v8a/librsjni.so",
+      "size_bytes": 72000,
+      "compressed_size_bytes": 22356,
+      "compression_method": 8,
+      "crc32": "771d8c05",
+      "sha256": "d3f7a396993a6e5fb9019d650b025e549d589290fff866a32e2bacbe18eeb39a"
+    },
+    {
+      "path": "lib/arm64-v8a/librsjni_androidx.so",
+      "size_bytes": 62152,
+      "compressed_size_bytes": 21151,
+      "compression_method": 8,
+      "crc32": "9788fbd9",
+      "sha256": "3196a5812f44f2d0f49c46fcf04d418c9c83e0d5dedb8be46ef2ff7abc06133a"
+    },
+    {
+      "path": "lib/arm64-v8a/libscorpion.so",
+      "size_bytes": 502248,
+      "compressed_size_bytes": 178464,
+      "compression_method": 8,
+      "crc32": "5d1489e6",
+      "sha256": "54268e5c0f6ba16cbec6a6cb7891d13f31af429db530a2ddd512dc68b65335cf"
+    },
+    {
+      "path": "lib/arm64-v8a/libsecsdk.so",
+      "size_bytes": 349040,
+      "compressed_size_bytes": 185979,
+      "compression_method": 8,
+      "crc32": "868ed7b1",
+      "sha256": "104672f1eb99be54be6e44e9ea2f22504ab02d56412a59512841e9c27a0878be"
+    },
+    {
+      "path": "lib/arm64-v8a/libsgcore.so",
+      "size_bytes": 92360,
+      "compressed_size_bytes": 39716,
+      "compression_method": 8,
+      "crc32": "33809834",
+      "sha256": "7f653053fd392fe8bfd02916ce9dd08756d9f085da5d70353b4506f26bd5d7fb"
+    },
+    {
+      "path": "lib/arm64-v8a/libsls_producer.so",
+      "size_bytes": 169920,
+      "compressed_size_bytes": 67165,
+      "compression_method": 8,
+      "crc32": "847c93bc",
+      "sha256": "d4972302374785931e50a40072e22aa3ecc919d7f2dc14da710d5755ed9920f1"
+    },
+    {
+      "path": "lib/arm64-v8a/libssl.so",
+      "size_bytes": 325536,
+      "compressed_size_bytes": 130200,
+      "compression_method": 8,
+      "crc32": "83d43dfd",
+      "sha256": "d9c9beeda1dd21deba0aff1e8f3ffa22cb060634e57273d8f5be85ff44872a88"
+    },
+    {
+      "path": "lib/arm64-v8a/libswresample.so",
+      "size_bytes": 133072,
+      "compressed_size_bytes": 37769,
+      "compression_method": 8,
+      "crc32": "5fc2b347",
+      "sha256": "893f475dfe61cb7083dd39261ce363e4d20ddaee9fc1e6e0661f94daf479cac6"
+    },
+    {
+      "path": "lib/arm64-v8a/libswscale.so",
+      "size_bytes": 460824,
+      "compressed_size_bytes": 163961,
+      "compression_method": 8,
+      "crc32": "0bcd6600",
+      "sha256": "5635b796b7bf4d3346f7ce967bad79b1ad2fba6bcb8b045ef38ffad8928cce4c"
+    },
+    {
+      "path": "lib/arm64-v8a/libtanx.so",
+      "size_bytes": 108504,
+      "compressed_size_bytes": 59615,
+      "compression_method": 8,
+      "crc32": "8db10739",
+      "sha256": "69308f87b01cb286df9c8866f329ac06bda0bccc4717f8e98ba13e66e33d43d4"
+    },
+    {
+      "path": "lib/arm64-v8a/libtensorflowlite_jni.so",
+      "size_bytes": 1369416,
+      "compressed_size_bytes": 494090,
+      "compression_method": 8,
+      "crc32": "4d144477",
+      "sha256": "5d1b9e6647b744c063ab703d99de13630969a307031e0a90710d76448558064b"
+    },
+    {
+      "path": "lib/arm64-v8a/libti-monitor.so",
+      "size_bytes": 115872,
+      "compressed_size_bytes": 41336,
+      "compression_method": 8,
+      "crc32": "aa8f0113",
+      "sha256": "9851b6db817b44810dcc39af63962cbf5040a13454c966bb1406141f11da3200"
+    },
+    {
+      "path": "lib/arm64-v8a/libturbojpeg.so",
+      "size_bytes": 419912,
+      "compressed_size_bytes": 191534,
+      "compression_method": 8,
+      "crc32": "b563428d",
+      "sha256": "3e99c207359b66a1df2554480875c6d842618e6d2b03be3b1f684793fbb75a24"
+    },
+    {
+      "path": "lib/arm64-v8a/libvivoantisdk.so",
+      "size_bytes": 567536,
+      "compressed_size_bytes": 215381,
+      "compression_method": 8,
+      "crc32": "ec430c93",
+      "sha256": "787fea13f1af42bd73a07ec9decc3837ece7b2492cbaf0f6c0557d6fa4ef85ae"
+    },
+    {
+      "path": "lib/arm64-v8a/libvsecbox.so",
+      "size_bytes": 55264,
+      "compressed_size_bytes": 28185,
+      "compression_method": 8,
+      "crc32": "eadf569f",
+      "sha256": "9e81c11134267e0524de13f63381252449e60a726b64869e7c365954512d3f53"
+    },
+    {
+      "path": "lib/arm64-v8a/libyuv.so",
+      "size_bytes": 415112,
+      "compressed_size_bytes": 176586,
+      "compression_method": 8,
+      "crc32": "15b416b6",
+      "sha256": "9128c7877b661af0cadb87240f5ff436820bbf98cfbabc8133af8ba90b7ff287"
+    }
+  ]
+}

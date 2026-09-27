@@ -1,0 +1,1037 @@
+{
+  "class_pointer_va": "0x71720",
+  "class_name_va": "0x1decd",
+  "class_name": "com/tzh/wifi/utils/Camera",
+  "registration_call_va": "0x399ec",
+  "table_va": "0x71728",
+  "count": 22,
+  "methods": [
+    {
+      "table_va": "0x71728",
+      "name": "iCameraInit",
+      "signature": "()I",
+      "function_va": "0x39a78"
+    },
+    {
+      "table_va": "0x71740",
+      "name": "iCameraDeinit",
+      "signature": "()V",
+      "function_va": "0x39b58"
+    },
+    {
+      "table_va": "0x71758",
+      "name": "iCameraStart",
+      "signature": "()I",
+      "function_va": "0x39c5c"
+    },
+    {
+      "table_va": "0x71770",
+      "name": "iCameraStop",
+      "signature": "()V",
+      "function_va": "0x39c8c"
+    },
+    {
+      "table_va": "0x71788",
+      "name": "iCameraRecStart",
+      "signature": "(Ljava/lang/String;)I",
+      "function_va": "0x39ca4"
+    },
+    {
+      "table_va": "0x717a0",
+      "name": "iCameraRecStop",
+      "signature": "()V",
+      "function_va": "0x39d2c"
+    },
+    {
+      "table_va": "0x717b8",
+      "name": "iCameraRecWrite",
+      "signature": "([BI)I",
+      "function_va": "0x39d44"
+    },
+    {
+      "table_va": "0x717d0",
+      "name": "iCameraWritePic",
+      "signature": "([BI)I",
+      "function_va": "0x39dfc"
+    },
+    {
+      "table_va": "0x717e8",
+      "name": "iCameraRecSetParams",
+      "signature": "(III)I",
+      "function_va": "0x39e50"
+    },
+    {
+      "table_va": "0x71800",
+      "name": "iCmdStart",
+      "signature": "()I",
+      "function_va": "0x39e84"
+    },
+    {
+      "table_va": "0x71818",
+      "name": "iCameraRoate",
+      "signature": "()I",
+      "function_va": "0x39e8c"
+    },
+    {
+      "table_va": "0x71830",
+      "name": "iCameraSwitch",
+      "signature": "()I",
+      "function_va": "0x39eb4"
+    },
+    {
+      "table_va": "0x71848",
+      "name": "iCmdSend",
+      "signature": "([BI)I",
+      "function_va": "0x39edc"
+    },
+    {
+      "table_va": "0x71860",
+      "name": "iCmdResume",
+      "signature": "()V",
+      "function_va": "0x39f90"
+    },
+    {
+      "table_va": "0x71878",
+      "name": "iCmdStop",
+      "signature": "()V",
+      "function_va": "0x39f98"
+    },
+    {
+      "table_va": "0x71890",
+      "name": "iCameraEncodeStart",
+      "signature": "(Ljava/lang/String;I)I",
+      "function_va": "0x39f9c"
+    },
+    {
+      "table_va": "0x718a8",
+      "name": "iCameraEncodeStop",
+      "signature": "()I",
+      "function_va": "0x3a058"
+    },
+    {
+      "table_va": "0x718c0",
+      "name": "isEncodingVadio",
+      "signature": "()I",
+      "function_va": "0x3a080"
+    },
+    {
+      "table_va": "0x718d8",
+      "name": "iYuanInit",
+      "signature": "(IIIIIIILjava/lang/String;Ljava/lang/String;II)I",
+      "function_va": "0x3a090"
+    },
+    {
+      "table_va": "0x718f0",
+      "name": "iYuanProc",
+      "signature": "([BII)I",
+      "function_va": "0x3a1d0"
+    },
+    {
+      "table_va": "0x71908",
+      "name": "iYuanRelease",
+      "signature": "()I",
+      "function_va": "0x3a250"
+    },
+    {
+      "table_va": "0x71920",
+      "name": "stop_music",
+      "signature": "()V",
+      "function_va": "0x3a254"
+    }
+  ],
+  "relevant_relocations": [
+    {
+      "offset": "0x6c768",
+      "type": 1025,
+      "symbol": "method",
+      "symbol_va": "0x72c78",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c778",
+      "type": 1025,
+      "symbol": "pUdpThread",
+      "symbol_va": "0x71540",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c780",
+      "type": 1025,
+      "symbol": "udpSocket",
+      "symbol_va": "0x72ce0",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c788",
+      "type": 1025,
+      "symbol": "cmdSocket",
+      "symbol_va": "0x72d90",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c790",
+      "type": 1025,
+      "symbol": "bRunning",
+      "symbol_va": "0x72cd8",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c798",
+      "type": 1025,
+      "symbol": "stopCmd",
+      "symbol_va": "0x71552",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c7a0",
+      "type": 1025,
+      "symbol": "_Z18udpSocketEnterancePv",
+      "symbol_va": "0x33540",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c7a8",
+      "type": 1025,
+      "symbol": "pCmdThread",
+      "symbol_va": "0x71548",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c7b0",
+      "type": 1025,
+      "symbol": "_Z18cmdSocketEnterancePv",
+      "symbol_va": "0x33b90",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c7c0",
+      "type": 1025,
+      "symbol": "mSocket",
+      "symbol_va": "0x72c80",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c7c8",
+      "type": 1025,
+      "symbol": "startCmd",
+      "symbol_va": "0x71550",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c7e8",
+      "type": 1025,
+      "symbol": "rotateCmd",
+      "symbol_va": "0x71554",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c7f0",
+      "type": 1025,
+      "symbol": "switchCmd",
+      "symbol_va": "0x71556",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6c958",
+      "type": 1025,
+      "symbol": "Mate9_Cooker_Class_Name",
+      "symbol_va": "0x71720",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cb80",
+      "type": 1026,
+      "symbol": "pthread_create",
+      "symbol_va": "0x0",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cd58",
+      "type": 1026,
+      "symbol": "close",
+      "symbol_va": "0x0",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6ce78",
+      "type": 1026,
+      "symbol": "_ZN7_JNIEnv20CallStaticVoidMethodEP7_jclassP10_jmethodIDz",
+      "symbol_va": "0x33058",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6ce80",
+      "type": 1026,
+      "symbol": "_ZN8C_Method17onNotifyWiFiStateEi",
+      "symbol_va": "0x330f4",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cea0",
+      "type": 1026,
+      "symbol": "sendto",
+      "symbol_va": "0x0",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cea8",
+      "type": 1026,
+      "symbol": "_ZN6Socket10disconnectEv",
+      "symbol_va": "0x33340",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6ceb0",
+      "type": 1026,
+      "symbol": "inet_addr",
+      "symbol_va": "0x0",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6ceb8",
+      "type": 1026,
+      "symbol": "socket",
+      "symbol_va": "0x0",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cec8",
+      "type": 1026,
+      "symbol": "_ZN6Socket7connectEv",
+      "symbol_va": "0x334cc",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cee0",
+      "type": 1026,
+      "symbol": "select",
+      "symbol_va": "0x0",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cee8",
+      "type": 1026,
+      "symbol": "recvfrom",
+      "symbol_va": "0x0",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cef0",
+      "type": 1026,
+      "symbol": "_ZN6Socket14writeRotateCmdEv",
+      "symbol_va": "0x33e1c",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cef8",
+      "type": 1026,
+      "symbol": "_ZN6Socket17writeCameraSwitchEv",
+      "symbol_va": "0x33ea0",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cf00",
+      "type": 1026,
+      "symbol": "_ZN6Socket7sendCmdEPhi",
+      "symbol_va": "0x33f24",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cf08",
+      "type": 1026,
+      "symbol": "_ZN6SocketC1Ev",
+      "symbol_va": "0x3323c",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x6cf10",
+      "type": 1026,
+      "symbol": "_ZN6SocketD1Ev",
+      "symbol_va": "0x332c0",
+      "addend": "0x0"
+    },
+    {
+      "offset": "0x71720",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1decd"
+    },
+    {
+      "offset": "0x71728",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1ef44"
+    },
+    {
+      "offset": "0x71730",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1eee6"
+    },
+    {
+      "offset": "0x71738",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39a78"
+    },
+    {
+      "offset": "0x71740",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1dbaa"
+    },
+    {
+      "offset": "0x71748",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1d66d"
+    },
+    {
+      "offset": "0x71750",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39b58"
+    },
+    {
+      "offset": "0x71758",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f609"
+    },
+    {
+      "offset": "0x71760",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1eee6"
+    },
+    {
+      "offset": "0x71768",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39c5c"
+    },
+    {
+      "offset": "0x71770",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1e883"
+    },
+    {
+      "offset": "0x71778",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1d66d"
+    },
+    {
+      "offset": "0x71780",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39c8c"
+    },
+    {
+      "offset": "0x71788",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1d2da"
+    },
+    {
+      "offset": "0x71790",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1d4f9"
+    },
+    {
+      "offset": "0x71798",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39ca4"
+    },
+    {
+      "offset": "0x717a0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f3d3"
+    },
+    {
+      "offset": "0x717a8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1d66d"
+    },
+    {
+      "offset": "0x717b0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39d2c"
+    },
+    {
+      "offset": "0x717b8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1da13"
+    },
+    {
+      "offset": "0x717c0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1e4d4"
+    },
+    {
+      "offset": "0x717c8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39d44"
+    },
+    {
+      "offset": "0x717d0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1d7c8"
+    },
+    {
+      "offset": "0x717d8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1e4d4"
+    },
+    {
+      "offset": "0x717e0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39dfc"
+    },
+    {
+      "offset": "0x717e8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1e88f"
+    },
+    {
+      "offset": "0x717f0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f73c"
+    },
+    {
+      "offset": "0x717f8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39e50"
+    },
+    {
+      "offset": "0x71800",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f743"
+    },
+    {
+      "offset": "0x71808",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1eee6"
+    },
+    {
+      "offset": "0x71810",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39e84"
+    },
+    {
+      "offset": "0x71818",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f12b"
+    },
+    {
+      "offset": "0x71820",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1eee6"
+    },
+    {
+      "offset": "0x71828",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39e8c"
+    },
+    {
+      "offset": "0x71830",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1d94e"
+    },
+    {
+      "offset": "0x71838",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1eee6"
+    },
+    {
+      "offset": "0x71840",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39eb4"
+    },
+    {
+      "offset": "0x71848",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1da23"
+    },
+    {
+      "offset": "0x71850",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1e4d4"
+    },
+    {
+      "offset": "0x71858",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39edc"
+    },
+    {
+      "offset": "0x71860",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f7d4"
+    },
+    {
+      "offset": "0x71868",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1d66d"
+    },
+    {
+      "offset": "0x71870",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39f90"
+    },
+    {
+      "offset": "0x71878",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f273"
+    },
+    {
+      "offset": "0x71880",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1d66d"
+    },
+    {
+      "offset": "0x71888",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39f98"
+    },
+    {
+      "offset": "0x71890",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1e8a3"
+    },
+    {
+      "offset": "0x71898",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1dbb8"
+    },
+    {
+      "offset": "0x718a0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x39f9c"
+    },
+    {
+      "offset": "0x718a8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1dfe4"
+    },
+    {
+      "offset": "0x718b0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1eee6"
+    },
+    {
+      "offset": "0x718b8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x3a058"
+    },
+    {
+      "offset": "0x718c0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f616"
+    },
+    {
+      "offset": "0x718c8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1eee6"
+    },
+    {
+      "offset": "0x718d0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x3a080"
+    },
+    {
+      "offset": "0x718d8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f74d"
+    },
+    {
+      "offset": "0x718e0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1e755"
+    },
+    {
+      "offset": "0x718e8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x3a090"
+    },
+    {
+      "offset": "0x718f0",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f8dd"
+    },
+    {
+      "offset": "0x718f8",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1d95c"
+    },
+    {
+      "offset": "0x71900",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x3a1d0"
+    },
+    {
+      "offset": "0x71908",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f626"
+    },
+    {
+      "offset": "0x71910",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1eee6"
+    },
+    {
+      "offset": "0x71918",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x3a250"
+    },
+    {
+      "offset": "0x71920",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1f633"
+    },
+    {
+      "offset": "0x71928",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x1d66d"
+    },
+    {
+      "offset": "0x71930",
+      "type": 1027,
+      "symbol": "",
+      "symbol_va": "0x0",
+      "addend": "0x3a254"
+    }
+  ],
+  "verified_plt": [
+    {
+      "plt_va": "0x63710",
+      "target": "pthread_create@plt",
+      "got_slot": "0x6cb80",
+      "instructions": [
+        "0x63710: adrp x16, #0x6c000",
+        "0x63714: ldr x17, [x16, #0xb80]",
+        "0x63718: add x16, x16, #0xb80",
+        "0x6371c: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63ac0",
+      "target": "close@plt",
+      "got_slot": "0x6cd58",
+      "instructions": [
+        "0x63ac0: adrp x16, #0x6c000",
+        "0x63ac4: ldr x17, [x16, #0xd58]",
+        "0x63ac8: add x16, x16, #0xd58",
+        "0x63acc: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63d00",
+      "target": "_ZN7_JNIEnv20CallStaticVoidMethodEP7_jclassP10_jmethodIDz@plt",
+      "got_slot": "0x6ce78",
+      "instructions": [
+        "0x63d00: adrp x16, #0x6c000",
+        "0x63d04: ldr x17, [x16, #0xe78]",
+        "0x63d08: add x16, x16, #0xe78",
+        "0x63d0c: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63d10",
+      "target": "_ZN8C_Method17onNotifyWiFiStateEi@plt",
+      "got_slot": "0x6ce80",
+      "instructions": [
+        "0x63d10: adrp x16, #0x6c000",
+        "0x63d14: ldr x17, [x16, #0xe80]",
+        "0x63d18: add x16, x16, #0xe80",
+        "0x63d1c: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63d50",
+      "target": "sendto@plt",
+      "got_slot": "0x6cea0",
+      "instructions": [
+        "0x63d50: adrp x16, #0x6c000",
+        "0x63d54: ldr x17, [x16, #0xea0]",
+        "0x63d58: add x16, x16, #0xea0",
+        "0x63d5c: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63d60",
+      "target": "_ZN6Socket10disconnectEv@plt",
+      "got_slot": "0x6cea8",
+      "instructions": [
+        "0x63d60: adrp x16, #0x6c000",
+        "0x63d64: ldr x17, [x16, #0xea8]",
+        "0x63d68: add x16, x16, #0xea8",
+        "0x63d6c: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63d70",
+      "target": "inet_addr@plt",
+      "got_slot": "0x6ceb0",
+      "instructions": [
+        "0x63d70: adrp x16, #0x6c000",
+        "0x63d74: ldr x17, [x16, #0xeb0]",
+        "0x63d78: add x16, x16, #0xeb0",
+        "0x63d7c: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63d80",
+      "target": "socket@plt",
+      "got_slot": "0x6ceb8",
+      "instructions": [
+        "0x63d80: adrp x16, #0x6c000",
+        "0x63d84: ldr x17, [x16, #0xeb8]",
+        "0x63d88: add x16, x16, #0xeb8",
+        "0x63d8c: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63da0",
+      "target": "_ZN6Socket7connectEv@plt",
+      "got_slot": "0x6cec8",
+      "instructions": [
+        "0x63da0: adrp x16, #0x6c000",
+        "0x63da4: ldr x17, [x16, #0xec8]",
+        "0x63da8: add x16, x16, #0xec8",
+        "0x63dac: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63dd0",
+      "target": "select@plt",
+      "got_slot": "0x6cee0",
+      "instructions": [
+        "0x63dd0: adrp x16, #0x6c000",
+        "0x63dd4: ldr x17, [x16, #0xee0]",
+        "0x63dd8: add x16, x16, #0xee0",
+        "0x63ddc: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63de0",
+      "target": "recvfrom@plt",
+      "got_slot": "0x6cee8",
+      "instructions": [
+        "0x63de0: adrp x16, #0x6c000",
+        "0x63de4: ldr x17, [x16, #0xee8]",
+        "0x63de8: add x16, x16, #0xee8",
+        "0x63dec: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63df0",
+      "target": "_ZN6Socket14writeRotateCmdEv@plt",
+      "got_slot": "0x6cef0",
+      "instructions": [
+        "0x63df0: adrp x16, #0x6c000",
+        "0x63df4: ldr x17, [x16, #0xef0]",
+        "0x63df8: add x16, x16, #0xef0",
+        "0x63dfc: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63e00",
+      "target": "_ZN6Socket17writeCameraSwitchEv@plt",
+      "got_slot": "0x6cef8",
+      "instructions": [
+        "0x63e00: adrp x16, #0x6c000",
+        "0x63e04: ldr x17, [x16, #0xef8]",
+        "0x63e08: add x16, x16, #0xef8",
+        "0x63e0c: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63e10",
+      "target": "_ZN6Socket7sendCmdEPhi@plt",
+      "got_slot": "0x6cf00",
+      "instructions": [
+        "0x63e10: adrp x16, #0x6c000",
+        "0x63e14: ldr x17, [x16, #0xf00]",
+        "0x63e18: add x16, x16, #0xf00",
+        "0x63e1c: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63e20",
+      "target": "_ZN6SocketC1Ev@plt",
+      "got_slot": "0x6cf08",
+      "instructions": [
+        "0x63e20: adrp x16, #0x6c000",
+        "0x63e24: ldr x17, [x16, #0xf08]",
+        "0x63e28: add x16, x16, #0xf08",
+        "0x63e2c: br x17"
+      ]
+    },
+    {
+      "plt_va": "0x63e30",
+      "target": "_ZN6SocketD1Ev@plt",
+      "got_slot": "0x6cf10",
+      "instructions": [
+        "0x63e30: adrp x16, #0x6c000",
+        "0x63e34: ldr x17, [x16, #0xf10]",
+        "0x63e38: add x16, x16, #0xf10",
+        "0x63e3c: br x17"
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "va": "0x1de62",
+      "value": "OnWiFiStateChange"
+    },
+    {
+      "va": "0x1edb1",
+      "value": "(I)V"
+    },
+    {
+      "va": "0x1edb6",
+      "value": "192.168.4.153"
+    }
+  ],
+  "command_constants": [
+    {
+      "name": "startCmd",
+      "va": "0x71550",
+      "bytes": "42 76"
+    },
+    {
+      "name": "switchCmd",
+      "va": "0x71556",
+      "bytes": "42 79"
+    },
+    {
+      "name": "stopCmd",
+      "va": "0x71552",
+      "bytes": "42 77"
+    },
+    {
+      "name": "rotateCmd",
+      "va": "0x71554",
+      "bytes": "42 78"
+    }
+  ]
+}

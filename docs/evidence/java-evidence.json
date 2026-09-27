@@ -1,0 +1,121 @@
+{
+  "sample_sha256": "49b469e51e4a0e849b5f846b9af94b3f98acbf91735ec8d04f8451c514c684b0",
+  "tool": "JADX 1.5.6",
+  "configuration": "tools/Decompile.java",
+  "evidence": [
+    {
+      "id": "C01",
+      "source": "com/tzh/wifi/wificam/WiFiApp.java",
+      "source_sha256": "dcfe6cd8df3f88f641d22822884d63ea91e588c642ca6cffbb97bcdf2b2234d7",
+      "ranges": [
+        [
+          104,
+          124
+        ]
+      ],
+      "excerpt": "src-extract/connection/C01-WiFiApp.md",
+      "excerpt_sha256": "c2e617d1439d6a14ceb88a757ae91d33c57746cd95bdf285582908d1611dda37"
+    },
+    {
+      "id": "C02",
+      "source": "com/tzh/wifi/wificam/activity/PlayActivity.java",
+      "source_sha256": "889210aff14bc4d8a328577e6f8169c32ce6a57648dac8df7439b51e79ec45ae",
+      "ranges": [
+        [
+          1139,
+          1178
+        ],
+        [
+          1435,
+          1467
+        ],
+        [
+          1500,
+          1508
+        ]
+      ],
+      "excerpt": "src-extract/connection/C02-PlayActivity.md",
+      "excerpt_sha256": "dd57b7b9d3d88250c247100239e90bf2b930c2db68de2016db3e1bf7b90878f9"
+    },
+    {
+      "id": "C03",
+      "source": "com/tzh/wifi/wificam/presenter/WiFiPresenter.java",
+      "source_sha256": "7e68fa232a57833cbb0e9e879409893e1ae028850358b50a69db0dc22486ae9e",
+      "ranges": [
+        [
+          141,
+          167
+        ],
+        [
+          303,
+          320
+        ],
+        [
+          337,
+          378
+        ]
+      ],
+      "excerpt": "src-extract/connection/C03-WiFiPresenter.md",
+      "excerpt_sha256": "5ac90efe30fa60df641e0b62603e50a2559e8e062081ac27b0227e44e61f7fc4"
+    },
+    {
+      "id": "C04",
+      "source": "com/tzh/wifi/wificam/model/WiFiModelImpl.java",
+      "source_sha256": "5809e98ad13a91de94e60103ec19c821f534fedead6c69ce1775f8e596afa214",
+      "ranges": [
+        [
+          14,
+          30
+        ],
+        [
+          53,
+          72
+        ],
+        [
+          187,
+          217
+        ]
+      ],
+      "excerpt": "src-extract/connection/C04-WiFiModelImpl.md",
+      "excerpt_sha256": "2ac0d698e1958a9a1950127bb476a2712ff80c2f19872fbc2ce3ca70c3717d85"
+    },
+    {
+      "id": "C05",
+      "source": "com/tzh/wifi/wificam/model/base/BaseModel.java",
+      "source_sha256": "1e10ab2754f18fe6977b8824cdfcefe4e9964ad79a64807bba4081939cb0070a",
+      "ranges": [
+        [
+          56,
+          74
+        ],
+        [
+          96,
+          106
+        ]
+      ],
+      "excerpt": "src-extract/connection/C05-BaseModel.md",
+      "excerpt_sha256": "8c4f30524280e51a9249f2db68cdae7f258060ad1d12391cda93189741692e83"
+    },
+    {
+      "id": "C06",
+      "source": "com/tzh/wifi/utils/Camera.java",
+      "source_sha256": "621bd100cf3109db9ad621bc672c71725824ba75409b4891c71feee226b46eb4",
+      "ranges": [
+        [
+          38,
+          84
+        ],
+        [
+          96,
+          165
+        ],
+        [
+          206,
+          216
+        ]
+      ],
+      "excerpt": "src-extract/connection/C06-Camera.md",
+      "excerpt_sha256": "8479da587494b52b58b2823bfcb8f4bafc7e440105a74a42d76e337f60c2e50c"
+    }
+  ]
+}

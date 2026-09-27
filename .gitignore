@@ -6,6 +6,8 @@
 *.tmp
 .DS_Store
 Thumbs.db
+__pycache__/
+*.pyc
 
 # Ghidra 工程及锁文件；报告中的分析结果单独提交
 *.gpr

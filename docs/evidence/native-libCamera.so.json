@@ -1,0 +1,56 @@
+{
+  "apk_entry": "lib/arm64-v8a/libCamera.so",
+  "size": 435056,
+  "sha256": "e001492721af2cd8e089440a5752f320a2441ca07584be92ae0b28ff53cae928",
+  "elf_machine": "EM_AARCH64",
+  "elf_class": 64,
+  "jni_exports": [
+    {
+      "symbol": "Java_com_tzh_wifi_utils_Camera_iCameraGetTotalFrame",
+      "va": "0x32318",
+      "size": 16
+    },
+    {
+      "symbol": "Java_com_tzh_wifi_utils_Camera_iCameraOpenFile",
+      "va": "0x3220c",
+      "size": 204
+    },
+    {
+      "symbol": "Java_com_tzh_wifi_utils_Camera_iCameraGetOneFrame",
+      "va": "0x32328",
+      "size": 236
+    },
+    {
+      "symbol": "Java_com_tzh_wifi_utils_Camera_iCameraGetTotalTime",
+      "va": "0x32308",
+      "size": 16
+    },
+    {
+      "symbol": "JNI_OnLoad",
+      "va": "0x39920",
+      "size": 332
+    },
+    {
+      "symbol": "Java_com_tzh_wifi_utils_Camera_iCameraGetOneSecond",
+      "va": "0x32414",
+      "size": 328
+    },
+    {
+      "symbol": "JNI_OnUnload",
+      "va": "0x39a6c",
+      "size": 12
+    },
+    {
+      "symbol": "Java_com_tzh_wifi_utils_Camera_iCameraCloseFile",
+      "va": "0x322d8",
+      "size": 48
+    }
+  ],
+  "selected_imports": [
+    "close",
+    "recvfrom",
+    "sendto",
+    "socket"
+  ],
+  "note": "Absence from direct imports does not prove absence of indirect network activity."
+}

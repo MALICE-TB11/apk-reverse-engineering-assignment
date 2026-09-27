@@ -1,0 +1,180 @@
+{
+  "jadx_version": "1.5.6",
+  "runtime": "CLI with dex-input plugin for APK static analysis",
+  "omitted_optional_plugins": [
+    "jadx-aab-input",
+    "jadx-apkm-input",
+    "jadx-apks-input",
+    "jadx-java-convert",
+    "jadx-java-input",
+    "jadx-kotlin-metadata",
+    "jadx-kotlin-source-debug-extension",
+    "jadx-rename-mappings",
+    "jadx-smali-input",
+    "jadx-xapk-input"
+  ],
+  "dependencies": [
+    {
+      "coordinate": "ch.qos.logback:logback-classic:1.5.38",
+      "url": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.38/logback-classic-1.5.38.jar",
+      "size_bytes": 287122,
+      "sha256": "afb439c61fa287c9e1925523b13baab03617e724406a389d48b61c2c3e46b700"
+    },
+    {
+      "coordinate": "ch.qos.logback:logback-core:1.5.38",
+      "url": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.5.38/logback-core-1.5.38.jar",
+      "size_bytes": 641090,
+      "sha256": "a855a0fc97b1d06f4efb1c3bba5ebd0eb508d8b58e68e89e4bbc23a85135c883"
+    },
+    {
+      "coordinate": "com.android.tools.smali:smali-baksmali:3.0.9",
+      "url": "https://repo.maven.apache.org/maven2/com/android/tools/smali/smali-baksmali/3.0.9/smali-baksmali-3.0.9.jar",
+      "size_bytes": 132972,
+      "sha256": "e7d0166945565a87f3997d1aea8779202dbb6cb0585a39ee20bab8a2f5ba87f6"
+    },
+    {
+      "coordinate": "com.android.tools.smali:smali-dexlib2:3.0.9",
+      "url": "https://repo.maven.apache.org/maven2/com/android/tools/smali/smali-dexlib2/3.0.9/smali-dexlib2-3.0.9.jar",
+      "size_bytes": 1194123,
+      "sha256": "8b547506f62f91d74b70f4beb4989b99e1ff61fc50b2525e9796ca35f0a351dc"
+    },
+    {
+      "coordinate": "com.android.tools.smali:smali-util:3.0.9",
+      "url": "https://repo.maven.apache.org/maven2/com/android/tools/smali/smali-util/3.0.9/smali-util-3.0.9.jar",
+      "size_bytes": 33331,
+      "sha256": "4673762894ba4156081fc5c642f74d6e78aef8b1a9c7702d691e3171d8cc1153"
+    },
+    {
+      "coordinate": "com.google.code.findbugs:jsr305:3.0.2",
+      "url": "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+      "size_bytes": 19936,
+      "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+    },
+    {
+      "coordinate": "com.google.code.gson:gson:2.14.0",
+      "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar",
+      "size_bytes": 313604,
+      "sha256": "2cbd119bf1961c28788310963dc80ba65f58cdeec1dd139c8bdb1240faa2c36f"
+    },
+    {
+      "coordinate": "com.google.errorprone:error_prone_annotations:2.48.0",
+      "url": "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.48.0/error_prone_annotations-2.48.0.jar",
+      "size_bytes": 20255,
+      "sha256": "b49c5c958316ed67a09c699dda9aa749caf434d51d863dea599ef36a49b9c855"
+    },
+    {
+      "coordinate": "com.google.guava:failureaccess:1.0.3",
+      "url": "https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar",
+      "size_bytes": 10763,
+      "sha256": "cbfc3906b19b8f55dd7cfd6dfe0aa4532e834250d7f080bd8d211a3e246b59cb"
+    },
+    {
+      "coordinate": "com.google.guava:guava:33.6.0-jre",
+      "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar",
+      "size_bytes": 3064793,
+      "sha256": "dc573e1fca4fd5454f4a5fd3d7da2df03002876a4175bafc14a95980dd7713b3"
+    },
+    {
+      "coordinate": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+      "url": "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "size_bytes": 2199,
+      "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+    },
+    {
+      "coordinate": "com.google.j2objc:j2objc-annotations:3.1",
+      "url": "https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar",
+      "size_bytes": 16762,
+      "sha256": "84d3a150518485f8140ea99b8a985656749629f6433c92b80c75b36aba3b099b"
+    },
+    {
+      "coordinate": "commons-io:commons-io:2.22.0",
+      "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.22.0/commons-io-2.22.0.jar",
+      "size_bytes": 609182,
+      "sha256": "2b9a7b1f726fb86216dbd2c8321eabe0221dbd5b1be81c18e1cb53811b104758"
+    },
+    {
+      "coordinate": "io.get-coursier.jniutils:windows-jni-utils:0.3.3",
+      "url": "https://repo.maven.apache.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar",
+      "size_bytes": 82498,
+      "sha256": "ab68efcf162355e20007b238d8108b7ffec0c06b467ee44cbb44ec3f8ac3a7e6"
+    },
+    {
+      "coordinate": "io.get-coursier.util:directories:0.1.4",
+      "url": "https://repo.maven.apache.org/maven2/io/get-coursier/util/directories/0.1.4/directories-0.1.4.jar",
+      "size_bytes": 25886,
+      "sha256": "8fcced97ce6a4126841bbfe3fd1905c0857df17a8261606477ded16404ecb218"
+    },
+    {
+      "coordinate": "io.get-coursier.util:directories-jni:0.1.4",
+      "url": "https://repo.maven.apache.org/maven2/io/get-coursier/util/directories-jni/0.1.4/directories-jni-0.1.4.jar",
+      "size_bytes": 2020,
+      "sha256": "d42a03703e94c17518ef0c36a295a4aef03e977b5b4d8d7c276fe4ab17387c76"
+    },
+    {
+      "coordinate": "io.github.skylot:jadx-analysis:1.5.6",
+      "url": "https://repo.maven.apache.org/maven2/io/github/skylot/jadx-analysis/1.5.6/jadx-analysis-1.5.6.jar",
+      "size_bytes": 16452,
+      "sha256": "daa6247c0e1f41bced5f93c572a8346cd00d3348b4f9e41c1f3ebc9a36ec909b"
+    },
+    {
+      "coordinate": "io.github.skylot:jadx-app-commons:1.5.6",
+      "url": "https://repo.maven.apache.org/maven2/io/github/skylot/jadx-app-commons/1.5.6/jadx-app-commons-1.5.6.jar",
+      "size_bytes": 6706,
+      "sha256": "55ab4d117feeefc53496fe998b5ee8a7d01efcb67590c63809424522ce670925"
+    },
+    {
+      "coordinate": "io.github.skylot:jadx-cli:1.5.6",
+      "url": "https://repo.maven.apache.org/maven2/io/github/skylot/jadx-cli/1.5.6/jadx-cli-1.5.6.jar",
+      "size_bytes": 64006,
+      "sha256": "98006010cf577e90615ad6fd769840a90ba4f91351563c1f08190e727a84f360"
+    },
+    {
+      "coordinate": "io.github.skylot:jadx-core:1.5.6",
+      "url": "https://repo.maven.apache.org/maven2/io/github/skylot/jadx-core/1.5.6/jadx-core-1.5.6.jar",
+      "size_bytes": 2381850,
+      "sha256": "81237e3cc6eff6265643a08fa24caabb1ce614e4ed05daf8cfc18c906229c048"
+    },
+    {
+      "coordinate": "io.github.skylot:jadx-dex-input:1.5.6",
+      "url": "https://repo.maven.apache.org/maven2/io/github/skylot/jadx-dex-input/1.5.6/jadx-dex-input-1.5.6.jar",
+      "size_bytes": 105919,
+      "sha256": "3b6adf6a38a9db2b480a28d8675124907073fb22d691556e96afde12a864c627"
+    },
+    {
+      "coordinate": "io.github.skylot:jadx-input-api:1.5.6",
+      "url": "https://repo.maven.apache.org/maven2/io/github/skylot/jadx-input-api/1.5.6/jadx-input-api-1.5.6.jar",
+      "size_bytes": 54149,
+      "sha256": "3fbb2e70c6dcc4f02a39d9185560f779fd1042e053af903eb4b764baf58173ef"
+    },
+    {
+      "coordinate": "io.github.skylot:jadx-plugins-tools:1.5.6",
+      "url": "https://repo.maven.apache.org/maven2/io/github/skylot/jadx-plugins-tools/1.5.6/jadx-plugins-tools-1.5.6.jar",
+      "size_bytes": 42629,
+      "sha256": "526855edaed632ad7597c35fc35669f1edc30dd00949abf88a69b5f2497187c8"
+    },
+    {
+      "coordinate": "io.github.skylot:jadx-zip:1.5.6",
+      "url": "https://repo.maven.apache.org/maven2/io/github/skylot/jadx-zip/1.5.6/jadx-zip-1.5.6.jar",
+      "size_bytes": 26725,
+      "sha256": "5bd0967715c6502cd5c0a75d732358e9469796d402a928f8852b504cc16f9cef"
+    },
+    {
+      "coordinate": "org.jcommander:jcommander:2.0",
+      "url": "https://repo.maven.apache.org/maven2/org/jcommander/jcommander/2.0/jcommander-2.0.jar",
+      "size_bytes": 94038,
+      "sha256": "62fc1edc0ac44b033d70698443750e36ffeb87386cb1d7b294b0ea34384e122c"
+    },
+    {
+      "coordinate": "org.jspecify:jspecify:1.0.0",
+      "url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar",
+      "size_bytes": 3819,
+      "sha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab"
+    },
+    {
+      "coordinate": "org.slf4j:slf4j-api:2.0.18",
+      "url": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.18/slf4j-api-2.0.18.jar",
+      "size_bytes": 69982,
+      "sha256": "44508fd1576500688c790b190acdd16fec4f8c79a3e0b900afd70503cf055f55"
+    }
+  ]
+}

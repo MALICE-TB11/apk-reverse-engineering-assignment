@@ -1,0 +1,44 @@
+<!-- APK SHA-256: 49b469e51e4a0e849b5f846b9af94b3f98acbf91735ec8d04f8451c514c684b0; Tool: JADX 1.5.6 resource decoder. Selected XML fragments. -->
+
+<!-- Original: res/values/public.xml -->
+<!-- line 7174 -->
+    <public type="id" name="btnMengencyStop" id="0x7f0a01e7" />
+<!-- line 7179 -->
+    <public type="id" name="btnPlayCheckout" id="0x7f0a01ec" />
+<!-- line 7181 -->
+    <public type="id" name="btnPlayLock" id="0x7f0a01ee" />
+<!-- line 7183 -->
+    <public type="id" name="btnPlayOneKeyFly" id="0x7f0a01f0" />
+<!-- line 7184 -->
+    <public type="id" name="btnPlayOneKeyLand" id="0x7f0a01f1" />
+
+<!-- Original: res/layout/ly_head_second.xml -->
+<!-- lines 88-95 -->
+        <ImageView
+            android:id="@+id/btnPlayOneKeyFly"
+            android:layout_width="@dimen/y95"
+            android:layout_height="@dimen/y95"
+            android:src="@mipmap/zone_onekey_fly"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:onClick="onClick"/>
+<!-- lines 101-108 -->
+        <ImageView
+            android:id="@+id/btnPlayOneKeyLand"
+            android:layout_width="@dimen/y95"
+            android:layout_height="@dimen/y95"
+            android:src="@mipmap/zone_onekey_stop"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:onClick="onClick"/>
+
+<!-- Original: res/layout/activity_play.xml -->
+<!-- lines 173-180 -->
+        <ImageView
+            android:id="@+id/btnMengencyStop"
+            android:layout_width="@dimen/y95"
+            android:layout_height="@dimen/y95"
+            android:src="@mipmap/zone_onekey_mergency"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:onClick="onClick"/>

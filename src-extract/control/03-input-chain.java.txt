@@ -1,0 +1,361 @@
+// APK: sample.apk; SHA-256: 49b469e51e4a0e849b5f846b9af94b3f98acbf91735ec8d04f8451c514c684b0
+// DEX: classes6.dex; Tool: JADX 1.5.6 (noReplaceConsts, noInlineMethods).
+// Verbatim selected decompiler output; not a buildable source file.
+// Original paths and decompiler-output line numbers accompany each excerpt.
+// Decompiler-inferred local names are not asserted to be original source names.
+
+// Original: com\tzh\wifi\wificam\activity\PlayActivity.java:536-538
+        this.btnOneKeyFly = (ImageView) findViewById(2131362288);
+        this.btnOneKeyLand = (ImageView) findViewById(2131362289);
+        this.btnOneKeyStop = (ImageView) findViewById(2131362279);
+
+// Original: com\tzh\wifi\wificam\activity\PlayActivity.java:558-562
+        this.leftSlider.addSliderListener(this, ConfigUtils.getLeftTune(this));
+        this.rightSlider.addSliderListener(this, ConfigUtils.getRightTune(this));
+        this.centerSlider.addSliderListener(this, ConfigUtils.getCenterTune(this));
+        this.mRudder.registerListener(this);
+        this.mRudder.invalidateValue();
+
+// Original: com\tzh\wifi\wificam\activity\PlayActivity.java:657-659
+                    case 2131362279:
+                        WiFiPresenter.getInstance(this).ICmd_OneKeyMergency();
+                        break;
+
+// Original: com\tzh\wifi\wificam\activity\PlayActivity.java:743-748
+                    case 2131362288:
+                        WiFiPresenter.getInstance(this).ICmd_OneKeyFly();
+                        break;
+                    case 2131362289:
+                        WiFiPresenter.getInstance(this).ICmd_OneKeyLand();
+                        break;
+
+// Original: com\tzh\wifi\wificam\activity\PlayActivity.java:1436-1445
+    @Override // com.tzh.wifi.wificam.base.BaseActivity, androidx.fragment.app.FragmentActivity, android.app.Activity
+    protected void onResume() {
+        super.onResume();
+        if (getApp().bLockClick) {
+            WiFiPresenter.getInstance(this).ICmd_Start();
+        } else {
+            WiFiPresenter.getInstance(this).ICmd_Resume();
+        }
+        WiFiPresenter.getInstance(this).attachView(this);
+        this.bWiFiConnect = false;
+
+// Original: com\tzh\wifi\wificam\activity\PlayActivity.java:1501-1508
+    protected void onDestroy() {
+        super.onDestroy();
+        writeConfig();
+        this.mRudder.onDestroy();
+        play_auto_photo_up();
+        WiFiPresenter.getInstance(this).disattachView();
+        WiFiPresenter.getInstance(this).ICmd_Stop();
+    }
+
+// Original: com\tzh\wifi\wificam\activity\PlayActivity.java:1227; method onAccNotify
+    public void onAccNotify(int i, int i2) {
+        if (i2 == 102 || i2 == 153) {
+            i2++;
+        }
+        WiFiPresenter.getInstance(this).ICmd_AccNotify((byte) i2, (byte) i);
+    }
+
+// Original: com\tzh\wifi\wificam\activity\PlayActivity.java:1235; method onDirNotify
+    public void onDirNotify(int i, int i2, int i3) {
+        if (i3 == 1) {
+            WiFiPresenter.getInstance(this).ICmd_DirNotify((byte) -1, (byte) i2);
+            if (this.bRotateActive) {
+                return;
+            }
+            this.bRotateActive = true;
+            WiFiPresenter.getInstance(this).ICmd_SetRotate(true);
+            this.mHandler.sendEmptyMessageDelayed(6, 500L);
+            return;
+        }
+        if (i3 == 2) {
+            WiFiPresenter.getInstance(this).ICmd_DirNotify((byte) 0, (byte) i2);
+            if (this.bRotateActive) {
+                return;
+            }
+            this.bRotateActive = true;
+            WiFiPresenter.getInstance(this).ICmd_SetRotate(true);
+            this.mHandler.sendEmptyMessageDelayed(6, 500L);
+            return;
+        }
+        if (i3 == 3) {
+            WiFiPresenter.getInstance(this).ICmd_DirNotify((byte) i, (byte) 0);
+            if (this.bRotateActive) {
+                return;
+            }
+            this.bRotateActive = true;
+            WiFiPresenter.getInstance(this).ICmd_SetRotate(true);
+            this.mHandler.sendEmptyMessageDelayed(6, 500L);
+            return;
+        }
+        if (i3 == 4) {
+            WiFiPresenter.getInstance(this).ICmd_DirNotify((byte) i, (byte) -1);
+            if (this.bRotateActive) {
+                return;
+            }
+            this.bRotateActive = true;
+            WiFiPresenter.getInstance(this).ICmd_SetRotate(true);
+            this.mHandler.sendEmptyMessageDelayed(6, 500L);
+            return;
+        }
+        WiFiPresenter.getInstance(this).ICmd_DirNotify((byte) i, (byte) i2);
+    }
+
+// Original: com\tzh\wifi\wificam\activity\PlayActivity.java:1101; method onSliderNotify
+    public void onSliderNotify(View view, int i) {
+        if ((view.getId() == 2131364176 || view.getId() == 2131364177 || view.getId() == 2131364175) && this.bSpeechStart) {
+            this.bSpeechStart = false;
+            this.img_voice_control.setImageResource(2131689658);
+            this.tvVoiceWord.setVisibility(4);
+            if (this.speechRecognizerUtil.isRunning()) {
+                this.speechRecognizerUtil.stop();
+            }
+        }
+        switch (view.getId()) {
+            case 2131364175:
+                this.logUtils.e("center slider:" + i);
+                WiFiPresenter.getInstance(this).ICmd_SetTune((byte) -1, (byte) -1, (byte) i);
+                ConfigUtils.writeCenterTune(this, i);
+                break;
+            case 2131364176:
+                this.logUtils.e("left slider:" + i);
+                WiFiPresenter.getInstance(this).ICmd_SetTune((byte) i, (byte) -1, (byte) -1);
+                ConfigUtils.writeLeftTune(this, i);
+                break;
+            case 2131364177:
+                this.logUtils.e("right slider:" + i);
+                WiFiPresenter.getInstance(this).ICmd_SetTune((byte) -1, (byte) i, (byte) -1);
+                ConfigUtils.writeRightTune(this, i);
+                break;
+        }
+        this.mRudder.invalidateValue();
+    }
+
+// Original: com\tzh\wifi\wificam\presenter\WiFiPresenter.java:380; method ICmd_OneKeyFly
+    public void ICmd_OneKeyFly() {
+        WiFiModelImpl wiFiModelImpl = this.wiFiModel;
+        if (wiFiModelImpl != null) {
+            wiFiModelImpl.ICmd_OneKeyFly();
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\presenter\WiFiPresenter.java:387; method ICmd_OneKeyLand
+    public void ICmd_OneKeyLand() {
+        WiFiModelImpl wiFiModelImpl = this.wiFiModel;
+        if (wiFiModelImpl != null) {
+            wiFiModelImpl.ICmd_OneKeyLand();
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\presenter\WiFiPresenter.java:394; method ICmd_OneKeyMergency
+    public void ICmd_OneKeyMergency() {
+        WiFiModelImpl wiFiModelImpl = this.wiFiModel;
+        if (wiFiModelImpl != null) {
+            wiFiModelImpl.ICmd_OneKeyMergency();
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\presenter\WiFiPresenter.java:457; method ICmd_AccNotify
+    public void ICmd_AccNotify(byte b, byte b2) {
+        WiFiModelImpl wiFiModelImpl = this.wiFiModel;
+        if (wiFiModelImpl != null) {
+            wiFiModelImpl.ICmd_AccNotify(b, b2);
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\presenter\WiFiPresenter.java:464; method ICmd_DirNotify
+    public void ICmd_DirNotify(byte b, byte b2) {
+        WiFiModelImpl wiFiModelImpl = this.wiFiModel;
+        if (wiFiModelImpl != null) {
+            wiFiModelImpl.ICmd_DirNotify(b, b2);
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\WiFiModelImpl.java:20; method WiFiModelImpl
+    public WiFiModelImpl(Context context, IModelCallBack iModelCallBack) {
+        this.mCamera = null;
+        this.baseCmd = null;
+        this.mContext = context;
+        this.modelCallBack = iModelCallBack;
+        this.mCamera = new Camera(context, this);
+        BaseCmd baseCmd = new BaseCmd();
+        this.baseCmd = baseCmd;
+        baseCmd.setTune((byte) ConfigUtils.getLeftTune(context), (byte) ConfigUtils.getRightTune(context), (byte) ConfigUtils.getCenterTune(context));
+    }
+
+// Original: com\tzh\wifi\wificam\model\WiFiModelImpl.java:66; method ICameraType
+    public void ICameraType(int i) {
+        this.baseCmd.setCameraType(i);
+        IModelCallBack iModelCallBack = this.modelCallBack;
+        if (iModelCallBack != null) {
+            iModelCallBack.cameraType(i);
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\WiFiModelImpl.java:143; method ICmd_OneKeyFly
+    public void ICmd_OneKeyFly() {
+        super.ICmd_OneKeyFly();
+        BaseCmd baseCmd = this.baseCmd;
+        if (baseCmd != null) {
+            baseCmd.takeOneKeyFly();
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\WiFiModelImpl.java:152; method ICmd_OneKeyLand
+    public void ICmd_OneKeyLand() {
+        super.ICmd_OneKeyLand();
+        BaseCmd baseCmd = this.baseCmd;
+        if (baseCmd != null) {
+            baseCmd.takOneKeyLand();
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\WiFiModelImpl.java:161; method ICmd_OneKeyMergency
+    public void ICmd_OneKeyMergency() {
+        super.ICmd_OneKeyMergency();
+        BaseCmd baseCmd = this.baseCmd;
+        if (baseCmd != null) {
+            baseCmd.takeOneKeyMergency();
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\WiFiModelImpl.java:98; method ICmd_AccNotify
+    public void ICmd_AccNotify(byte b, byte b2) {
+        super.ICmd_AccNotify(b, b2);
+        BaseCmd baseCmd = this.baseCmd;
+        if (baseCmd != null) {
+            baseCmd.onAccNotify(b, b2);
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\WiFiModelImpl.java:116; method ICmd_DirNotify
+    public void ICmd_DirNotify(byte b, byte b2) {
+        super.ICmd_DirNotify(b, b2);
+        BaseCmd baseCmd = this.baseCmd;
+        if (baseCmd != null) {
+            baseCmd.onDirNotify(b, b2);
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\WiFiModelImpl.java:188; method ICmd_Start
+    public void ICmd_Start() {
+        super.ICmd_Start();
+        BaseCmd baseCmd = this.baseCmd;
+        if (baseCmd != null) {
+            baseCmd.start();
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\WiFiModelImpl.java:197; method ICmd_Resume
+    public void ICmd_Resume() {
+        super.ICmd_Resume();
+        BaseCmd baseCmd = this.baseCmd;
+        if (baseCmd != null) {
+            baseCmd.resume();
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\WiFiModelImpl.java:206; method ICmd_Stop
+    public void ICmd_Stop() {
+        super.ICmd_Stop();
+        BaseCmd baseCmd = this.baseCmd;
+        if (baseCmd != null) {
+            baseCmd.stop();
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\view\rudder\Rudder.java:488; method dealWithAccRudder
+    public void dealWithAccRudder(int i, int i2) {
+        if (Util.Length(i, i2, this.AccDefault.x, this.AccCenterY) >= this.rudderLen) {
+            this.AccCurrent = Util.UpdatePoint(i, i2, this.AccDefault.x, this.AccCenterY, this.rudderLen);
+        } else {
+            this.AccCurrent.x = i;
+            this.AccCurrent.y = i2;
+        }
+        byte b = this.AccCurrent.x >= this.AccDefault.x ? (byte) 1 : (byte) -1;
+        byte bGetLR = (byte) Util.GetLR(this.AccCurrent.x, this.rudderLen, this.AccDefault.x, Constants.MAX_ACC_H_VALUE);
+        int iGetUpDown = Util.GetUpDown(this.AccCurrent.y, this.rudderLen * 2, this.AccDefault.y, Constants.MAX_POW_VALUE);
+        byte b2 = (byte) ((b * bGetLR) + 128);
+        if (b2 == -95) {
+            b2 = -93;
+        } else if (Math.abs(b2 - 128) <= Constants.CUR_OFFSET_VALUE) {
+            b2 = -128;
+        }
+        if (iGetUpDown == -95) {
+            iGetUpDown = -93;
+        } else if (iGetUpDown < 4) {
+            iGetUpDown = 0;
+        } else if (Math.abs(iGetUpDown - 128) <= Constants.CUR_OFFSET_VALUE) {
+            iGetUpDown = 128;
+        }
+        IRudderListener iRudderListener = this.rudderListener;
+        if (iRudderListener != null) {
+            iRudderListener.onAccNotify(b2, iGetUpDown);
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\view\rudder\Rudder.java:517; method dealWidhDirRudder
+    public void dealWidhDirRudder(int i, int i2, boolean z) {
+        if (z) {
+            return;
+        }
+        if (Util.Length(i, i2, this.DirDefault.x, this.DirDefault.y) >= this.rudderLen) {
+            this.DirCurrent = Util.UpdatePoint(i, i2, this.DirDefault.x, this.DirDefault.y, this.rudderLen);
+        } else {
+            this.DirCurrent.x = i;
+            this.DirCurrent.y = i2;
+        }
+        byte b = this.DirCurrent.x >= this.DirDefault.x ? (byte) 1 : (byte) -1;
+        byte b2 = this.DirCurrent.y <= this.DirDefault.y ? (byte) 1 : (byte) -1;
+        byte bGetLR = (byte) Util.GetLR(this.DirCurrent.x, this.rudderLen, this.DirDefault.x, Constants.MAX_DIR_H_VALUE);
+        byte bGetUpDown = (byte) Util.GetUpDown(this.DirCurrent.y, this.rudderLen, this.DirDefault.y, Constants.MAX_DIR_O_VALUE);
+        byte b3 = (byte) ((b * bGetLR) + 128);
+        int i3 = (b2 * bGetUpDown) + 128;
+        if (i3 >= 255) {
+            i3 = 255;
+        }
+        if (b2 == 1) {
+            i3 = i3 != 0 ? i3 : 255;
+        }
+        if (b3 == -95) {
+            b3 = -93;
+        } else if (Math.abs(b3 - 128) <= Constants.CUR_OFFSET_VALUE) {
+            b3 = -128;
+        }
+        if (i3 == -95) {
+            i3 = -93;
+        } else if (Math.abs(i3 - 128) <= Constants.CUR_OFFSET_VALUE) {
+            i3 = -128;
+        }
+        if (this.bRotate) {
+            if (bGetLR > Constants.MAX_DIR_H_VALUE / 2) {
+                if (b == 1) {
+                    Log.e("TAG", "dealWidhDirRudder rotateAction = 1;");
+                    this.rotateAction = 1;
+                } else {
+                    Log.e("TAG", "dealWidhDirRudder rotateAction = 2;");
+                    this.rotateAction = 2;
+                }
+            } else if (bGetUpDown > Constants.MAX_DIR_O_VALUE / 2) {
+                if (b2 == 1) {
+                    Log.e("TAG", "dealWidhDirRudder rotateAction = 4;");
+                    this.rotateAction = 4;
+                } else {
+                    Log.e("TAG", "dealWidhDirRudder rotateAction = 3;");
+                    this.rotateAction = 3;
+                }
+            }
+        }
+        IRudderListener iRudderListener = this.rudderListener;
+        if (iRudderListener != null) {
+            iRudderListener.onDirNotify(b3, i3, this.rotateAction);
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\view\rudder\Rudder.java:627; method registerListener
+    public void registerListener(IRudderListener iRudderListener) {
+        this.rudderListener = iRudderListener;
+    }

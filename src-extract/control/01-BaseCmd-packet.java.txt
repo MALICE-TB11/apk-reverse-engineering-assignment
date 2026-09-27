@@ -1,0 +1,286 @@
+// APK: sample.apk; SHA-256: 49b469e51e4a0e849b5f846b9af94b3f98acbf91735ec8d04f8451c514c684b0
+// DEX: classes6.dex; Tool: JADX 1.5.6 (noReplaceConsts, noInlineMethods).
+// Verbatim selected decompiler output; not a buildable source file.
+// Original paths and decompiler-output line numbers accompany each excerpt.
+// Decompiler-inferred local names are not asserted to be original source names.
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:45; method IBaseCmd_Init
+    public void IBaseCmd_Init() {
+        byte[] bArr = this.cmdData;
+        bArr[0] = 102;
+        bArr[1] = -128;
+        bArr[2] = -128;
+        bArr[3] = 0;
+        bArr[4] = -128;
+        bArr[5] = 0;
+        bArr[6] = IBaseCmd_Odd();
+        this.cmdData[7] = -103;
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:57; method IBaseNewCmd_Init
+    public void IBaseNewCmd_Init() {
+        byte[] bArr = this.cmdNewData;
+        bArr[0] = 102;
+        bArr[1] = 20;
+        bArr[2] = -128;
+        bArr[3] = -128;
+        bArr[4] = 0;
+        bArr[5] = -128;
+        bArr[6] = 0;
+        bArr[7] = 0;
+        bArr[8] = 0;
+        bArr[9] = 0;
+        bArr[10] = 0;
+        bArr[11] = 0;
+        bArr[12] = 0;
+        bArr[13] = 0;
+        bArr[14] = 0;
+        bArr[15] = 0;
+        bArr[16] = 0;
+        bArr[17] = 0;
+        bArr[18] = IBaseCmdNew_odd();
+        this.cmdNewData[19] = -103;
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:81; method ISnapCmd_Init
+    public void ISnapCmd_Init() {
+        byte[] bArr = this.snapData;
+        bArr[0] = -86;
+        bArr[1] = -128;
+        bArr[2] = -128;
+        bArr[3] = 0;
+        bArr[4] = -128;
+        bArr[5] = 0;
+        bArr[6] = ISnapCmd_Odd();
+        this.snapData[7] = 85;
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:101; method IBaseCmd_Byte2Int
+    private int IBaseCmd_Byte2Int(byte b) {
+        int iPow = 0;
+        for (int i = 0; i < 8; i++) {
+            iPow += (int) (((double) ((b >> i) & 1)) * Math.pow(2.0d, i));
+        }
+        return iPow;
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:109; method IBaseCmd_Odd
+    private byte IBaseCmd_Odd() {
+        byte b = this.cmdData[1];
+        for (int i = 2; i < 6; i++) {
+            b = (byte) (b ^ this.cmdData[i]);
+        }
+        return IBaseCmd_RightData((byte) (b & 255));
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:117; method IBaseCmdNew_odd
+    private byte IBaseCmdNew_odd() {
+        byte b = this.cmdNewData[2];
+        for (int i = 3; i < 18; i++) {
+            b = (byte) (b ^ this.cmdNewData[i]);
+        }
+        return IBaseCmd_RightData((byte) (b & 255));
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:93; method ISnapCmd_Odd
+    private byte ISnapCmd_Odd() {
+        byte b = this.snapData[1];
+        for (int i = 2; i < 6; i++) {
+            b = (byte) (b ^ this.snapData[i]);
+        }
+        return IBaseCmd_RightData((byte) (b & 255));
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:125; method IBaseCmd_RightData
+    private byte IBaseCmd_RightData(byte b) {
+        int iIBaseCmd_Byte2Int = IBaseCmd_Byte2Int(b);
+        if (iIBaseCmd_Byte2Int == 102 || iIBaseCmd_Byte2Int == 153) {
+            iIBaseCmd_Byte2Int++;
+        }
+        return (byte) iIBaseCmd_Byte2Int;
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:133; method takeOneKeyFly
+    public void takeOneKeyFly() {
+        Log.e("[YXY]", "takeOneKeyFly: ");
+        int i = this.sendType;
+        if (i == 0 || i == 1) {
+            byte[] bArr = this.cmdData;
+            bArr[5] = (byte) (bArr[5] | 1);
+            this.isOneKeyFlyCount = 0;
+            this.isOneKeyFlyDown = true;
+            return;
+        }
+        if (i == 2) {
+            byte[] bArr2 = this.cmdNewData;
+            bArr2[6] = (byte) (bArr2[6] | 1);
+            this.isOneKeyFlyCount = 0;
+            this.isOneKeyFlyDown = true;
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:151; method takOneKeyLand
+    public void takOneKeyLand() {
+        int i = this.sendType;
+        if (i == 0 || i == 1) {
+            byte[] bArr = this.cmdData;
+            bArr[5] = (byte) (2 | bArr[5]);
+            this.isOneKeyStopCount = 0;
+            this.isOneKeyStopDown = true;
+            return;
+        }
+        if (i == 2) {
+            byte[] bArr2 = this.cmdNewData;
+            bArr2[6] = (byte) (bArr2[6] | 1);
+            this.isOneKeyStopCount = 0;
+            this.isOneKeyStopDown = true;
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:168; method takeOneKeyMergency
+    public void takeOneKeyMergency() {
+        int i = this.sendType;
+        if (i == 0 || i == 1) {
+            byte[] bArr = this.cmdData;
+            bArr[5] = (byte) (bArr[5] | 4);
+            this.isOneKeyMergencyCount = 0;
+            this.isOneKeyMergencyDown = true;
+            return;
+        }
+        if (i == 2) {
+            byte[] bArr2 = this.cmdNewData;
+            bArr2[6] = (byte) (2 | bArr2[6]);
+            this.isOneKeyMergencyCount = 0;
+            this.isOneKeyMergencyDown = true;
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:185; method setCheckOutFlg
+    public void setCheckOutFlg() {
+        int i = this.sendType;
+        if (i == 0 || i == 1) {
+            byte[] bArr = this.cmdData;
+            bArr[5] = (byte) (bArr[5] | 128);
+            this.checkoutCount = 0;
+            this.checkoutFlag = true;
+            return;
+        }
+        if (i == 2) {
+            byte[] bArr2 = this.cmdNewData;
+            bArr2[6] = (byte) (bArr2[6] | 4);
+            this.checkoutCount = 0;
+            this.checkoutFlag = true;
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:202; method setRotate
+    public void setRotate(boolean z) {
+        int i = this.sendType;
+        if (i == 0 || i == 1) {
+            if (z) {
+                byte[] bArr = this.cmdData;
+                bArr[5] = (byte) (bArr[5] | 8);
+                return;
+            } else {
+                byte[] bArr2 = this.cmdData;
+                bArr2[5] = (byte) (bArr2[5] & 247);
+                return;
+            }
+        }
+        if (i == 2) {
+            if (z) {
+                byte[] bArr3 = this.cmdNewData;
+                bArr3[6] = (byte) (bArr3[6] | 8);
+            } else {
+                byte[] bArr4 = this.cmdNewData;
+                bArr4[6] = (byte) (bArr4[6] & 247);
+            }
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:226; method setNoHeadModle
+    public void setNoHeadModle(boolean z) {
+        int i = this.sendType;
+        if (i == 0 || i == 1) {
+            if (z) {
+                byte[] bArr = this.cmdData;
+                bArr[5] = (byte) (bArr[5] | 16);
+                return;
+            } else {
+                byte[] bArr2 = this.cmdData;
+                bArr2[5] = (byte) (bArr2[5] & 239);
+                return;
+            }
+        }
+        if (i == 2) {
+            if (z) {
+                byte[] bArr3 = this.cmdNewData;
+                bArr3[7] = (byte) (1 | bArr3[7]);
+            } else {
+                byte[] bArr4 = this.cmdNewData;
+                bArr4[7] = (byte) (bArr4[7] & 254);
+            }
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:250; method setStayHigh
+    public void setStayHigh(boolean z) {
+        int i = this.sendType;
+        if (i == 0 || i == 1 || i != 2) {
+            return;
+        }
+        if (z) {
+            byte[] bArr = this.cmdNewData;
+            bArr[7] = (byte) (2 | bArr[7]);
+        } else {
+            byte[] bArr2 = this.cmdNewData;
+            bArr2[7] = (byte) (bArr2[7] & 253);
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:394; method onAccNotify
+    public void onAccNotify(byte b, byte b2) {
+        int i = this.sendType;
+        if (i == 0 || i == 1) {
+            byte[] bArr = this.cmdData;
+            this.powerVal = b;
+            bArr[3] = b;
+            bArr[4] = dealWithYawValue(b2);
+            return;
+        }
+        if (i == 2) {
+            byte[] bArr2 = this.cmdNewData;
+            this.powerVal = b;
+            bArr2[4] = b;
+            bArr2[5] = dealWithYawValue(b2);
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:411; method onDirNotify
+    public void onDirNotify(byte b, byte b2) {
+        int i = this.sendType;
+        if (i == 0 || i == 1) {
+            this.cmdData[1] = dealWithRollValue(b);
+            this.cmdData[2] = dealWithPitchValue(b2);
+        } else if (i == 2) {
+            this.cmdNewData[2] = dealWithRollValue(b);
+            this.cmdNewData[3] = dealWithPitchValue(b2);
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:264; method setTune
+    public void setTune(byte b, byte b2, byte b3) {
+        if (b != -1) {
+            this.leftHVal = b;
+        } else if (b2 != -1) {
+            this.rightHVal = b2;
+        } else if (b3 != -1) {
+            this.rightOVal = b3;
+        }
+    }
+
+// Original: com\tzh\wifi\wificam\model\base\BaseCmd.java:602; method setCameraType
+    public void setCameraType(int i) {
+        this.sendType = i;
+        Log.e("[YXY]", "getCameraType: " + i);
+    }
