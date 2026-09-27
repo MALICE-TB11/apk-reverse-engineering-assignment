@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tapsdk.tapad.internal.ui.views.PortraitSplashFixedAspectRatioFrameLayout android:id="@id/portraitSplashFixedAspectRatioFrameLayout" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent" app:tapad_aspectRatioHeight="16" app:tapad_aspectRatioWidth="9"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/portraitSplashBackgroundImageView" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@id/portraitSplashAdsRelativeLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tapsdk.tapad.internal.ui.views.video.VideoSurfaceView android:id="@id/portraitSplashCoverSurfaceView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/portraitSplashCoverImageView" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+        <LinearLayout android:gravity="center" android:id="@id/adLogoLinearLayout" android:background="@drawable/tapad_bg_tap_logo_corner2dp" android:layout_width="wrap_content" android:layout_height="16.0dp" android:layout_marginTop="32.0dp" android:paddingStart="6.0dp" android:paddingEnd="6.0dp" android:layout_marginStart="16.0dp">
+            <ImageView android:id="@id/adLogoImageView" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/tapad_ic_lava_mini" android:scaleType="centerInside" />
+            <TextView android:textSize="10.0dp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/adLogoTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/portraitSplashSkipFrameLayout" android:background="@drawable/tapad_bg_reward_round_corner18dp" android:layout_width="102.0dp" android:layout_height="36.0dp" android:layout_marginTop="32.0dp" android:paddingStart="18.0dp" android:paddingEnd="18.0dp" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true">
+            <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/portraitSplashCountDownTextView" android:layout_width="wrap_content" android:layout_height="36.0dp" android:lines="1" android:singleLine="true" />
+            <View android:layout_gravity="center" android:background="#33ffffff" android:layout_width="1.0dp" android:layout_height="match_parent" android:layout_marginLeft="-1.0dp" android:layout_marginTop="9.0dp" android:layout_marginBottom="9.0dp" />
+            <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="right|center" android:id="@id/skipTextView" android:layout_width="wrap_content" android:layout_height="36.0dp" android:text="@string/tapad_btn_skip" android:lines="1" android:singleLine="true" />
+        </FrameLayout>
+        <com.tapsdk.tapad.internal.ui.views.HotZoneFrameLayout android:id="@id/hotZoneFrameLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="200.0dp" android:layout_marginBottom="-2.0dp" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/shakeViewContainer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <com.tapsdk.tapad.internal.animation.ShakeAnimationView android:id="@id/shakeImageView" android:layout_width="72.0dp" android:layout_height="80.0dp" />
+                <TextView android:textSize="18.0dp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/shakeTitleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dp" android:text="摇一摇" />
+                <TextView android:textSize="16.0dp" android:textColor="@android:color/white" android:id="@id/shakeDescriptionTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="前往详情页或第三方应用" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/portraitSplashInteractionFrameLayout" android:background="@drawable/tapad_bg_splash_button_gray_corner39dp" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0dp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/portraitSplashInteractionTextView" android:background="@drawable/tapad_bg_splash_button_green_corner25dp" android:layout_width="295.0dp" android:layout_height="50.0dp" />
+                <Button android:textSize="16.0dp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/portraitSplashDownloadBtn" android:background="@drawable/tapad_bg_splash_button_green_corner25dp" android:visibility="gone" android:layout_width="295.0dp" android:layout_height="50.0dp" />
+                <ProgressBar android:gravity="center" android:id="@id/portraitSplashInteractionProgressBar" android:background="@drawable/tapad_bg_splash_button_green_corner25dp" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:visibility="gone" android:layout_width="295.0dp" android:layout_height="50.0dp" android:progress="60" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" style="@style/tapad_download_progress_white" />
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</com.tapsdk.tapad.internal.ui.views.PortraitSplashFixedAspectRatioFrameLayout>

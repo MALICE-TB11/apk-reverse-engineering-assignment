@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/empty" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:max_attr="http://schemas.android.com/apk/res-auto">
+    <com.kongzue.dialog.util.view.MaxHeightLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/box_body" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="vertical" android:id="@id/box_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="10.0dp" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0dp" android:textStyle="bold" android:textColor="@color/tipTextColor" android:gravity="center_horizontal" android:id="@id/txt_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dp" android:layout_marginTop="15.0dp" android:layout_marginRight="25.0dp" android:layout_marginBottom="15.0dp" android:text="" />
+                    <RelativeLayout android:id="@id/box_custom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <ImageView android:id="@id/title_split_line" android:background="@color/dialogSplitIOSLight" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0px" />
+                    <ListView android:scrollbarSize="7.0dp" android:scrollbarThumbVertical="@drawable/scrollbar_vertical_track" android:id="@id/list_menu" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@color/dialogSplitIOSLight" android:dividerHeight="1.0px" android:overScrollMode="never" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/box_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginTop="-2.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="10.0dp">
+                <TextView android:textSize="19.0dp" android:textStyle="bold" android:textColor="@color/dialogButtonIOSNormal" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/button_menu_ios_light" android:paddingLeft="15.0dp" android:paddingRight="15.0dp" android:layout_width="match_parent" android:layout_height="53.0dp" android:text="CANCEL" android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.kongzue.dialog.util.view.MaxHeightLayout>
+</LinearLayout>

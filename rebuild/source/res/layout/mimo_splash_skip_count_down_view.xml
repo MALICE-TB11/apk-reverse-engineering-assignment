@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.zeus.mimo.sdk.ad.splash.view.SplashSkipCountDownView android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/mimo_interstitial_skip_bg" android:paddingLeft="10.899994dp" android:paddingRight="10.899994dp" android:layout_width="wrap_content" android:layout_height="24.699982dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.599976sp" android:textColor="#ccffffff" android:gravity="center" android:id="@id/mimo_splash_tv_count_down" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="11.299988dp" />
+    <View android:id="@id/mimo_splash_skip_diver" android:background="#80ffffff" android:layout_width="0.73dp" android:layout_height="8.699982dp" android:layout_marginLeft="7.299988dp" android:layout_marginRight="7.299988dp" />
+    <TextView android:textSize="11.599976sp" android:textColor="#ccffffff" android:gravity="center" android:id="@id/mimo_splash_skip" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="跳过" />
+</com.miui.zeus.mimo.sdk.ad.splash.view.SplashSkipCountDownView>

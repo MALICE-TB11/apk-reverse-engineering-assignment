@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#2e2d31" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <jp.co.cyberagent.android.gpuimage.GPUImageView android:layout_gravity="center" android:id="@id/gpuimage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <it.sephiroth.android.library.widget.HListView android:gravity="center_vertical" android:id="@id/list_filter" android:background="#1d1b1e" android:layout_width="match_parent" android:layout_height="90.0dp" app:hlv_dividerWidth="8.0dp" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="45.0dp">
+        <ImageView android:id="@id/filter_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:src="@mipmap/lsq_style_default_camera_button_close" android:onClick="ButtonClick" />
+        <ImageView android:id="@id/filter_completed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dp" android:src="@mipmap/lsq_style_default_edit_button_completed" android:layout_alignParentRight="true" android:onClick="ButtonClick" />
+    </RelativeLayout>
+</LinearLayout>

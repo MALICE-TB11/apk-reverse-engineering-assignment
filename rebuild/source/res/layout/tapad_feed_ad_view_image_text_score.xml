@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tapsdk.tapad.feed.TapFeedAdView android:id="@id/tapad_feed_ad_view_root" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/tapad_material_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" layout="@layout/tapad_feed_material_container" />
+        <LinearLayout android:gravity="center" android:background="@drawable/tapad_background_grey_radius18" android:layout_width="18.0dp" android:layout_height="18.0dp" android:layout_marginTop="5.0dp" android:layout_alignParentTop="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/tapad_close_icon" android:layout_width="10.0dp" android:layout_height="10.0dp" android:src="@drawable/tapad_ic_close" android:tint="#bfbfbf" />
+        </LinearLayout>
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:layout_alignBottom="@id/tapad_material_container" android:layout_marginStart="6.0dp" android:layout_alignStart="@id/tapad_material_container" layout="@layout/tapad_logo_inner_image" />
+        <LinearLayout android:orientation="vertical" android:id="@id/tapad_app_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/tapad_material_container" android:layout_toStartOf="@id/tapad_score_container">
+            <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/tapad_text_title" android:id="@id/tapad_app_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="13.0dp" android:textColor="@color/tapad_text_description" android:id="@id/tapad_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tapad_score_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tapad_material_container" android:layout_alignTop="@id/tapad_app_container" android:layout_alignBottom="@id/tapad_app_container" android:layout_alignParentEnd="true">
+            <ImageView android:layout_width="36.0dp" android:layout_height="14.0dp" android:src="@drawable/tapad_ic_taptap_green_small" />
+            <TextView android:textSize="20.0dp" android:textStyle="bold" android:textColor="#15c5ce" android:id="@id/tapad_score_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.tapsdk.tapad.feed.TapFeedAdView>

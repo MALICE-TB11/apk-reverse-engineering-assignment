@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/tv_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        <ImageView android:id="@id/iv_pause_musicplayer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:src="@mipmap/alarm_play_btn" android:scaleType="fitXY" android:layout_toRightOf="@id/tv_music" />
+    </RelativeLayout>
+</RelativeLayout>

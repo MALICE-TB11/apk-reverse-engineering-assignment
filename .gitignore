@@ -12,3 +12,10 @@ __pycache__/
 # Ghidra 工程及锁文件；报告中的分析结果单独提交
 *.gpr
 *.rep/
+
+# Complete generated APK project, build outputs and local signing keys
+/rebuild/project/
+/rebuild/output/
+*.jks
+*.keystore
+*.p12

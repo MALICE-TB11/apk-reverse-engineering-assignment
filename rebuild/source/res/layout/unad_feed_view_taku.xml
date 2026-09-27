@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.anythink.nativead.api.ATNativeView android:id="@id/ad_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+        <include android:id="@id/self_render_view" android:visibility="gone" layout="@layout/unad_layout_native_self" />
+    </com.anythink.nativead.api.ATNativeView>
+    <View android:layout_gravity="bottom" android:background="#e8e8e8" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="8.0dp" />
+</FrameLayout>

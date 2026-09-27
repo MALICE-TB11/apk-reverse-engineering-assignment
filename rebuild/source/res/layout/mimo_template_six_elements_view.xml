@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.zeus.mimo.sdk.view.MimoTemplateSixElementsView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" app:sixElementsDiverColor="#33ffffff" app:sixElementsShowShadowLayer="false" app:sixElementsTextColor="#4dffffff"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" />

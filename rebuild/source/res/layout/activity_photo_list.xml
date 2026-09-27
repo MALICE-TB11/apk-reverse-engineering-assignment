@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@mipmap/file_bg_list" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/btnReturnPlist" android:layout_width="@dimen/y95" android:layout_height="@dimen/y95" android:layout_marginLeft="@dimen/y17" android:layout_marginTop="@dimen/y6" android:src="@drawable/play_return_click" android:scaleType="fitXY" android:onClick="onClick" />
+        <TextView android:textSize="@dimen/y20" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Photo" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/y40" android:textColor="@color/red" android:gravity="center" android:id="@id/NoFilePlist" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plist_nofile_txt_en" android:layout_centerInParent="true" />
+        <GridView android:gravity="center" android:id="@id/gridViewPlist" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="4.0dp" android:layout_marginBottom="4.0dp" android:listSelector="@color/transparent" android:stretchMode="columnWidth" android:numColumns="4" />
+    </RelativeLayout>
+</LinearLayout>

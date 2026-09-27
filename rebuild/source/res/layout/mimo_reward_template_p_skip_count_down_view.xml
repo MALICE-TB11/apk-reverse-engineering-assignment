@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.zeus.mimo.sdk.ad.reward.view.RewardTemplatePSkipCountDownView android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/mimo_reward_skip_bg" android:paddingLeft="4.3599854dp" android:paddingRight="4.3599854dp" android:layout_width="wrap_content" android:layout_height="27.639984dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mimo_countdown_container" android:paddingLeft="7.269989dp" android:paddingRight="7.269989dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@id/mimo_reward_gift" android:layout_width="15.079987dp" android:layout_height="14.539978dp" android:src="@drawable/mimo_template_reward_gift_v1" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mimo_reward_tips_container_layout" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="4.3599854dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mimo_reward_get_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <TextView android:textSize="13.089996sp" android:textColor="#ccffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="恭喜已获得" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mimo_reward_tips_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <TextView android:textSize="13.089996sp" android:textColor="#ccffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="观看" />
+                <TextView android:textSize="13.089996sp" android:textColor="#ccffffff" android:gravity="center" android:id="@id/mimo_reward_tv_count_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="24.0dp" />
+                <TextView android:textSize="13.089996sp" android:textColor="#ccffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="秒后可获得" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="13.089996sp" android:textColor="#ff6900" android:id="@id/mimo_reward_tips_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.9499817dp" android:text="奖励" />
+    </LinearLayout>
+    <View android:id="@id/mimo_reward_skip_diver" android:background="#80ffffff" android:layout_width="0.73dp" android:layout_height="8.72998dp" />
+    <TextView android:textSize="13.089996sp" android:textColor="#99ffffff" android:gravity="center" android:id="@id/mimo_reward_skip" android:paddingLeft="7.269989dp" android:paddingRight="7.269989dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="关闭" />
+</com.miui.zeus.mimo.sdk.ad.reward.view.RewardTemplatePSkipCountDownView>

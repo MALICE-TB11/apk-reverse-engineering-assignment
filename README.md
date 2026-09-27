@@ -1,6 +1,17 @@
 # Android 飞行器控制 APK 通信与控制函数逆向分析
 
-课程作业的静态分析工程。已定位连接生命周期、状态回调、四轴与起降编码、JNI 绑定和实际 UDP 发送函数，并保存可复现证据。未进行设备连接、控制发送或动态验证。
+课程作业的静态分析与完整 APK 重建工程。已定位连接生命周期、状态回调、四轴与起降编码、JNI 绑定和实际 UDP 发送函数，并保存可复现证据。新增 Smali / 资源重建工程，已实际编译并通过调试签名验证。未进行设备连接、控制发送或动态验证。
+
+## 编译完整 APK
+
+在 Windows 安装 Python 与 JDK，并获取 Git LFS 中的完整样本后，在仓库根目录执行：
+
+```powershell
+git lfs pull
+python rebuild/build.py
+```
+
+成品为 `rebuild/output/wifi-cam-rebuilt-debug.apk`。脚本自动补齐全量源工程、重新编译 7 个 DEX 和资源、对齐、签名并校验。可修改源码位于 `rebuild/source/`，全量工程生成在 `rebuild/project/`；详见 [完整工程说明](rebuild/README.md) 与 [实测构建记录](rebuild/BUILD-VERIFICATION.md)。这是 Smali/XML 重建工程，原生库保留原二进制，未恢复原始 Java/Gradle/C++ 工程。
 
 ## 样本
 
@@ -62,6 +73,7 @@ python -m pip install --target work/tools/native-deps capstone==5.0.6 pyelftools
 | `src-extract/control/` | 编码、线程、输入调用、Smali 与 UI 资源证据 |
 | `src-extract/native/` | 含原始指令字节与 ELF 地址的汇编摘录 |
 | `tools/` | 锁定依赖安装、静态分析及证据重建脚本 |
+| `rebuild/` | 可编译的完整 APK 工程、业务 Smali、全部资源 XML、构建/签名/校验脚本 |
 | `work/` | 完整反编译结果、工具缓存与全库反汇编；不提交 |
 
 原定四项目标均已在静态范围内落实：连接/断开/状态、发送入口及上游编码/UI、依据实际 JNI 引用选择 native 库、按代码位置保存证据并标明局限。实机行为、固件兼容性和真实收发时序仍未验证。

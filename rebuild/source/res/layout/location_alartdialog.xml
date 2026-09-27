@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dialog_bg_modern" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="24.0dp" android:layout_centerInParent="true">
+        <RelativeLayout android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/alart_close" android:visibility="invisible" android:layout_width="76.0px" android:layout_height="76.0px" android:layout_marginLeft="10.0px" android:src="@mipmap/close_icon_poplist" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/y40" android:textStyle="bold" android:textColor="@color/dialog_title_text" android:gravity="center" android:id="@id/alart_title" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/location_alart_title_txt" android:singleLine="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:background="@color/dialog_divider" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" />
+        <TextView android:textSize="@dimen/y34" android:textStyle="normal" android:textColor="@color/dialog_content_text" android:layout_gravity="center_vertical" android:id="@id/alart_content" android:padding="16.0dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/privacy_alart_content_txt" android:singleLine="false" android:lineSpacingExtra="4.0dp" />
+        <TextView android:background="@color/dialog_divider" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <CheckBox android:layout_gravity="center_vertical" android:id="@id/checkButton" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/y25" android:textStyle="normal" android:textColor="@color/dialog_content_text" android:layout_gravity="center_vertical" android:id="@id/checkButtonText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:text="@string/privacy_alart_check_txt" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/alart_disagree_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dp" android:layout_weight="1.0">
+                <Button android:textSize="@dimen/y30" android:textColor="@color/button_secondary_text" android:gravity="center" android:id="@id/alart_btn_disagree" android:background="@drawable/button_secondary_modern" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/alart_disagree_txt" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/alart_agree_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_weight="1.0">
+                <Button android:enabled="false" android:textSize="@dimen/y30" android:textStyle="bold" android:textColor="@color/button_primary_text" android:gravity="center" android:id="@id/alart_btn_agree" android:background="@drawable/button_primary_modern" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/alart_agree_txt" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

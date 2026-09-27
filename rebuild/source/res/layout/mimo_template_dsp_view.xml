@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="8.699982sp" android:textColor="#800e0e0e" android:background="@drawable/mimo_dsp_bg_1a000000" android:paddingLeft="2.5dp" android:paddingTop="0.70000005dp" android:paddingRight="2.5dp" android:paddingBottom="0.70000005dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="7.299988dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

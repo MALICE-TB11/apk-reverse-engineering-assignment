@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="A001">Advertising ID is not set!</string>
+    <string name="A002">No inventory, please contact SDK provider!</string>
+    <string name="A003">No ad slot is available or the ad slot ID is incorrect</string>
+    <string name="A004">Ads are not enabled</string>
+    <string name="A005">Ad is not ready</string>
+    <string name="A006">view cannot be empty</string>
+    <string name="A007">Listener cannot be empty</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_cant_be_completed">The requested action could not be completed.</string>
+    <string name="adactivity_missing">%s was not detected in AndroidManifest.xml!</string>
+    <string name="adactivity_no_type">AdActivity launched with no type.</string>
+    <string name="adgo_splash_skip_name">跳过</string>
+    <string name="adsize_too_big" formatted="false">E103: You requested an Ad larger than the measured ad space. Ad space size: %dx%d, request size: %dx%d</string>
+    <string name="aes_seed">!@#$</string>
+    <string name="alart_agree_txt">已阅读并同意</string>
+    <string name="alart_agree_txt_en">Read and agree</string>
+    <string name="alart_cancel_txt_cn">否</string>
+    <string name="alart_cancel_txt_dutch">Niet</string>
+    <string name="alart_cancel_txt_en">NO</string>
+    <string name="alart_cancel_txt_fra">non</string>
+    <string name="alart_cancel_txt_span">NO</string>
+    <string name="alart_confirm_txt_cn">是</string>
+    <string name="alart_confirm_txt_dutch">- ja</string>
+    <string name="alart_confirm_txt_en">YES</string>
+    <string name="alart_confirm_txt_fra">oui</string>
+    <string name="alart_confirm_txt_span">Sí</string>
+    <string name="alart_content_txt_cn">是否删除文件?</string>
+    <string name="alart_content_txt_dutch">Weet u zeker dat u het bestand wilt verwijderen?</string>
+    <string name="alart_content_txt_en">Are you sure you want to delete the file?</string>
+    <string name="alart_content_txt_fra">Êtes-vous sûr de vouloir supprimer le fichier?</string>
+    <string name="alart_content_txt_span">¿Está seguro de querer eliminar el archivo?</string>
+    <string name="alart_disagree_txt">取消</string>
+    <string name="alart_disagree_txt_en">cancel</string>
+    <string name="alart_title_txt_cn">删除文件</string>
+    <string name="alart_title_txt_dutch">Verwijder bestand</string>
+    <string name="alart_title_txt_en">Delete File</string>
+    <string name="alart_title_txt_fra">Supprimer Fichier</string>
+    <string name="alart_title_txt_span">VEliminar archivo</string>
+    <string name="allow">Allow</string>
+    <string name="already_expanded">Cannot load a new ad while the current ad is expanded. onAdRequestFailed will not be called</string>
+    <string name="anythink_basead_ad_text">AD</string>
+    <string name="anythink_basead_click_empty">This ads does not support click to open</string>
+    <string name="anythink_basead_click_fail">Failed to open Ads</string>
+    <string name="anythink_btn_cancel">Cancel</string>
+    <string name="anythink_btn_install">Install</string>
+    <string name="anythink_btn_install_tip">You have downloaded the %s. Do you want to install it now?</string>
+    <string name="anythink_btn_open">Open</string>
+    <string name="anythink_btn_open_tip">You have installed the %s. Do you want to open it now?</string>
+    <string name="anythink_confirm_dialog_application_desc">desc</string>
+    <string name="anythink_confirm_dialog_application_permission">permission</string>
+    <string name="anythink_confirm_dialog_download_now">Download</string>
+    <string name="anythink_confirm_dialog_give_up">Give up</string>
+    <string name="anythink_confirm_dialog_privacy_agreement">privacy</string>
+    <string name="anythink_confirm_dialog_publisher">%s</string>
+    <string name="anythink_confirm_dialog_version">v%s</string>
+    <string name="anythink_cta_download_finished">Install now</string>
+    <string name="anythink_cta_download_installed">Open now</string>
+    <string name="anythink_cta_download_paused">Continue Download</string>
+    <string name="anythink_cta_downloading">Downloading</string>
+    <string name="anythink_interstitial_text_loading_default">The ad is loading...</string>
+    <string name="anythink_interstitial_text_next_play">The next ad will play in _SEC_ s</string>
+    <string name="anythink_location_allow">Allow</string>
+    <string name="anythink_location_ask_title">Allow access your location？</string>
+    <string name="anythink_location_deny">Disallow</string>
+    <string name="anythink_myoffer_anim_reward_exit_confirm_continue">Continue</string>
+    <string name="anythink_myoffer_anim_reward_exit_confirm_msg">Watch the ad for %s seconds to get rewards, are you sure you want to leave?</string>
+    <string name="anythink_myoffer_click_no_response">Unable to redirect</string>
+    <string name="anythink_myoffer_confirm_msg">Open</string>
+    <string name="anythink_myoffer_continue">Continue</string>
+    <string name="anythink_myoffer_count_down_finish_rewarded">You have been rewarded</string>
+    <string name="anythink_myoffer_count_down_to_rewarded">View for &lt;font color=#FFFFFF>%d&lt;/font> seconds to get the reward</string>
+    <string name="anythink_myoffer_cta_install_now">Install Now</string>
+    <string name="anythink_myoffer_cta_learn_more">Learn More</string>
+    <string name="anythink_myoffer_feedback_abnormal">Abnormal</string>
+    <string name="anythink_myoffer_feedback_black_white_screen">Show Failed</string>
+    <string name="anythink_myoffer_feedback_can_not_close">Not Close</string>
+    <string name="anythink_myoffer_feedback_fraud_ads">Fraud Ads</string>
+    <string name="anythink_myoffer_feedback_hint">Enter suggestion</string>
+    <string name="anythink_myoffer_feedback_induce_click">Induce Click</string>
+    <string name="anythink_myoffer_feedback_not_interesting">Boring</string>
+    <string name="anythink_myoffer_feedback_plagiarism">Plagiarism</string>
+    <string name="anythink_myoffer_feedback_report">Report</string>
+    <string name="anythink_myoffer_feedback_submit">Submit</string>
+    <string name="anythink_myoffer_feedback_suggestion">Suggestion</string>
+    <string name="anythink_myoffer_feedback_text">Feedback</string>
+    <string name="anythink_myoffer_feedback_video_freeze">Video Freeze</string>
+    <string name="anythink_myoffer_feedback_violation_of_laws">Illegal</string>
+    <string name="anythink_myoffer_feedback_vulgar_porn">Vulgar porn</string>
+    <string name="anythink_myoffer_g2c_chop_once_subtitle">Click sword, receive a limited-time benefit</string>
+    <string name="anythink_myoffer_g2c_chop_once_title">Chop and receive Limited-time reward</string>
+    <string name="anythink_myoffer_g2c_fuu_ori_hint">Slide to jump</string>
+    <string name="anythink_myoffer_g2c_fuu_ori_hint_small">Slide to jump</string>
+    <string name="anythink_myoffer_g2c_hint_text">You can click the content below or the button to get more details</string>
+    <string name="anythink_myoffer_g2c_inner_ct_cta">Get It</string>
+    <string name="anythink_myoffer_g2c_inner_ct_hint">Event is updated irregularly, actual content third-party following the redirect shall prevail</string>
+    <string name="anythink_myoffer_g2c_inner_ct_subtitle">Limited-Time Benefits Delivered Daily</string>
+    <string name="anythink_myoffer_g2c_inner_ct_tile_end">End</string>
+    <string name="anythink_myoffer_g2c_inner_ct_tile_start">Time Limited</string>
+    <string name="anythink_myoffer_g2c_inner_ct_title">Congratulations</string>
+    <string name="anythink_myoffer_g2c_jump_confirm_hint_text1">Ignore ads to view details</string>
+    <string name="anythink_myoffer_g2c_jump_confirm_hint_text2">continue when you return</string>
+    <string name="anythink_myoffer_g2c_jump_confirm_ignore">Ignore</string>
+    <string name="anythink_myoffer_g2c_lucky_bag_subtitle">Click lucky bag, receive a limited-time benefit</string>
+    <string name="anythink_myoffer_g2c_lucky_bag_title">Limited-time Surprise Lucky Bag</string>
+    <string name="anythink_myoffer_g2c_puzzle_v2_hint">Try dragging</string>
+    <string name="anythink_myoffer_g2c_puzzle_v2_subtitle">Slide lucky bag, receive a limited-time benefit</string>
+    <string name="anythink_myoffer_g2c_puzzle_v2_title">Slide puzzle for a surprise</string>
+    <string name="anythink_myoffer_g2c_question_dialog_default_answer">AD</string>
+    <string name="anythink_myoffer_g2c_question_dialog_hint">Note: Please select and browse the relevant content</string>
+    <string name="anythink_myoffer_g2c_question_dialog_title">Which option does the video content relate to?</string>
+    <string name="anythink_myoffer_g2c_seek_to_click">Drag to complete the puzzle</string>
+    <string name="anythink_myoffer_g2c_slide_to_click">Swipe to view more</string>
+    <string name="anythink_myoffer_g2c_slide_to_click2">Slide to unlock more</string>
+    <string name="anythink_myoffer_give_up">Cancel</string>
+    <string name="anythink_myoffer_inctask_cts_completed">Task Completed!</string>
+    <string name="anythink_myoffer_inctask_cts_completed_cta">Received reward</string>
+    <string name="anythink_myoffer_inctask_cts_cta_text">AD free</string>
+    <string name="anythink_myoffer_inctask_cts_hint">Click and experience content below for %ds</string>
+    <string name="anythink_myoffer_inctask_cts_hint2">Click and experience content</string>
+    <string name="anythink_myoffer_inctask_cts_subtitle">Complete task below, immediately receive reward</string>
+    <string name="anythink_myoffer_inctask_cts_time">%d s</string>
+    <string name="anythink_myoffer_inctask_cts_title">Limited-Time Privilege: AD free</string>
+    <string name="anythink_myoffer_inctask_qa_default_wrong">Orange</string>
+    <string name="anythink_myoffer_inctask_qa_subtitle">Answer question correctly, can obtain reward %ds in advance</string>
+    <string name="anythink_myoffer_inctask_qa_title">Limited-Time Privilege: Answer to Deduct %ds</string>
+    <string name="anythink_myoffer_inctask_qa_toast_right">Congratulations, you have received a reward</string>
+    <string name="anythink_myoffer_inctask_qa_toast_wrong">Better luck next time</string>
+    <string name="anythink_myoffer_intercept_web_file_download">"This Download isn't supported."</string>
+    <string name="anythink_myoffer_minor_cta_text">Learn More</string>
+    <string name="anythink_myoffer_next_step">Next</string>
+    <string name="anythink_myoffer_panel_disclaimer">Disclaimer</string>
+    <string name="anythink_myoffer_panel_funtion">Desc</string>
+    <string name="anythink_myoffer_panel_permission">Permission</string>
+    <string name="anythink_myoffer_panel_privacy">Privacy</string>
+    <string name="anythink_myoffer_panel_version">v%s</string>
+    <string name="anythink_myoffer_red_packet_bless_text">Best wishs</string>
+    <string name="anythink_myoffer_red_packet_cta_text">Recieve Now</string>
+    <string name="anythink_myoffer_red_packet_currency">USD</string>
+    <string name="anythink_myoffer_red_packet_hint_link4_text">Deposited to Balance, Download to Receive</string>
+    <string name="anythink_myoffer_red_packet_hint_linkother_text">Deposited to Balance, View More to Receive</string>
+    <string name="anythink_myoffer_red_packet_title_text">Red Packet from %s</string>
+    <string name="anythink_myoffer_reward_exit_confirm_continue">Continue</string>
+    <string name="anythink_myoffer_reward_exit_confirm_give_up">Give up</string>
+    <string name="anythink_myoffer_reward_exit_confirm_msg">Watch the video for %s seconds to get rewards. Are you sure you want to leave?</string>
+    <string name="anythink_myoffer_reward_exit_tips_msg">Incomplete viewing,no rewards.</string>
+    <string name="anythink_myoffer_reward_tips">%d s left</string>
+    <string name="anythink_myoffer_reward_tips_rewarded">Rewarded</string>
+    <string name="anythink_myoffer_rp_second_endcard_title">Immediate WeChat Withdrawal</string>
+    <string name="anythink_myoffer_rp_second_hint_link4_text">Download Now</string>
+    <string name="anythink_myoffer_rp_second_hint_linkother_text">View to Withdraw</string>
+    <string name="anythink_myoffer_second_endcard_title">Beyond Expectation</string>
+    <string name="anythink_myoffer_shake_desc">Redirect to third-party App</string>
+    <string name="anythink_myoffer_shake_full_title">Sway or tap for it</string>
+    <string name="anythink_myoffer_shake_full_title2">Sway to get</string>
+    <string name="anythink_myoffer_shake_simple_title">Sway to jump</string>
+    <string name="anythink_myoffer_shake_simple_title2">Sway</string>
+    <string name="anythink_myoffer_shake_title">Shake your phone</string>
+    <string name="anythink_myoffer_slide_hint">Swipe to view</string>
+    <string name="anythink_myoffer_special_note_cancel"><u>Cancel</u></string>
+    <string name="anythink_myoffer_special_note_delay_click">Jump after &lt;font color=#FFFFFF>%d&lt;/font> s</string>
+    <string name="anythink_myoffer_special_note_delay_click_simple">Jump after &lt;font color=#FFFFFF>%d&lt;/font> s</string>
+    <string name="anythink_myoffer_splash_asseblem_card_cta_text">Tap the card for it</string>
+    <string name="anythink_myoffer_splash_asseblem_card_title">Recommend</string>
+    <string name="anythink_myoffer_splash_bottom_hint">Light Swipe</string>
+    <string name="anythink_myoffer_splash_bottom_hint2">Swipe or tap for it</string>
+    <string name="anythink_myoffer_splash_skip_text">Skip</string>
+    <string name="anythink_myoffer_sub_close_default_skip_text">Continue</string>
+    <string name="anythink_myoffer_sub_close_default_text">Close</string>
+    <string name="anythink_myoffer_sub_close_default_title">Explore More</string>
+    <string name="anythink_myoffer_tap_for_detail">Tap for details</string>
+    <string name="anythink_myoffer_tap_for_detail2">Click to unlock more</string>
+    <string name="anythink_myoffer_video_paly_fail_tips">Play failed</string>
+    <string name="anythink_myoffer_webview_reload">Reload Ad.</string>
+    <string name="anythink_notification_click_to_install">Click to install</string>
+    <string name="anythink_notification_click_to_open">Click to open</string>
+    <string name="anythink_notification_click_to_retry">Download failed, click to retry</string>
+    <string name="anythink_notification_continue_to_download">Click to continue downloading</string>
+    <string name="anythink_notification_in_download">（Downloading: %s%%)</string>
+    <string name="anythink_notification_in_download_or_pause">Click to pause download(Downloading: %s%%)</string>
+    <string name="anythink_notification_waiting_for_download">Waiting for download</string>
+    <string name="anythink_notification_waiting_for_download_or_pause">Waiting for download (click to pause)</string>
+    <string name="anythink_sample_dialog_confirm">Yes</string>
+    <string name="anythink_sample_dialog_download_app">Download %s?</string>
+    <string name="anythink_sample_dialog_give_up">Give up</string>
+    <string name="anythink_web_download_file_cancel">Cancel</string>
+    <string name="anythink_web_download_file_confirm">Download</string>
+    <string name="anythink_web_download_file_confirm_title">Do you want to download this file?</string>
+    <string name="anythink_web_land_page_dialog_stay">STAY</string>
+    <string name="anythink_web_land_page_dialog_title">Do you really want to exit?</string>
+    <string name="anythink_web_land_page_dialog_yes">YES</string>
+    <string name="anythink_web_load_fail_hint">CONNECT ERROR</string>
+    <string name="anythink_web_load_fail_refresh">Reload</string>
+    <string name="app_name">WiFi_CAM</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="appid">Saving %s as your app-id</string>
+    <string name="banner_app_name">jad_yun_banner</string>
+    <string name="blank_ad">E302: The server returned an ad with the response, but it was blank. There is probably an issue with the creative.</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="camera_play_return_text">&lt;</string>
+    <string name="campaign.appName">getAppName</string>
+    <string name="campaign.iconUrl">getIconUrl</string>
+    <string name="campaign.imageUrl">getImageUrl</string>
+    <string name="cancel_request">Cancelling scheduled request</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="close_music_cn">关闭音乐</string>
+    <string name="close_music_en">Close Music</string>
+    <string name="confirm_music_cn">确定</string>
+    <string name="confirm_music_en">Confirm</string>
+    <string name="console_message" formatted="false">Received console message: %s at line %d with sourceId %s</string>
+    <string name="conversion_pixel">Firing pixel: %s</string>
+    <string name="conversion_pixel_delay">Firing pixel did not succeed, retrying in %dms</string>
+    <string name="conversion_pixel_fail">Install pixel failed to send.</string>
+    <string name="conversion_pixel_success">Firing pixel succeeded</string>
+    <string name="cpc_download_pause">暂停</string>
+    <string name="create_calendar_event">MRAID createCalendarEvent() called</string>
+    <string name="defaults">default</string>
+    <string name="deny">Deny</string>
+    <string name="destroy_int">destroy() called on interstitial.</string>
+    <string name="dm_noti_download_N">Downloading %1$d file(s)</string>
+    <string name="dm_noti_download_complete">Download completed.</string>
+    <string name="dm_noti_download_default">In progress</string>
+    <string name="dm_noti_download_failed">Download failed.</string>
+    <string name="dm_noti_download_paused">Download paused</string>
+    <string name="dm_noti_unknown_title">&lt;Untitled></string>
+    <string name="dm_noti_wlan_disconnected">No WLAN available</string>
+    <string name="download_continue_bt_txt">继续</string>
+    <string name="download_delete_bt_txt">删除</string>
+    <string name="download_install_bt_txt">安装</string>
+    <string name="download_pause_bt_txt">暂停</string>
+    <string name="download_retry_bt_txt">重试</string>
+    <string name="download_status_complete_txt">下载完成，点击按钮安装</string>
+    <string name="download_status_downloading_txt">正在下载中</string>
+    <string name="download_status_fail_txt">下载失败</string>
+    <string name="download_status_new_complete_txt">下载完成，点击安装</string>
+    <string name="download_status_new_downloading_txt">正在下载中，点击暂停</string>
+    <string name="download_status_new_fail_txt">下载失败，点击重新下载</string>
+    <string name="download_status_new_pause_txt">下载暂停，点击下载</string>
+    <string name="download_status_pause_txt">暂停</string>
+    <string name="download_status_waiting_txt">等待中···</string>
+    <string name="download_toast_downloaded_txt">应用下载完成</string>
+    <string name="download_toast_downloading_txt">正在下载中,请耐心等待</string>
+    <string name="download_toast_fail_txt">应用下载失败，可点击重试</string>
+    <string name="download_toast_in_mobile_txt">当前网络切换为移动网络，若需暂停本次下载，请打开通知栏操作</string>
+    <string name="download_toast_start_txt">应用开始下载</string>
+    <string name="dyAction.getClick">click</string>
+    <string name="dyAction.getLogicClick">click|alecfc</string>
+    <string name="dyAction.getLongClick">longclick</string>
+    <string name="dyAction.getMove">move</string>
+    <string name="dyAction.getWobble">wobble</string>
+    <string name="dyEffect.getCountDown">countdown</string>
+    <string name="dyEffect.getVisible">visible</string>
+    <string name="dyEffect.getVisibleParam">visible|parent</string>
+    <string name="dyEffect.getWobble">wobble</string>
+    <string name="dyStrategy.feedback">feedback</string>
+    <string name="dyStrategy.getActivity">activity</string>
+    <string name="dyStrategy.getClose">close</string>
+    <string name="dyStrategy.getDeeplink">deeplink</string>
+    <string name="dyStrategy.getDownload">download</string>
+    <string name="dyStrategy.notice">notice</string>
+    <string name="dyStrategy.permissionInfo">permissionInfo</string>
+    <string name="dyStrategy.privateAddress">privateAddress</string>
+    <string name="empty_queue">show() was called, and wants an interstitial ad, but there are no valid interstitials in the queue. Load more?</string>
+    <string name="exo_controls_cc_disabled_description">Enable subtitles</string>
+    <string name="exo_controls_cc_enabled_description">Disable subtitles</string>
+    <string name="exo_controls_custom_playback_speed">%1$.2fx</string>
+    <string name="exo_controls_fastforward_description">Fast forward</string>
+    <string name="exo_controls_fullscreen_enter_description">Enter fullscreen</string>
+    <string name="exo_controls_fullscreen_exit_description">Exit fullscreen</string>
+    <string name="exo_controls_hide">Hide player controls</string>
+    <string name="exo_controls_next_description">Next</string>
+    <string name="exo_controls_overflow_hide_description">Hide additional settings</string>
+    <string name="exo_controls_overflow_show_description">Show additional settings</string>
+    <string name="exo_controls_pause_description">Pause</string>
+    <string name="exo_controls_play_description">Play</string>
+    <string name="exo_controls_playback_speed">Speed</string>
+    <string name="exo_controls_previous_description">Previous</string>
+    <string name="exo_controls_repeat_all_description">Current mode: Repeat all. Toggle repeat mode.</string>
+    <string name="exo_controls_repeat_off_description">Current mode: Repeat none. Toggle repeat mode.</string>
+    <string name="exo_controls_repeat_one_description">Current mode: Repeat one. Toggle repeat mode.</string>
+    <string name="exo_controls_rewind_description">Rewind</string>
+    <string name="exo_controls_seek_bar_description">Playback progress</string>
+    <string name="exo_controls_settings_description">Settings</string>
+    <string name="exo_controls_show">Show player controls</string>
+    <string name="exo_controls_shuffle_off_description">Enable shuffle mode</string>
+    <string name="exo_controls_shuffle_on_description">Disable shuffle mode</string>
+    <string name="exo_controls_stop_description">Stop</string>
+    <string name="exo_controls_time_placeholder">00:00:00</string>
+    <string name="exo_controls_vr_description">VR mode</string>
+    <string name="exo_download_completed">Download completed</string>
+    <string name="exo_download_description">Download</string>
+    <string name="exo_download_downloading">Downloading</string>
+    <string name="exo_download_failed">Download failed</string>
+    <string name="exo_download_notification_channel_name">Downloads</string>
+    <string name="exo_download_paused">Downloads paused</string>
+    <string name="exo_download_paused_for_network">Downloads waiting for network</string>
+    <string name="exo_download_paused_for_wifi">Downloads waiting for WiFi</string>
+    <string name="exo_download_removing">Removing downloads</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternate</string>
+    <string name="exo_track_role_closed_captions">CC</string>
+    <string name="exo_track_role_commentary">Commentary</string>
+    <string name="exo_track_role_supplementary">Supplementary</string>
+    <string name="exo_track_selection_auto">Auto</string>
+    <string name="exo_track_selection_none">None</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Text</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Surround sound</string>
+    <string name="exo_track_surround_5_point_1">5.1 surround sound</string>
+    <string name="exo_track_surround_7_point_1">7.1 surround sound</string>
+    <string name="exo_track_unknown">Unknown</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="failed_decode_pb">E210: Failed to decode ServerResponse, err = %s</string>
+    <string name="failed_encode_pb">E209: Failed to encode SdkRequest, err = %s</string>
+    <string name="failed_video_load" formatted="false">Failed to load video at %s due to %s</string>
+    <string name="fetch_url">Fetching: %s</string>
+    <string name="fetcher_start_auto">AdFetcher started in auto-refresh mode</string>
+    <string name="fetcher_start_single">AdFetcher starting in single-use mode</string>
+    <string name="finish_record_cn">结束录像</string>
+    <string name="finish_record_en">Stop Recording</string>
+    <string name="fire_cb_requester_null">firing result cb with null requester</string>
+    <string name="fire_cb_result_null">firing result cb with null resultCB</string>
+    <string name="first_opensdk_launch">This is the first time OpenSDK has been launched in this app.</string>
+    <string name="found_n_in_xml">Found %d variables to read from xml</string>
+    <string name="free_space_not_enough_cn">存储空间不足!</string>
+    <string name="free_space_not_enough_dutch">Onvoldoende opslagruimte!</string>
+    <string name="free_space_not_enough_en">Inufficient storage!</string>
+    <string name="free_space_not_enough_fra">Espace de stockage insuffisant!</string>
+    <string name="free_space_not_enough_span">¡No hay suficiente espacio!</string>
+    <string name="fullscreen_video_hide_error">Error hiding custom fullscreen view</string>
+    <string name="fullscreen_video_show_error">Error showing custom fullscreen view</string>
+    <string name="get_ad_listener">getAdListener() called on AdView.</string>
+    <string name="get_ad_sizes">getAdSizes() called on banner.</string>
+    <string name="get_allowed_sizes">getAllowedSizes() called on interstitial.</string>
+    <string name="get_auto_refresh">getAutoRefresh() returned %b</string>
+    <string name="get_bg">getBackgroundColor() called on interstitial.</string>
+    <string name="get_gender">getGender() to: %s</string>
+    <string name="get_height">getAdHeight() returned %d</string>
+    <string name="get_max_height">getMaxHeight() returned %d</string>
+    <string name="get_max_width">getMaxWidth() returned %d</string>
+    <string name="get_opens_native_browser">getOpensNativeBrowser() returned %b</string>
+    <string name="get_override_max_size">getOverrideMaxSize() returned %b</string>
+    <string name="get_period">getAutoRefreshInterval() returned %d</string>
+    <string name="get_placement_id">getPlacementID() returned %s</string>
+    <string name="get_reward_video_ad_listener">getRewardVideoAdListener() called on AdView.</string>
+    <string name="get_should_resume">getShouldReloadOnResume() returned %b</string>
+    <string name="get_width">getAdWidth() returned %d</string>
+    <string name="gsensor_not_support_cn">Gsensor无效！</string>
+    <string name="gsensor_not_support_dutch">Bewegingsbesturing niet beschikbaar！</string>
+    <string name="gsensor_not_support_en">Motion-control unavailable！</string>
+    <string name="gsensor_not_support_fra">Contrôle de mouvement indisponible!</string>
+    <string name="gsensor_not_support_span">¡El control de movimiento no está disponible!</string>
+    <string name="handler_message_pass">AdRequest message passed to handler</string>
+    <string name="hiad_ad_experience_feedback">Give feedback on ad design</string>
+    <string name="hiad_ad_label">AD</string>
+    <string name="hiad_ad_label_new">Ad</string>
+    <string name="hiad_appGallery">AppGallery</string>
+    <string name="hiad_app_allow_continue_btn">continue installation</string>
+    <string name="hiad_app_allow_continue_install">Do you want to continue installing the app?</string>
+    <string name="hiad_app_allow_dont_remind_again">Do not remind again</string>
+    <string name="hiad_app_allow_install_pure">"The installed app has passed Huawei's security inspection, and Huawei provides the app installation service. Do you want to continue the installation?"</string>
+    <string name="hiad_app_allow_install_pure_t">"Installed apps have passed Huawei's security inspection, and Huawei provides app installation services"</string>
+    <string name="hiad_app_allow_permi">The application installation service is provided by Huawei. Do you want to continue the installation?</string>
+    <string name="hiad_app_allow_permi_t">App installation service provided by Huawei</string>
+    <string name="hiad_app_allow_pure_mode">The installed app has passed the Huawei security inspection. Do you want to continue the installation?</string>
+    <string name="hiad_app_allow_pure_mode_t">Installed apps have passed Huawei security testing</string>
+    <string name="hiad_app_installed">%1$s has been installed</string>
+    <string name="hiad_app_open_notification">Installation complete. Touch to open.</string>
+    <string name="hiad_app_permission">Permissions</string>
+    <string name="hiad_app_preorder">Pre-order</string>
+    <string name="hiad_app_preordered">PRE-ORDERED</string>
+    <string name="hiad_autoplay_mobile_network_tips">Auto-play using data</string>
+    <string name="hiad_back_skip_tv">Press Back to skip</string>
+    <string name="hiad_choices_ad_closed">Ad hidden</string>
+    <string name="hiad_choices_ad_no_interest">Not interested</string>
+    <string name="hiad_choices_hide">Hide ad</string>
+    <string name="hiad_choices_whythisad">Why did I see this ad?</string>
+    <string name="hiad_click_card_to_learn_more">Touch the card to learn more</string>
+    <string name="hiad_click_card_to_open">Touch the card to open %1$s</string>
+    <string name="hiad_click_material_open">Touch to open %1$s</string>
+    <string name="hiad_click_open">Touch to open</string>
+    <string name="hiad_click_open_to">Touch to open %1$s</string>
+    <string name="hiad_click_to_learn_more">Touch to learn more</string>
+    <string name="hiad_click_to_open_harmony_service">Touch to open HarmonyOS service</string>
+    <string name="hiad_click_to_open_quick_app">Touch to open quick app</string>
+    <string name="hiad_click_to_open_wechat_mini_spec">Touch to open mini program</string>
+    <string name="hiad_comment">Comment</string>
+    <string name="hiad_comments_card_collapse">Show less</string>
+    <string name="hiad_comments_card_like">Like</string>
+    <string name="hiad_comments_card_unfold">Show more</string>
+    <string name="hiad_confirm_download_app">Install this app?</string>
+    <string name="hiad_confirm_restore_app">Restore this app?</string>
+    <string name="hiad_consume_data_to_play_video">Using a mobile network will consume %1$s of data. Continue?</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size">Playback will use mobile data. Continue?</string>
+    <string name="hiad_continue_browsing">Continue browsing</string>
+    <string name="hiad_continue_download">Download</string>
+    <string name="hiad_continue_download_new">DOWNLOAD</string>
+    <string name="hiad_continue_play">Play</string>
+    <string name="hiad_continue_to_play">CONTINUE</string>
+    <string name="hiad_copy_link">Copy link</string>
+    <string name="hiad_data_size_prompt">%1$s MB</string>
+    <string name="hiad_default_app_name">App</string>
+    <string name="hiad_default_skip_text">Skip</string>
+    <string name="hiad_default_skip_text_time">Skip in %d</string>
+    <string name="hiad_detail">Details</string>
+    <string name="hiad_detail_download_now">Download</string>
+    <string name="hiad_dialog_accept">ALLOW</string>
+    <string name="hiad_dialog_allow">ALLOW</string>
+    <string name="hiad_dialog_cancel">CANCEL</string>
+    <string name="hiad_dialog_close">OK</string>
+    <string name="hiad_dialog_continue">DOWNLOAD</string>
+    <string name="hiad_dialog_dismiss">GOT IT</string>
+    <string name="hiad_dialog_install_desc">Allow %1$s to install %2$s?</string>
+    <string name="hiad_dialog_install_source">Source: %1$s</string>
+    <string name="hiad_dialog_ok">ALLOW</string>
+    <string name="hiad_dialog_open">OPEN</string>
+    <string name="hiad_dialog_reject">DENY</string>
+    <string name="hiad_dialog_title">Download using mobile data?</string>
+    <string name="hiad_dialog_title_tip">Note</string>
+    <string name="hiad_download_app_via_mobile_data">Download using mobile data?</string>
+    <string name="hiad_download_download">INSTALL</string>
+    <string name="hiad_download_download_with_size">DOWNLOAD (%1$s)</string>
+    <string name="hiad_download_failed_toast_content">An error occurred while downloading %1$s.</string>
+    <string name="hiad_download_file_corrupted">File corrupted. Please download again.</string>
+    <string name="hiad_download_file_not_exist">File does not exist. Please try again.</string>
+    <string name="hiad_download_install">INSTALL</string>
+    <string name="hiad_download_installing">Installing</string>
+    <string name="hiad_download_no_space">Insufficient storage. Free up some space and try again.</string>
+    <string name="hiad_download_open">OPEN</string>
+    <string name="hiad_download_resume">CONTINUE</string>
+    <string name="hiad_download_retry_toast_content">An error occurred while downloading %1$s. Download will restart.</string>
+    <string name="hiad_download_status_retry">Retry</string>
+    <string name="hiad_download_use_mobile_network">You are currently not connected to Wi-Fi. Downloading now will use %1$s of mobile data. Download anyway?</string>
+    <string name="hiad_download_use_mobile_network_zh">You are currently not connected to WLAN. Downloading now will use %1$s of mobile data.</string>
+    <string name="hiad_fast_app_spec">%1$s quick app</string>
+    <string name="hiad_feedback_complaint">Report this ad</string>
+    <string name="hiad_feedback_had_feedback">Thank you for your feedback.</string>
+    <string name="hiad_feedback_reduce_such_content">"We'll recommend less content like this."</string>
+    <string name="hiad_feedback_think_of_this_ad">What did you think of this ad?</string>
+    <string name="hiad_focus_click">Touch %1$s</string>
+    <string name="hiad_harmony_service_spec">%1$s HarmonyOS service</string>
+    <string name="hiad_install_completed">Done</string>
+    <string name="hiad_installed_description">Installation successful. Touch to open.</string>
+    <string name="hiad_installed_optimize_description">Installed</string>
+    <string name="hiad_intro">Intro</string>
+    <string name="hiad_jssdk_i18n">{\"adLabel\":\"hiad_ad_label\",\"download\":\"hiad_download_download\",\"resume\":\"hiad_download_resume\",\"installing\":\"hiad_download_installing\",\"install\":\"hiad_download_install\",\"open\":\"hiad_download_open\",\"whyThisAd\":\"hiad_choices_whythisad\",\"choicesHide\":\"hiad_choices_hide\",\"noInterest\":\"hiad_choices_ad_no_interest\",\"preOrder\":\"hiad_app_preorder\",\"preOrdered\":\"hiad_app_preordered\",\"thinkOfAd\":\"hiad_feedback_think_of_this_ad\",\"detail\":\"hiad_detail\",\"playVideoNoDataSize\":\"hiad_consume_data_to_play_video_no_data_size\",\"closeDialogClose\":\"hiad_reward_close_dialog_close\",\"commentsCardCollapse\":\"hiad_comments_card_collapse\",\"version\":\"hiad_version\",\"commentCardLike\":\"hiad_comments_card_like\",\"continuePlay\":\"hiad_continue_play\",\"videoPlayConsumedTraffic\":\"hiad_video_play_consumed_traffic\",\"autoplayMobileNetworkTips\":\"hiad_autoplay_mobile_network_tips\",\"share\":\"hiad_share\",\"videoCannotPlay\":\"hiad_video_cannot_play\",\"retry\":\"hiad_download_status_retry\",\"videoPlayInternetError\":\"hiad_video_play_internet_error\",\"commentsCardUnfold\":\"hiad_comments_card_unfold\",\"videoReplay\":\"hiad_video_replay\",\"comment\":\"hiad_comment\",\"permissions\":\"hiad_permissions\",\"privacy\":\"hiad_privacy\",\"intro\":\"hiad_intro\",\"continueBrowsing\":\"hiad_continue_browsing\",\"unsupportedFunction\":\"hiad_unsupported_function\",\"closeDialogContinue\":\"hiad_reward_close_dialog_continue\",\"clickOpen\":\"hiad_click_open_to\",\"learnMore\":\"hiad_learn_more\",\"swipeLeftClick\":\"hiad_swipe_left_click\",\"swipeRightClick\":\"hiad_swipe_right_click\",\"clickOpenWechatMiniSpec\":\"hiad_click_to_open_wechat_mini_spec\",\"clickOpenQuickApp\":\"hiad_click_to_open_quick_app\",\"clickOpenOHarmonyService\":\"hiad_click_to_open_harmony_service\",\"openTo\":\"hiad_open_to\",\"clickToLearnMore\":\"hiad_click_to_learn_more\",\"fastAppSpec\":\"hiad_fast_app_spec\",\"wechatMiniSpec\":\"hiad_wechat_mini_spec\",\"harmonyServiceSpec\":\"hiad_harmony_service_spec\",\"restore\":\"hiad_download_install\",\"restoreAndOpen\":\"hiad_preinstall_restore_and_open\",\"swipeLeftClickSplice\":\"hiad_swipe_left_click_splice\",\"swipeRightClickSplice\":\"hiad_swipe_right_click_splice\",\"focusClick\":\"hiad_focus_click\",\"wechatNative\":\"hiad_share_wx\",\"appGallery\":\"hiad_appGallery\",\"clickCardToOpen\":\"hiad_click_card_to_open\",\"clickCardToLearnMore\":\"hiad_click_card_to_learn_more\"}</string>
+    <string name="hiad_jump_desc">View details or go to the app</string>
+    <string name="hiad_jump_to">to open %1$s</string>
+    <string name="hiad_landing_page_open_app">This page wants to open %1$s.</string>
+    <string name="hiad_learn_more">to learn more</string>
+    <string name="hiad_link_already_copied">Link copied.</string>
+    <string name="hiad_loading_tips">Loading…</string>
+    <string name="hiad_mobile_download_prompt">This download will use %1$s of mobile data.</string>
+    <string name="hiad_net_error">Network connection error. Please try again.</string>
+    <string name="hiad_network_error">Network connection error.</string>
+    <string name="hiad_network_no_available">No Internet connection. Please check your network settings.</string>
+    <string name="hiad_no_more_remind">"Don't remind me again"</string>
+    <string name="hiad_non_wifi_download_prompt">No Wi-Fi connection. Downloading now will use your mobile data. Download?</string>
+    <string name="hiad_non_wifi_download_prompt_zh">No WLAN connection. Downloading now will use your mobile data. Download?</string>
+    <string name="hiad_open_in_browser">Open in browser</string>
+    <string name="hiad_open_to">to open %1$s</string>
+    <string name="hiad_page_load_failed">Unable to load page. Please try again.</string>
+    <string name="hiad_permission_dialog_title">%1$s requires the following permissions:</string>
+    <string name="hiad_permissions">Permissions</string>
+    <string name="hiad_preinstall_cancel_restore">Cancel</string>
+    <string name="hiad_preinstall_restore">Restore</string>
+    <string name="hiad_preinstall_restore_and_open">Restore &amp; open</string>
+    <string name="hiad_preorder_download">Pre-order</string>
+    <string name="hiad_prepare_download">Wait for Wi-Fi</string>
+    <string name="hiad_prepare_download_title">Download over mobile network?</string>
+    <string name="hiad_prepare_download_zh">Wait for WLAN</string>
+    <string name="hiad_privacy">Privacy</string>
+    <string name="hiad_refresh">Refresh</string>
+    <string name="hiad_release_time">Just now</string>
+    <string name="hiad_reminder_app_over_size">App larger than %1$d MB</string>
+    <string name="hiad_reward_close_dialog_close">Skip</string>
+    <string name="hiad_reward_close_dialog_continue">Keep watching</string>
+    <string name="hiad_reward_close_dialog_message">Finish watching this ad to earn a reward.</string>
+    <string name="hiad_share">Share</string>
+    <string name="hiad_share_app_not_install">%1$s is not installed.</string>
+    <string name="hiad_share_more">More</string>
+    <string name="hiad_share_qq">QQ</string>
+    <string name="hiad_share_qzone">Qzone</string>
+    <string name="hiad_share_weibo">Weibo</string>
+    <string name="hiad_share_welink">WeLink</string>
+    <string name="hiad_share_wx">WeChat</string>
+    <string name="hiad_share_wx_moments">Moments</string>
+    <string name="hiad_splash_pro_desc">Touch to open the website/app</string>
+    <string name="hiad_swipe_left_click">Swipe left or touch</string>
+    <string name="hiad_swipe_left_click_splice">Swipe left or touch %1$s</string>
+    <string name="hiad_swipe_right_click">Swipe right or touch</string>
+    <string name="hiad_swipe_right_click_splice">Swipe right or touch %1$s</string>
+    <string name="hiad_swipe_screen">Swipe</string>
+    <string name="hiad_swipe_screen_click">Swipe or touch</string>
+    <string name="hiad_touch_jump_to">Touch to open %1$s</string>
+    <string name="hiad_twist_screen">Shake the phone</string>
+    <string name="hiad_twist_screen_click">Shake or touch</string>
+    <string name="hiad_unsupported_function">Feature currently not supported.</string>
+    <string name="hiad_version">Version %s</string>
+    <string name="hiad_video_cannot_play">Unable to play this video</string>
+    <string name="hiad_video_play_consumed_traffic">Playback will use mobile data</string>
+    <string name="hiad_video_play_internet_error">Network error. Check your network settings.</string>
+    <string name="hiad_video_replay">Replay</string>
+    <string name="hiad_wechat_mini">微信小程序</string>
+    <string name="hiad_wechat_mini_spec">%1$s WeChat mini program</string>
+    <string name="hiad_whether_download">Download this app?</string>
+    <string name="hiad_wifi_loaded_already">Pre-loaded over Wi-Fi</string>
+    <string name="hiad_wifi_loaded_already_zh">Preloaded</string>
+    <string name="hidden">The AdView has been hidden.</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="html5_geo_permission_prompt">Would you like to allow this app to access your location?</string>
+    <string name="html5_geo_permission_prompt_title">%s would like to access your location</string>
+    <string name="http_bad_status">HTTP response code %d, aborting.</string>
+    <string name="http_io">"E203: Ad couldn't be fetched due to io error, probably http related."</string>
+    <string name="http_timeout">E201: Connection to ad server timed out.</string>
+    <string name="http_unknown">"E200: Couldn't reach the ad server even though network connectivity was detected. Is the server down?"</string>
+    <string name="http_unreachable" formatted="false">E202: %s:%d is unreachable.</string>
+    <string name="http_url_malformed">E208: Ad Request url was malformed..</string>
+    <string name="ignoring_url">Currently launching native intent. Ignoring url: %s</string>
+    <string name="init">The Mobile Advertising SDK is initializing</string>
+    <string name="instance_exception">MediatedAdView is null or not an instance of %s</string>
+    <string name="instantiating_class">Instantiating %s</string>
+    <string name="interstitial_app_name">jad_yun_interstitial</string>
+    <string name="invalid_string_placeholder">Invalid string place holder %s found!</string>
+    <string name="invalid_video_url">Invalid url for video: %s</string>
+    <string name="jad_ad">广告</string>
+    <string name="jad_ad_txt">京准通</string>
+    <string name="jad_download_now">点击下载</string>
+    <string name="jad_logo_txt">广告</string>
+    <string name="jad_sdk_name">jad_yun_sdk</string>
+    <string name="js_alert" formatted="false">Received javascript alert: %s while loading %s</string>
+    <string name="klevin_apkdownloader_apknotification_delete_task">是否要取消下载%s？</string>
+    <string name="klevin_apkdownloader_apknotification_install_task">是否要放弃安装%s，并删除对应apk文件？</string>
+    <string name="klevin_apkdownloader_download">下载</string>
+    <string name="klevin_apkdownloader_native_detail_jump_web_error_tips">链接地址错误，打开失败</string>
+    <string name="klevin_apkdownloader_native_detail_privacy_protocol">隐私协约</string>
+    <string name="klevin_apkdownloader_native_detail_summary_title">简介</string>
+    <string name="klevin_apkdownloader_native_detail_update_time_title">更新</string>
+    <string name="klevin_apkdownloader_native_detail_update_version_title">版本</string>
+    <string name="klevin_apkdownloader_native_detail_user_protocol">用户协约</string>
+    <string name="klevin_apknotification_delete_task">是否要取消下载%s？</string>
+    <string name="klevin_download">下载</string>
+    <string name="klevin_native_detail_jump_web_error_tips">链接地址错误，打开失败</string>
+    <string name="klevin_native_detail_privacy_protocol">隐私协约</string>
+    <string name="klevin_native_detail_summary_title">简介</string>
+    <string name="klevin_native_detail_update_time_title">更新</string>
+    <string name="klevin_native_detail_update_version_title">版本</string>
+    <string name="klevin_native_detail_user_protocol">用户协约</string>
+    <string name="ksad_ad_default_username_normal">可爱的广告君</string>
+    <string name="ksad_card_tips_interested">感兴趣</string>
+    <string name="ksad_card_tips_pre">预告</string>
+    <string name="ksad_click_immediate">立即点击</string>
+    <string name="ksad_data_error_toast">内容获取失败</string>
+    <string name="ksad_deep_link_dialog_content">再次开启 【%s】</string>
+    <string name="ksad_default_no_more_tip_or_toast_txt">更多内容请前往快手App查看</string>
+    <string name="ksad_download_kwai_waiting">下载信息获取中，请稍后再试。</string>
+    <string name="ksad_half_page_loading_error_tip">加载失败，请点击重试</string>
+    <string name="ksad_install_tips">“ %1$s ”已完成下载，点击完成安装</string>
+    <string name="ksad_launch_tips">您已安装“ %1$s ”，是否打开该应用</string>
+    <string name="ksad_leave_persist">残忍离开</string>
+    <string name="ksad_left_slide_to_next">左滑试一试</string>
+    <string name="ksad_live_end">直播已结束</string>
+    <string name="ksad_network_error_toast">网络错误</string>
+    <string name="ksad_no_title_common_dialog_negativebtn_title">取消</string>
+    <string name="ksad_no_title_common_dialog_positivebtn_title">确定</string>
+    <string name="ksad_page_load_no_more_tip">无更多内容</string>
+    <string name="ksad_page_loading_data_error_sub_title">内容获取失败请点击重试</string>
+    <string name="ksad_page_loading_data_error_title">空空如也</string>
+    <string name="ksad_page_loading_error_retry">重试</string>
+    <string name="ksad_page_loading_network_error_sub_title">请检查网络连接后重试</string>
+    <string name="ksad_page_loading_network_error_title">网络不给力</string>
+    <string name="ksad_request_install_content">安装后，可以在快手查看商品详情和下单</string>
+    <string name="ksad_request_install_nagative">暂不开启</string>
+    <string name="ksad_request_install_positive">去开启</string>
+    <string name="ksad_request_install_title">授权安装快手</string>
+    <string name="ksad_reward_playable_load_error_toast">请稍后重试，内容准备中</string>
+    <string name="ksad_reward_success_tip">领取奖励</string>
+    <string name="ksad_right_slide_to_return">右滑返回</string>
+    <string name="ksad_see_detail">了解详情 ></string>
+    <string name="ksad_skip_text">跳过</string>
+    <string name="ksad_splash_preload_tips_text">已提前加载</string>
+    <string name="ksad_splash_rotate_combo_rotate_text">扭动或点击了解更多</string>
+    <string name="ksad_splash_shake_combo_action_text">摇一摇</string>
+    <string name="ksad_splash_shake_combo_sub_text">或点击跳转详情页/三方应用</string>
+    <string name="ksad_splash_slide_combo_guide_text">任意方向滑动或点击</string>
+    <string name="ksad_splash_slide_combo_sub_text">跳转详情或第三方应用</string>
+    <string name="ksad_splash_slide_guide_text">轻滑试试</string>
+    <string name="ksad_watch_continue">留下看看</string>
+    <string name="live_in_loading">正在加载</string>
+    <string name="live_in_loading_failed">加载失败，请稍后重试~</string>
+    <string name="load_ad_int">loadAd() called for interstitial.</string>
+    <string name="loading">Loading</string>
+    <string name="local_music_cn">本地音乐</string>
+    <string name="local_music_en">Local Music</string>
+    <string name="location_alart_title_txt">声明与条款</string>
+    <string name="location_alart_title_txt_en">Declaration and Terms</string>
+    <string name="lock_screen_click_dowon">Lock Mode enabled!</string>
+    <string name="log_failed">Log Failed: %d</string>
+    <string name="log_request_delayed_by_x_ms">Log request will be delayed by %dms to account for idletime</string>
+    <string name="log_success">Log Success: %s</string>
+    <string name="mSplashData.setAdClickText">getAdClickText</string>
+    <string name="mSplashData.setAppInfo">getAppInfo</string>
+    <string name="mSplashData.setCountDownText">getCountDownText</string>
+    <string name="mSplashData.setLogoImage">getLogoImage</string>
+    <string name="mSplashData.setLogoText">getLogoText</string>
+    <string name="mSplashData.setNoticeImage">getNoticeImage</string>
+    <string name="making_adman">Making an AdFetcher to begin fetching ads</string>
+    <string name="marketSdkVersion">3.2.28</string>
+    <string name="max_size_not_set">overrideMaxSize enabled, but max size not set.</string>
+    <string name="mbridge_cm_feedback_btn_text">feedback</string>
+    <string name="mbridge_cm_feedback_dialog_close_close">Close</string>
+    <string name="mbridge_cm_feedback_dialog_close_submit">Submit</string>
+    <string name="mbridge_cm_feedback_dialog_content_balck_screen">Black screen</string>
+    <string name="mbridge_cm_feedback_dialog_content_cnr">Click no response</string>
+    <string name="mbridge_cm_feedback_dialog_content_other">Other issues</string>
+    <string name="mbridge_cm_feedback_dialog_content_stuck">Video stuck</string>
+    <string name="mbridge_cm_feedback_dialog_title">feedback</string>
+    <string name="mbridge_cm_progress_status_descri_default">立即下载</string>
+    <string name="mbridge_cm_progress_status_descri_ins">立即安装</string>
+    <string name="mbridge_cm_progress_status_descri_open">立即打开</string>
+    <string name="mbridge_cm_progress_status_descri_pause">点击继续</string>
+    <string name="mbridge_download_notify_cancel">取消</string>
+    <string name="mbridge_download_notify_continue">继续</string>
+    <string name="mbridge_download_notify_download_failed">下载失败</string>
+    <string name="mbridge_download_notify_download_finish_to_install">下载完成，点击安装</string>
+    <string name="mbridge_download_notify_download_interrupt">下载失败，请检查网络</string>
+    <string name="mbridge_download_notify_downloading">下载中</string>
+    <string name="mbridge_download_notify_ins">安装</string>
+    <string name="mbridge_download_notify_ins_progress_des">下载完成</string>
+    <string name="mbridge_download_notify_network_error">网络异常</string>
+    <string name="mbridge_download_notify_open">打开</string>
+    <string name="mbridge_download_notify_open_progress_des">安装完成</string>
+    <string name="mbridge_download_notify_pause">暂停</string>
+    <string name="mbridge_download_notify_prefix_download">下载：</string>
+    <string name="mbridge_download_notify_prefix_pause">暂停:</string>
+    <string name="mbridge_download_notify_start_download">开始下载</string>
+    <string name="mbridge_download_notify_update_finish_to_install">更新完成，点击安装</string>
+    <string name="mbridge_download_notify_update_package">正在更新安装包</string>
+    <string name="mbridge_reward_appdesc">app desc</string>
+    <string name="mbridge_reward_apptitle">app title</string>
+    <string name="mbridge_reward_clickable_cta_btntext">Play Game</string>
+    <string name="mbridge_reward_endcard_ad">AD</string>
+    <string name="mbridge_reward_endcard_vast_notice">Do you want to learn more?</string>
+    <string name="mbridge_reward_heat_count_unit">w</string>
+    <string name="mbridge_reward_install">Install Now</string>
+    <string name="mbridge_reward_video_view_reward_time_complete">you have been rewarded</string>
+    <string name="mbridge_reward_video_view_reward_time_left">s left to be rewarded</string>
+    <string name="mbridge_reward_viewed_text_str">Viewed</string>
+    <string name="mbridge_splash_count_time_can_skip">SKIP</string>
+    <string name="mbridge_splash_count_time_can_skip_not">Auto close after</string>
+    <string name="mbridge_splash_count_time_can_skip_s">s</string>
+    <string name="mediated_no_ads">The server responded with ads, but none were valid</string>
+    <string name="mediated_request">Requesting a mediated ad.</string>
+    <string name="mediated_request_error">requestAd threw an error</string>
+    <string name="mediated_request_exception">requestAd threw an exception</string>
+    <string name="mediated_request_null_activity">A mediated request was made with null activity parameter</string>
+    <string name="mediated_view_null">MediatedAdView was null</string>
+    <string name="mediation_adding_invalid">Adding %s to invalid networks list</string>
+    <string name="mediation_finish">Mediation Controller has finished.</string>
+    <string name="mediation_instantiation_failure">Instantiating mediated ad failed due to %s</string>
+    <string name="mediation_timeout">Mediation network timed out.</string>
+    <string name="mimo_reward_video_press_back_msg">Please click the close button to close ad</string>
+    <string name="mobad_app_introduce">About app</string>
+    <string name="mobad_app_permissions">Permissions</string>
+    <string name="mobad_app_privacy">Privacy Notice</string>
+    <string name="mobad_compliance_author">Developer:</string>
+    <string name="mobad_compliance_version">Version:</string>
+    <string name="mobad_core_introduce">About app</string>
+    <string name="mobad_core_permissions">Permissions</string>
+    <string name="mobad_core_privacy">Privacy</string>
+    <string name="mobad_introduce">About app</string>
+    <string name="mobad_permissions">Permissions</string>
+    <string name="mobad_privacy">Privacy</string>
+    <string name="moot_restart">AdFetcher requested to start, but tasker already instantiated</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="native_app_name">jad_yun_native</string>
+    <string name="nav_app_bar_navigate_up_description">Navigate up</string>
+    <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
+    <string name="new_ad_since">Fetching a new ad for the first time in %dms</string>
+    <string name="new_adview">new AdView()</string>
+    <string name="no_connectivity">E207: Abandoning AdRequest because there is no network connectivity.</string>
+    <string name="no_identification">E104: No identification set(either unit id or application code should be presented). onAdRequestFailed will not be called</string>
+    <string name="no_response">Request received no response from the server.</string>
+    <string name="no_size_info">An attempt to request an ad has been made with insufficient size information. Please provide a size, max size, or use fill_parent as the dimensions for your BannerAdView.</string>
+    <string name="no_user_interaction">Rejected %s becasue user did not interact with the webview</string>
+    <string name="not_first_opensdk_launch">This is not the first OpenSDK launch in this app</string>
+    <string name="not_supported_change_cn">设备不支持双摄像头功能</string>
+    <string name="not_supported_change_en">Device does not support dual camera</string>
+    <string name="number_format">An invalid number was passed to an MRAID function.</string>
+    <string name="octopus_cancel">取消</string>
+    <string name="octopus_confirm">确定</string>
+    <string name="opening_app_store">AppStore URL detected, opening the page in the app store</string>
+    <string name="opening_inapp">Opening landing page in in-app browser</string>
+    <string name="opening_native">Opening landing page in native browser</string>
+    <string name="opening_native_current">Opening current page in native browser</string>
+    <string name="opening_url">Opening %s in in-app browser</string>
+    <string name="opening_url_failed">Failed to launch custom protocol: %s</string>
+    <string name="opos_mob_app_desc_title" />
+    <string name="opos_mob_feedback" />
+    <string name="opos_mob_install_success_tips">download success</string>
+    <string name="opos_mob_permission_title" />
+    <string name="opos_mob_privacy_title" />
+    <string name="opos_mob_reward_close_last_tips_and">并</string>
+    <string name="opos_mob_reward_close_last_tips_click">点击</string>
+    <string name="opos_mob_reward_close_last_tips_continue">继续观看</string>
+    <string name="opos_mob_reward_close_last_tips_download">下载</string>
+    <string name="opos_mob_reward_close_last_tips_get_reward_query">就可以领取奖励!确定要离开吗?</string>
+    <string name="opos_mob_reward_close_last_tips_install_app">安装完成</string>
+    <string name="opos_mob_reward_close_last_tips_interaction">互动</string>
+    <string name="opos_mob_reward_close_last_tips_open_app">打开应用</string>
+    <string name="opos_mob_reward_close_last_tips_open_detail">查看详情</string>
+    <string name="opos_mob_reward_close_last_tips_or">或</string>
+    <string name="opos_mob_reward_close_last_tips_second">秒</string>
+    <string name="opos_mob_reward_close_tips_text">"现在关闭视频将无法获得奖励，
+确定关闭？"</string>
+    <string name="opos_mob_reward_common_click_ad_key" />
+    <string name="opos_mob_reward_count" />
+    <string name="opos_mob_reward_count_install" />
+    <string name="opos_mob_reward_count_open" />
+    <string name="opos_mob_reward_count_open_without_install" />
+    <string name="opos_mob_reward_install_key" />
+    <string name="opos_mob_reward_key" />
+    <string name="opos_mob_reward_open_key" />
+    <string name="opos_mob_reward_open_without_install_key" />
+    <string name="opos_mob_reward_spilt_key">/</string>
+    <string name="opos_mob_reward_tips" />
+    <string name="opos_mob_reward_video_complete_key" />
+    <string name="opos_mob_reward_without_video_complete_key" />
+    <string name="opos_mob_web_return">back</string>
+    <string name="opos_mob_web_ssl_error_cancel">no</string>
+    <string name="opos_mob_web_ssl_error_confirm">yes</string>
+    <string name="opos_mob_web_ssl_error_tips">SSL certificate verification error, whether to continue?</string>
+    <string name="opos_mobad_logo_txt">Ad</string>
+    <string name="opos_mobad_reward_count">Claim rewards (%s)</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permissions_internet">E102: The SDK needs permission INTERNET in the host app.</string>
+    <string name="permissions_missing_location">"E100: Location permissions ACCESS_COARSE_LOCATION and/or ACCESS_FINE_LOCATION aren't set in the host app. This may affect demand."</string>
+    <string name="permissions_missing_network_state">E101: The SDK needs permission ACCESS_NETWORK_STATE in the host app.</string>
+    <string name="placement_id">Placement id:%s</string>
+    <string name="play_auto_photo">Auto Photo</string>
+    <string name="play_hide_screen_Splite_cn">VR键已按下!</string>
+    <string name="play_hide_screen_Splite_dutch">VR-modus ingeschakeld!</string>
+    <string name="play_hide_screen_Splite_en">VR mode enabled!</string>
+    <string name="play_hide_screen_Splite_fra">Mode VR activé!</string>
+    <string name="play_hide_screen_Splite_span">¡Modo RV habilitado!</string>
+    <string name="play_hide_screen_gsensor_cn">已开启Gsensor!</string>
+    <string name="play_hide_screen_gsensor_dutch">Bewegingsbesturing ingeschakeld!</string>
+    <string name="play_hide_screen_gsensor_en">Motion-control enabled!</string>
+    <string name="play_hide_screen_gsensor_fra">Contrôle de mouvement activé!</string>
+    <string name="play_hide_screen_gsensor_span">¡Control del movimiento activado!</string>
+    <string name="play_hide_screen_rec_cn">录像!</string>
+    <string name="play_hide_screen_rec_dutch">Recording!</string>
+    <string name="play_hide_screen_rec_en">Recording!</string>
+    <string name="play_hide_screen_rec_fra">Recording!</string>
+    <string name="play_hide_screen_rec_span">Recording!</string>
+    <string name="play_hide_screen_rudder_cn">请松开手指！</string>
+    <string name="play_hide_screen_rudder_dutch">Please release your finger！</string>
+    <string name="play_hide_screen_rudder_en">Please release your finger！</string>
+    <string name="play_hide_screen_rudder_fra">Please release your finger！</string>
+    <string name="play_hide_screen_rudder_span">Please release your finger！</string>
+    <string name="play_vide_no_uri">MRAID playVideo() called, but no URI given</string>
+    <string name="please_connect_wifi_cn">请连接Wifi设备!</string>
+    <string name="please_connect_wifi_dutch">Maak een verbinding met uw WiFi-apparaat!</string>
+    <string name="please_connect_wifi_en">Please connect to your wifi device!</string>
+    <string name="please_connect_wifi_fra">Connectez votre appareil WiFi!</string>
+    <string name="please_connect_wifi_span">¡Conecte al dispositivo wifi!</string>
+    <string name="please_power_down_helicope_cn">请拉下油门！</string>
+    <string name="please_power_down_helicope_dutch">Duw de linker hendel omlaag！</string>
+    <string name="please_power_down_helicope_en">Please push the left throttle to the bottom！</string>
+    <string name="please_power_down_helicope_fra">Tirez la manette gauche en arrière!</string>
+    <string name="please_power_down_helicope_span">Por favor, mueva el mando derecho hacia abajo.</string>
+    <string name="please_power_on_helicope_cn">请拉起油门！</string>
+    <string name="please_power_on_helicope_dutch">Trek de linker hendel omhoog！</string>
+    <string name="please_power_on_helicope_en">Please pull up the left throttle！</string>
+    <string name="please_power_on_helicope_fra">Poussez la manette gauche en avant!</string>
+    <string name="please_power_on_helicope_span">Por favor, mueva el mando izquierdo hacia arriba.</string>
+    <string name="plist_nofile_txt_cn">无文件.</string>
+    <string name="plist_nofile_txt_dutch">Geen bestand.</string>
+    <string name="plist_nofile_txt_en">No File.</string>
+    <string name="plist_nofile_txt_fra">Pas de Fichier.</string>
+    <string name="plist_nofile_txt_span">¡No hay archivos!</string>
+    <string name="popular_music_cn">流行音乐</string>
+    <string name="popular_music_en">Popular Music</string>
+    <string name="privacy_alart_check_txt">请您在使用前认真阅读并充分理解《用户协议》及《隐私政策》。</string>
+    <string name="privacy_alart_check_txt_en">Please read and fully understand the User Agreement and Privacy Policy before use.</string>
+    <string name="privacy_alart_content_txt">"为提供基本服务，应用需要调用您的如下权限或功能，以保证应用功能的运行：
+ 1. 获取设备的位置信息。 
+ 2. 读取、写入或删除存储空间，用于读取、写入或删除设备保存的录像或截图.
+ 如果您不同意调用以上必要权限或功能，或不同意我们收集并使用以上信息，本应用将无法正常运行"</string>
+    <string name="privacy_alart_content_txt_en">"To provide basic services, applications need to invoke the following permissions or functions to ensure the running of application functions:
+ 1. Obtain device location information: fast connection to the device, discovery of nearby devices, and WiFi list.
+ 2. Read, write, or delete the storage space: reading, writing, or deleting videos or screenshots saved on the device.
+ If you do not agree to invoke the above necessary permissions or functions, or do not agree to our collection and use of the above information, the application will not operate normally."</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="privacy_policy_content">"一、如何收集和使用信息
+ 在使用产品及服务过程中，我们需要/可能需要收集和使用的您的个人信息包括：
+
+ 1、账户注册信息：对于需要通过平台账户才能使用的服务，需要您提供姓名、电子邮箱、 电话号码、验证码、账号密码，用于创建平台账户。 在使用客户端应用过程中填入所需提供的上述信息，我们会根据您提供的信息校验您的身份， 确保是在为您提供服务。
+
+ 2、非账户注册信息：如果您选择提供昵称、头像等非注册账户必须的个人资料，我们将为您提供更加人性化的服务。 您的昵称、头像仅作为个人资料的补充信息，不会公开显示。
+
+ 3、用户反馈信息：当您使用我们产品中的反馈和建议功能时，我们会收集您的电子邮件地址、手机号码和反馈内容， 以便及时处理您的问题和设备故障。
+
+ 4、移动设备信息：在使用我们的服务过程中，为了识别账号异常状态，了解产品适配性， 提供及时的预警消息推送和广告推送通知，我们可能会自动收集您个人信息，包括：
+ 1）基本信息：我们会根据您在软件安装及/或使用中的具体操作， 接收并记录您所使用的设备相关信息（包括设备型号、操作系统版本、设备设置、唯一设备标识符、设备环境等软硬件特征信息）、 设备所在位置相关信息（包括您授权的GPS位置以及WLAN接入点、蓝牙和基站等传感器信息）。
+ 2）服务日志信息：当您使用我们的网站或客户端提供的产品或服务时，我们会自动收集您对我们服务的业务数据， 作为服务日志保存，包括浏览、点击查看、搜索查询、交易、分享信息，以及IP地址、浏览器类型、电信运营商、使用语言、访问日期和时间。
+ 3）授权信息：为了提供更多人性化的服务，我们在您启用客户端应用过程中使用的如下功能，可能会需要收集和使用您的个人信息。 如果您不提供这些信息，将无法启用相关功能，但不影响账户的正常使用。
+ 基于相机/摄像头的权限：在启用客户端应用进行远端控制智能设备功能时，我们需要获取您在移动设备上相机/摄像头的使用权限， 以便提供扫描二维码添加智能设备的功能。
+
+ 基于相册（图片库/视频库）访问权限：您可以开启相册的访问权限，以实现实时抓取智能设备的录像和图片等功能。 我们会将抓取的录像文件和图片存储在移动设备上，以便您后续查看和使用。
+
+ 基于麦克风的权限：您可以开启麦克风使用权限实现语音功能，即与智能设备端进行单向语音或双向语音通话。
+
+ 基于扬声器的权限：您可以开启扬声器使用权限实现语音播放功能，以便监听智能设备端的声音。
+
+ 基于系统存储的权限：我们将在您安装和启用客户端应用时获取您的移动设备的系统存储空间和权限信息， 以便保证正常运行应用程序和满足图片/录像资料的存储所需使用的空间。
+
+ 基于位置信息的权限：我们将在您安装和启用客户端应用时获取您的移动设备的位置权限，以便针对您的地理位置提供符合安全性的相关服务。
+
+ 基于获取通知的权限：您可以开启获取通知的权限来保证接收到智能设备端发出的报警通知消息。
+
+ 5、智能设备信息：为了实现通过客户端应用远端控制智能设备，我们将会收集智能设备的基本信息， 包括设备名称，设备ID、设备密码、在线状态、网络接入信息、固件版本、升级信息，以便为您提供连线服务。
+ 您理解并同意，上述功能可能需要您在您的移动设备中开启您的位置信息 （地理位置）、摄像头（相机）、相册（图片库）、麦克风（语音）、扬声器和系统存储空间信息访问权限， 以实现这些权限所涉及信息的收集和使用。 您可在您的移动设备的系统设置中逐项查看上述权限的状态，并可自行决定这些权限随时的开启或关闭。
+ 请您注意，您开启任一权限即代表您授权我们可以收集和使用相关个人信息来为您提供对应服务， 您一旦关闭任一权限即代表您取消了授权，我们将不再基于对应权限继续收集和使用相关个人信息， 也无法为您提供该权限所对应的服务。但是，您关闭权限的决定不会影响此前基于您的授权所进行的信息收集及使用。
+
+
+ 二、如何使用Cookie和同类技术
+ 1、Cookie
+ 为了让您获得更轻松的访问体验，我们会在您的计算机或者移动设备上存储Cookie、Flash Cookie， 或浏览器（或关联应用程序）提供的其他通常包含标识符、站点名称以及一些号码和字符的本地存储（统称“Cookie”）。 借助于Cookie，网站能够存储您的登录资料等数据。 如果您的浏览器或浏览器附加服务允许，您可修改对Cookie的接受程度或拒绝我们的Cookie。 但如果您这么做，在某些情况下可能会影响您安全访问我们的网站，且可能需要在每一次访问我们的网站时更改用户设置。
+
+ 2、Cookie同类技术
+ 除 Cookie外，我们还会在网站上使用网站信标、像素标签、ETag等其他同类技术。 例如，我们向您发送的电子邮件可能含有链接至我们网站内容的地址链接，如果您点击该链接，我们则会跟踪此次点击， 帮助我们了解您的产品或服务偏好，以便于我们主动改善客户服务体验。 网站信标通常是一种嵌入到网站或电子邮件中的透明图像。借助于电子邮件中的像素标签，我们能够获知电子邮件是否被打开。 如果您不希望自己的活动以这种方式被追踪，则可以随时从我们的寄信名单中退订。 ETag（实体标签）是在互联网浏览器与互联网服务器之间背后传送的HTTP协议标头， 可代替Cookie。ETag可以帮助我们避免不必要的服务器负载，提高服务效率，节省资源、能源，同时， 我们可能通过ETag来记录您的身份，以便我们可以更深入地了解和改善我们的产品或服务。 大多数浏览器均为用户提供了清除浏览器缓存数据的功能，您可以在浏览器设置功能中进行相应的数据清除操作。 但请注意，如果停用ETag，您可能无法享受相对更佳的产品或服务体验。
+
+
+ 三、如何共享、转让、披露信息
+
+ 1、共享信息
+ 我们不会与服务提供者以外的公司、组织和个人共享您的个人信息，但以下情况除外：
+ 1）在法定情形下的共享：我们可能会根据法律法规规定、诉讼、争议解决需要，或按行政、司法机关依法提出的要求，对外共享您的个人信息。
+ 2）在获取明确同意的情况下共享：获得您的明确同意后，我们会与其他方共享您的个人信息。
+ 3）在您主动选择情况下共享：当您通过客户端应用启用分享智能设备功能时，我们会根据您的选择， 将您添加的智能终端信息共享给您指定的终端用户。
+
+ 2、转让信息
+ 我们不会将您的个人信息转让给任何公司、组织和个人，但以下情况除外：
+ 1）在获取明确同意的情况下转让：获得您的明确同意后，我们会向其他方转让您的个人信息；
+ 2）在服务提供者发生合并、收购或破产清算情形，或其他涉及合并、收购或破产清算情形时， 如涉及到个人信息转让，我们会要求新的持有您个人信息的公司、组织继续受本政策的约束， 否则我们将要求该公司、组织和个人重新向您征求授权同意。
+
+ 3、披露信息
+ 我们仅会在以下情况下，披露您的个人信息：
+ 1）获得您明确同意或基于您的主动选择，我们可能会公开披露您的个人信息；
+ 2）如果我们确定您出现违反法律法规或严重违反平台相关协议及规则的情况， 或为保护平台用户或公众的人身财产安全免遭侵害，我们可能依据法律法规或征得您同意的情况下披露关于您的个人信息， 包括相关违规行为以及平台已对您采取的措施。
+
+ 4、共享、转让、披露信息的例外情况
+ 以下情形中，共享、转让、公开披露您的个人信息无需事先征得您的授权同意：
+ 1）与国家安全、国防安全有关的；
+ 2）与公共安全、公共卫生、重大公共利益有关的；
+ 3）与犯罪侦查、起诉、审判和判决执行等司法或行政执法有关的；
+ 4）出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；
+ 5）您自行向社会公众公开的个人信息；
+ 6）从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道。 请知悉，根据适用的法律，若我们对个人信息采取技术措施和其他必要措施进行处理， 使得数据接收方无法重新识别特定个人且不能复原，则此类处理后数据的共享、转让、公开披露无需另行向您通知并征得您的同意。
+
+
+ 四、如何保护和管理您的信息
+
+ 1、我们已采取符合业界标准、合理可行的安全防护措施保护您的信息，防止个人信息遭到未经授权访问、公开披露、使用、修改、损坏或丢失。例如：
+ 1）我们采用HTTPS加密传输协定传输装置数据到云端；
+ 2）设备之间数据以128/256-bit AES、XTEA加密方式传输；
+ 3）透过ECDH自动产生AES加密金钥；
+ 4）采用ECDSA数字签名验证身份；
+ 5）以扰乱机制(Scrambling)传输影像数据。
+
+ 2、我们有行业先进的以数据为核心、围绕数据生命周期进行的数据安全管理体系， 从组织建设、制度设计、人员管理、产品技术等方面多维度提升整个系统的安全性。 目前，我们的重要信息系统符合GDPR规范，并获得ISO27001认证。
+
+ 3、持续调整现有的工作准则与流程，以确保资料的机密性、完整性与可用性，并在发生个人隐私侵害事件通报后， 能够依法规要求迅速在72小时内通报权责机关与用户：
+ 1）导入ISO 27001 / ISMS信息安全管理制度；
+ 2）修订资料保护与公司隐私权政策；
+ 3）资料收集与使用同意书/声明内容调整；
+ 4）更新资料泄漏处理程序；
+ 5）研拟个资事故紧急应变程序。
+
+
+ 五、如何管理您的信息
+ 您可以通过如下方式管理您的信息：
+
+ 1、查询、更改您的信息：您有权查询和更改您的个人信息，通过客户端应用或者登录网站，点击账户设置进行查询和修改账户信息。
+
+ 2、改变您授权同意的范围：在启用客户端应用的部分功能时，需要获取您在移动设备上对应的授权， 您可以至移动设备相关系统设置中重新修改授权同意。当您收回授权同意时，我们不再处理相应的个人信息， 同时对应的功能可能将无法正常启用。但您收回同意的决定，不会影响此前基于您的授权而开展的个人信息处理。
+
+ 3、响应您的反馈请求：为了保障安全，我们可能会要求先验证您的身份，再处理您的请求，所以需要您提供书面证明，或其他能证明您身份的相关资料。
+ 在以下情形中，按照法律法规要求，我们将无法响应您的请求：
+ 1）与国家安全、国防安全有关的；
+ 2）与公共安全、公共卫生、重大公共利益有关的；
+ 3）与犯罪侦查、起诉、审判和执行判决等有关的；
+ 4）有充分证据表明个人信息主体存在主观恶意或滥用权利的；
+ 5）响应您的请求将导致您或其他个人、组织的合法权益受到严重损害的；
+ 6）涉及商业秘密的。
+
+
+ 六、如何实现信息在全球范围转移
+ 应不同国家适用的数据安全保护法律法规要求，针对信息在全球范围转移措施如下： 境内运营中收集和产生的个人信息，存储在境内，以下情形除外：
+
+ 1）适用的法律有明确规定；
+ 2）获得您的明确授权；
+ 3）您通过互联网进行跨境交易等个人主动行为。
+ 针对以上情形，我们会确保依据本隐私权政策对您的个人信息提供足够的保护。
+
+
+ 七、如何更新本隐私政策
+
+ 1、我们可能适时修订本政策内容，以适应最新法律法规的要求。
+ 2、我们将在变更生效前，在官网公告或以其他方式通知您，让您可以详阅更新后的完整内容。
+ 3、在该情况下，如您仍选择继续使用我们的服务，即表示同意首经修订的政策约束。
+
+
+ 感谢您花时间阅读我们的隐私政策
+
+
+"</string>
+    <string name="privacy_policy_content_en">" I. How to collect and use information
+ In the course of using the Products and services, we need/may need to collect and use your personal information, including:
+
+ 1. Account registration information: For the services that can only be used through the platform account, you need to provide your name, email address, The phone number, verification code, and account password are used to create platform accounts. Fill in the above information when using the client application, we will verify your identity based on the information you provide, Make sure you're being served.
+
+ 2, non-account registration information: if you choose to provide the nickname, profile picture and other non-registered account required personal information, we will provide you with more user-friendly services. Your nickname and profile picture are only supplementary information to your profile and will not be displayed publicly.
+
+ 3. User feedback information: When you use the feedback and suggestion functions in our products, we will collect your email address, mobile phone number and feedback content, so as to timely handle your problems and equipment faults.
+
+ 4. Mobile Device Information: In the process of using our services, we may automatically collect your personal information, including:
+ 1) Basic information: Based on your specific operations during software installation and/or use, Receives and records the device information (including the device model, operating system version, device Settings, unique device identifier, and hardware and software features such as the device environment) and device location information (including the GPS location authorized by you and the sensor information such as the WLAN access point, Bluetooth, and base station).
+ 2) service log information: when you use our website or products or services provided by the client, we automatically collect your interest in our service business data, as a service log, including browsing, click to view, search query, trading, sharing information, as well as the IP address, browser type, telecom operators, language use, access, date and time.
+ 3) Authorization Information: In order to provide more user-friendly services, we may need to collect and use your personal information in the following functions when you enable the client application. If you do not provide this information, relevant functions will not be enabled, but the normal use of the account will not be affected.
+ Camera/camera-based permission: Before enabling the client application to remotely control a smart device, we need to obtain the permission to use the camera/camera on your mobile device so that we can scan a QR code to add a smart device.
+
+ Access permission for photo albums (photo library/video library) : You can enable access permission for photo albums to capture videos and pictures of smart devices in real time. We will store the captured video files and pictures on mobile devices for your subsequent viewing and use.
+
+ Microphone-based permission: You can enable the microphone permission to implement the voice function, that is, to make one-way or two-way voice calls with the smart device.
+
+ Speaker-based rights: You can enable the speaker-based rights function to listen to the voice on the smart device.
+
+ Permission based on system storage: We will obtain the system storage space and permission information of your mobile device when you install and enable the client application, so as to ensure the normal operation of the application and meet the storage space required for pictures/videos.
+
+ Location-based permissions: We will obtain your mobile device location permissions when you install and enable the client application, so that we can provide security-compliant services for your geographical location.
+
+ Based on notification permission: You can enable the notification permission to receive alarm notification messages sent by smart devices.
+
+ 5. Smart Device Information: In order to achieve remote control of smart devices through client applications, we will collect basic information about smart devices, including device name, device ID, device password, online status, network access information, firmware version and upgrade information, so as to provide connection services for you.
+ You understand and agree that the above functions may require you to enable the access rights of your location information (geographic location), camera (camera), photo album (photo library), microphone (voice), speaker, and system storage space information on your mobile device to collect and use the information involved in these permissions. You can view the status of the above permissions in the system Settings of your mobile device, and you can decide to turn these permissions on or off at any time.
+ Please note that you open any permissions that represents your authorization we can collect and use personal information to provide corresponding service for you, once you close any permissions that represents your cancel the authorization, we will no longer be based on corresponding permission to continue to collect and use personal information, also is unable to provide you with the permission of the service. However, your decision to turn off permissions does not affect previous information collection and use based on your authorization. How to use cookies and similar technologies
+
+
+ II. Cookie
+ 1, Cookie
+ To make your access experience easier, we store cookies, Flash cookies, or other local storage provided by the browser (or associated application) that usually contains identifiers, site names, and some numbers and characters on your computer or mobile device (collectively, Cookies). With cookies, websites can store data such as your login details. You may modify your acceptance of cookies or reject our cookies if your browser or browser add-on services allow it. However, if you do so, it may affect your secure access to our site in some circumstances and may require you to change user Settings every time you visit our site.
+
+ 2, Cookie similar technology In addition to cookies, we also use web beacons, pixel tags, Etags and other similar technologies on our websites. For example, we may send you an email that contains an address link to the content of our website, and if you click on that link, we will track that click to help us understand your product or service preferences so that we can proactively improve our customer service experience. A website beacon is usually a transparent image embedded in a website or email. With the help of the pixel labels in the E-mail, we can tell whether the E-mail is open or not. If you do not wish your activities to be tracked in this way, you can always unsubscribe from our mailing list. An ETag (entity tag) is an HTTP protocol header that is passed between an Internet browser and an Internet server in place of a Cookie. ETag can help us avoid unnecessary server load, improve service efficiency, save resources, energy, and at the same time, we may record your identity through ETag, so that we can further understand and improve our products or services. Most browsers provide the function of clearing cached data. You can clear cached data in the browser Settings function. Note, however, that if you disable ETag, you may not enjoy a relatively better product or service experience.
+
+
+ Iii. How to share, transfer and disclose information
+
+ 1. Share information
+ We will not share your personal information with companies, organizations and individuals other than service providers, except in the following cases:
+ 1) Sharing under legal circumstances: We may share your personal information in accordance with laws and regulations, litigation and dispute resolution requirements, or according to the requirements of administrative and judicial organs.
+ 2) Sharing with express Consent: Upon obtaining your express consent, we will share your personal information with other parties.
+ 3) Sharing at your choice: When you enable the function of sharing smart devices through the client application, we will share the information of the smart terminals you add to the terminal users specified by you according to your choice.
+
+ 2. Transfer of information
+ We will not transfer your personal information to any company, organization or individual except in the following circumstances:
+ 1) Transfer with express consent: Upon obtaining your express consent, we will transfer your personal Information to other parties;
+ 2) in the service provider, mergers, acquisitions or bankruptcy liquidation or other situations involving mergers, acquisitions or bankruptcy liquidation, such as involving personal information transfer, we will request the new holder you personal information of the company, the organization continue to be bound by this policy, otherwise we will ask the company, organization or individual to ask for a grant to you.
+
+ 3. Disclosure
+ We will only disclose your personal information in the following circumstances:
+ 1) With your express consent or upon your active choice, we may publicly disclose your personal information;
+ 2) if we determine your violation of the laws and regulations or a serious breach of relevant agreements and rules of platform, or to protect the platform users or the personal property safety of the public from the infringement, we can according to the laws and regulations or under the condition of your consent to disclose personal information about you, including related violations and the platform has the measures taken to you.
+
+ 4. Exceptions to sharing, transfer and disclosure of information
+ In any of the following circumstances, sharing, transferring, or publicly disclosing your personal information does not require prior authorization from you:
+ 1) Related to national security and national defense security;
+ 2) Related to public security, public health or major public interests;
+ 3) related to judicial or administrative law enforcement such as criminal investigation, prosecution, trial and judgment enforcement;
+ 4) For the purpose of protecting the life, property and other major legitimate rights and interests of you or other individuals, but it is difficult to get my consent;
+ 5) Your personal information disclosed to the public by yourself;
+ (6) Collect personal information from legally publicly disclosed information, such as legal news reports, government information disclosure and other channels. Please note that, in accordance with applicable laws, if we take technical and other necessary measures to process personal information in such a way that the recipient of the data cannot re-identify a specific individual and cannot recover the data, the sharing, transfer or public disclosure of such processed data does not require further notice to you and your consent.
+
+
+ iV.How to protect and manage your information
+
+ 1. We have taken reasonable and feasible security measures in line with industry standards to protect your information from unauthorized access, public disclosure, use, modification, damage or loss of your personal information. Such as:
+ 1) We use HTTPS encryption transmission protocol to transmit device data to the cloud;
+ 2) Data between devices is transmitted in 128/256-bit AES and XTEA encryption mode;
+ 3) Automatically generate AES encryption keys through ECDH;
+ 4) Using ECDSA digital signature to verify identity;
+ 5) To transmit image data with the Scrambling mechanism.
+
+ 2, we have the industry advanced data as the core, around the data life cycle of the data security management system, from the organizational construction, system design, personnel management, product technology and other aspects of multi-dimensional improve the security of the entire system. Our critical information systems are currently GDPR compliant and ISO27001 certified.
+
+ 3. Continuously adjust the existing working standards and procedures to ensure the confidentiality, integrity and availability of the data, and promptly notify the authorities and users within 72 hours as required by laws and regulations upon the occurrence of personal privacy violations:
+ 1) Import ISO 27001 / ISMS information security management system;
+ 2) Revise the data protection and privacy policy of the company;
+ 3) Data collection and use consent/statement content adjustment;
+ 4) Update the processing procedures for data leakage;
+ 5) Develop an emergency response procedure.
+
+
+ V.How to manage your information
+ You can manage your information in the following ways:
+
+ 1. Query and Change your Information: You have the right to query and change your personal information through the client application or log in to the website and click Account Settings to query and modify your account information.
+
+ 2. Change the scope of your authorization: To enable some functions of the client application, you need to obtain your authorization on the mobile device. You can modify the authorization in the relevant system Settings of the mobile device. When you withdraw your authorization, we will no longer process the relevant personal information and the corresponding functions may not be enabled properly. However, your decision to withdraw your consent will not affect the processing of personal information that has previously been carried out based on your authorization.
+
+ 3. Responding to your feedback request: In order to ensure security, we may require you to verify your identity before processing your request, so you need to provide written proof or other relevant information to prove your identity. In the following circumstances, we will not be able to respond to your request in accordance with laws and regulations:
+ 1) Related to national security and national defense security;
+ 2) Related to public security, public health or major public interests;
+ 3) Those related to criminal investigation, prosecution, trial and execution of judgments;
+ 4) There is sufficient evidence to show that the subject of personal information has subjective malice or abuse of rights;
+ 5) Responding to your request will cause serious damage to the legitimate rights and interests of you or other individuals or organizations;
+ 6) Involving trade secrets.
+
+
+ Vi. How to realize the global transfer of information
+ According to the requirements of data security protection laws and regulations applicable in different countries, the measures for the global transfer of information are as follows: Personal information collected and generated during operations in China shall be stored in China, except in the following cases:
+
+ 1) The applicable laws are clearly stipulated;
+ 2) Obtain your express authorization;
+ 3) You take the initiative to conduct cross-border transactions through the Internet. In light of the above circumstances, we will ensure that your personal information is adequately protected in accordance with this Privacy Policy.
+
+
+ Vii. How to update this Privacy Policy
+
+ 1. We may revise this policy in due course to meet the requirements of the latest laws and regulations.
+ 2. We will notify you on the official website or in other ways before the change takes effect, so that you can read the complete content after the update.
+ 3. Under such circumstances, if you choose to continue to use our services, you agree to be bound by the first revised Policy.
+
+
+ Thank you for taking the time to read our privacy policy
+
+
+ "</string>
+    <string name="privacy_policy_en">Privacy Policy</string>
+    <string name="privacy_policy_title_txt">隐私政策</string>
+    <string name="privacy_policy_title_txt_en">Privacy Policy</string>
+    <string name="privateKeyP2">#e$r</string>
+    <string name="request_delayed_by_x_ms">Ad request will be delayed by %dms to account for idletime</string>
+    <string name="request_parameter_override_attempt">Parameter %s cannot be overridden by custom keywords</string>
+    <string name="resize" formatted="false">MRAID resize() called with w:%d, h:%d, offset_x:%d, offset_y:%d, cust_close_position:%s, allow_offscreen:%b</string>
+    <string name="response_blank">The server returned a blank 200 OK HTTP response.</string>
+    <string name="response_body">Response body: %s</string>
+    <string name="response_error" formatted="false">E301: The server replied with an error: %s:%s</string>
+    <string name="response_header" formatted="false">Header: %s Value: %s</string>
+    <string name="response_json_error">E300: There was an error parsing the JSON response: %s</string>
+    <string name="response_no_ads">"The server responded, but didn't return any ads."</string>
+    <string name="result_cb_bad_response">result cb returned a bad response</string>
+    <string name="result_cb_ignored">Ignored result cb received response</string>
+    <string name="screen_off_stop">Stopped ad requests since screen is off</string>
+    <string name="screen_on_start">Starting ad requests since screen is on</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select_music_cn">选择音乐</string>
+    <string name="select_music_en">Select Music</string>
+    <string name="sending_log_url">Sending Log: %s</string>
+    <string name="set_ad_sizes">setAdSizes() called on banner.</string>
+    <string name="set_ad_sizes_no_elements">setAdSizes() called with empty adSizes</string>
+    <string name="set_ad_sizes_null">setAdSizes() called with null adSizes</string>
+    <string name="set_allowed_sizes">setAllowedSizes() called on interstitial.</string>
+    <string name="set_auto_refresh">setAutoRefresh() to: %b</string>
+    <string name="set_banner_ad_listener">setBannerAdListener() called on AdView.</string>
+    <string name="set_bg">setBackgroundColor() called on interstitial.</string>
+    <string name="set_gender">setGender() to: %s</string>
+    <string name="set_height">setAdHeight() to: %d</string>
+    <string name="set_interstitial_ad_listener">setInterstitialAdListener() called on AdView.</string>
+    <string name="set_max_size" formatted="false">setMaxSize() to %dx%d</string>
+    <string name="set_opens_native_browser">setOpensNativeBrowser() to: %b</string>
+    <string name="set_orientation_properties" formatted="false">MRAID setOrientationProperties called with allow_orientation_change=%b, orientation=%d</string>
+    <string name="set_override_max_size">setOverrideMaxSize() to %b</string>
+    <string name="set_period">setAutoRefreshInterval() to: %d</string>
+    <string name="set_placement_id">setPlacementID() to: %s</string>
+    <string name="set_reward_video_ad_listener">setRewardVideoAdListener() called on AdView.</string>
+    <string name="set_should_resume">setShouldReloadOnResume() to %b</string>
+    <string name="set_size" formatted="false">setAdSize() to: %dx%d</string>
+    <string name="set_splash_ad_listener">setSplashAdListener() called on AdView.</string>
+    <string name="set_width">setAdWidth() to: %d</string>
+    <string name="show_int">show() called on interstitial.</string>
+    <string name="show_loading_indicator_xml">showLoadingIndicator has been set in xml</string>
+    <string name="sig_ad">Ad</string>
+    <string name="sig_back">Close</string>
+    <string name="sig_close">Skip</string>
+    <string name="sig_close_ad_cancel">Cancel</string>
+    <string name="sig_close_ad_message">You will be rewarded with only _SEC_ seconds</string>
+    <string name="sig_close_ad_ok">Confirm</string>
+    <string name="sig_close_ad_title">Close video?</string>
+    <string name="sig_close_args">%1$d Skip</string>
+    <string name="sig_skip_ad_args">Skip AD %1$d</string>
+    <string name="sig_skip_args_1">Skip %1$d</string>
+    <string name="sig_skip_args_2">%1$d Skip</string>
+    <string name="skip_ad">跳过</string>
+    <string name="splash_app_name">jad_yun_splash</string>
+    <string name="start">Start fetching an ad</string>
+    <string name="start_record_cn">准备录像</string>
+    <string name="start_record_en">Record</string>
+    <string name="start_snap_cn">准备拍照</string>
+    <string name="start_snap_en">Snap</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop">Stop fetching ads</string>
+    <string name="store_picture_accept">Accept</string>
+    <string name="store_picture_decline">Decline</string>
+    <string name="store_picture_error">There was an error while storing picture.</string>
+    <string name="store_picture_message">This Ad would like permission to save a picture.</string>
+    <string name="store_picture_title">Store Picture?</string>
+    <string name="success_connect_wifi_cn">Wifi连接成功！</string>
+    <string name="success_connect_wifi_dutch">WiFi-apparaat is met succes verbonden!</string>
+    <string name="success_connect_wifi_en">Wifi device is successfully connected！</string>
+    <string name="success_connect_wifi_fra">Connexion réussie de l’appareil WiFi!</string>
+    <string name="success_connect_wifi_span">¡Dispositivo wifi conectado con éxito!</string>
+    <string name="tapad_abort_reward_hint">再看 %1$ds 可领奖励</string>
+    <string name="tapad_abort_reward_hint_default">再看一会儿就可领奖励</string>
+    <string name="tapad_ad_version_title">版本 %1$s</string>
+    <string name="tapad_app_download">准备下载:</string>
+    <string name="tapad_banner_download">立即下载</string>
+    <string name="tapad_banner_download_with_size">"立即下载
+%s"</string>
+    <string name="tapad_banner_install">安装</string>
+    <string name="tapad_banner_open">打开</string>
+    <string name="tapad_banner_train_interaction_desc_download">了解详情</string>
+    <string name="tapad_banner_train_interaction_desc_jump">了解更多</string>
+    <string name="tapad_banner_train_interaction_title_download">点击下载</string>
+    <string name="tapad_banner_train_interaction_title_install">点击安装</string>
+    <string name="tapad_banner_train_interaction_title_jump">点我上车</string>
+    <string name="tapad_banner_train_interaction_title_open">点击打开</string>
+    <string name="tapad_btn_abort_reward">放弃奖励</string>
+    <string name="tapad_btn_close">关闭</string>
+    <string name="tapad_btn_resume_play">继续播放</string>
+    <string name="tapad_btn_skip">跳过</string>
+    <string name="tapad_download_complete">已下载完成，快来玩游戏吧</string>
+    <string name="tapad_download_error">下载异常，点击进行重试</string>
+    <string name="tapad_download_last_duration">剩余时间</string>
+    <string name="tapad_downloading">正在下载</string>
+    <string name="tapad_general_permission_title">常规权限</string>
+    <string name="tapad_huawei_identifier_hiad_str_2">245d64e65dc9fe70d4d62aa6b941221fa92a3fb07db7a4858e43bf1dbf2972e9</string>
+    <string name="tapad_huawei_identifier_hiad_str_3">9b38b1ce5d9b5bba1a6539ad75eae153555c74f5b95e6cdfe5019a6a0e56f466</string>
+    <string name="tapad_permission_title">所需权限</string>
+    <string name="tapad_sensitive_permission_title">隐私敏感权限</string>
+    <string name="tapad_start_download">开始下载:</string>
+    <string name="tapad_str_ads">广告</string>
+    <string name="tapad_str_goto_taptap_download">点击前往 TapTap 下载</string>
+    <string name="tapad_str_seconds">秒</string>
+    <string name="too_old">An interstitial ad was told to display, but is over the 60s mAge limit.</string>
+    <string name="transition_direction">transition direction has been set in xml</string>
+    <string name="transition_duration">transition duration has been set in xml</string>
+    <string name="transition_type">transition type has been set in xml</string>
+    <string name="tt_appdownloader_button_cancel_download">取消</string>
+    <string name="tt_appdownloader_button_queue_for_wifi">排队</string>
+    <string name="tt_appdownloader_button_start_now">立即开始</string>
+    <string name="tt_appdownloader_download_percent">%1$d%%</string>
+    <string name="tt_appdownloader_download_remaining">剩余时间：%1$s</string>
+    <string name="tt_appdownloader_download_unknown_title">&lt;未命名></string>
+    <string name="tt_appdownloader_duration_hours">%1$d 小时</string>
+    <string name="tt_appdownloader_duration_minutes">%1$d 分钟</string>
+    <string name="tt_appdownloader_duration_seconds">%1$d 秒</string>
+    <string name="tt_appdownloader_jump_unknown_source">请打开应用安装权限，以便顺利安装！</string>
+    <string name="tt_appdownloader_label_cancel">取消</string>
+    <string name="tt_appdownloader_label_cancel_directly">直接取消</string>
+    <string name="tt_appdownloader_label_ok">确定</string>
+    <string name="tt_appdownloader_label_reserve_wifi">Wi-Fi下恢复</string>
+    <string name="tt_appdownloader_notification_download">下载</string>
+    <string name="tt_appdownloader_notification_download_complete_open">下载完成，点击打开。</string>
+    <string name="tt_appdownloader_notification_download_complete_with_install">下载完成，点击安装。</string>
+    <string name="tt_appdownloader_notification_download_complete_without_install">下载完成</string>
+    <string name="tt_appdownloader_notification_download_continue">下载暂停中，点击继续。</string>
+    <string name="tt_appdownloader_notification_download_delete">确认要删除%1$s的下载任务吗？</string>
+    <string name="tt_appdownloader_notification_download_failed">下载失败。</string>
+    <string name="tt_appdownloader_notification_download_install">安装</string>
+    <string name="tt_appdownloader_notification_download_open">打开</string>
+    <string name="tt_appdownloader_notification_download_pause">暂停</string>
+    <string name="tt_appdownloader_notification_download_restart">重新下载</string>
+    <string name="tt_appdownloader_notification_download_resume">继续</string>
+    <string name="tt_appdownloader_notification_download_space_failed">SdCard空间不足, 下载失败。</string>
+    <string name="tt_appdownloader_notification_download_waiting_net">等待网络继续下载</string>
+    <string name="tt_appdownloader_notification_download_waiting_wifi">等待wifi开始下载</string>
+    <string name="tt_appdownloader_notification_downloading">正在下载</string>
+    <string name="tt_appdownloader_notification_install_finished_open">安装完成，点击打开。</string>
+    <string name="tt_appdownloader_notification_insufficient_space_error">空间不足 还需%1$s</string>
+    <string name="tt_appdownloader_notification_need_wifi_for_size">文件过大，需要通过 WLAN 下载。</string>
+    <string name="tt_appdownloader_notification_no_internet_error">下载异常，请检查网络</string>
+    <string name="tt_appdownloader_notification_no_wifi_and_in_net">无Wi-Fi 已暂停</string>
+    <string name="tt_appdownloader_notification_paused_in_background">已在后台暂停。</string>
+    <string name="tt_appdownloader_notification_pausing">暂停中</string>
+    <string name="tt_appdownloader_notification_prepare">准备中</string>
+    <string name="tt_appdownloader_notification_request_btn_no">立即下载</string>
+    <string name="tt_appdownloader_notification_request_btn_yes">去设置</string>
+    <string name="tt_appdownloader_notification_request_message">为了您能在方便地在通知栏控制下载任务，请到设置中开启通知，如果不需要可直接下载</string>
+    <string name="tt_appdownloader_notification_request_title">设置</string>
+    <string name="tt_appdownloader_notification_waiting_download_complete_handler">处理中</string>
+    <string name="tt_appdownloader_resume_in_wifi">您当前处于移动网络，是否需要在Wi-Fi环境下恢复下载？</string>
+    <string name="tt_appdownloader_tip">提示</string>
+    <string name="tt_appdownloader_wifi_recommended_body">"立即开始下载此内容 (%1$s ) 可能会缩短电池的使用时间并/或导致过量使用移动数据连接流量（这可能导致移动运营商向您收费，具体取决于您的流量套餐）。
+
+触摸“%2$s”可在下次连接到 WLAN 网络时开始下载此内容。"</string>
+    <string name="tt_appdownloader_wifi_recommended_title">稍后再加入下载队列吗？</string>
+    <string name="tt_appdownloader_wifi_required_body">"您必须使用 WLAN 完成此内容 (%1$s ) 的下载。
+
+触摸“%2$s ”可在下次连接到 WLAN 网络时开始下载此内容。"</string>
+    <string name="tt_appdownloader_wifi_required_title">文件太大，不适于通过运营商网络下载</string>
+    <string name="ua">Your user agent string is: %s</string>
+    <string name="unhidden">The AdView has been unhidden.</string>
+    <string name="unknown_exception">"E204: Ad couldn't be fetched due to unknown exception, see above trace."</string>
+    <string name="unknown_internet_exception">"Ad couldn't be fetched due to unknown internet exception, maybe internet connect error."</string>
+    <string name="unsupport_upload_file_cn">不支持该格式</string>
+    <string name="unsupport_upload_file_en" />
+    <string name="unsupported_encoding">Cannot play video due to unsupported encoding</string>
+    <string name="unsupported_mraid">Mraid function %s unsupported.</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="user_agreement_content">"【重要须知】
+
+ 在此特别提醒用户认真阅读、充分理解本《软件许可及服务协议》（下称“本协议”）。 用户应认真阅读、充分理解本协议中各条款，特别涉及免除或者限制本公司责任、争议解决和法律适用的条款。 免除或者限制责任的条款将以粗体标识，您需要重点阅读。请您审慎阅读并选择接受或不接受本协议（未成年人应在法定监护人陪同下阅读）。 您的下载、安装、使用本软件以及账号获取和登录等行为将视为对本协议的接受，并同意接受本协议各项条款的约束。
+
+ 本公司有权修订本协议，更新后的协议条款将公布于官网或软件，自公布之日起生效。用户可重新下载安装本软件或网站查阅最新版协议条款。 在本公司修改本协议条款后，如果用户不接受修改后的条款，请立即停止使用本公司提供的软件和服务，用户继续使用本公司提供的软件和服务将被视为已接受了修改后的协议。
+
+ 一、总则
+ 1.1. 本协议是您（如下也称“用户”）与本公司及其运营合作单位（如下简称“合作单位”）之间关于用户下载、安装、使用本公司软件（下称“本软件”）以及使用本公司相关服务所订立的协议。
+
+ 1.2. 本软件及服务是本公司提供的安装在包括但不限于移动智能终端设备上的软件和服务，为使用该智能终端的用户提供绑定、操作智能产品等服务等。
+
+ 1.3. 本软件及服务的所有权和运营权均归本公司所有。
+
+ 二、软件授权范围
+ 2.1. 本公司就本软件给予用户一项个人的、不可转让、不可转授权以及非独占性的许可。
+
+ 2.2. 用户可以为非商业目的在单一台移动终端设备上安装、使用、显示、运行本软件。但用户不得为商业运营目的安装、使用、运行本软件，不可以对本软件或者本软件运行过程中释放到任何终端设备内存中的数据及本软件运行过程中客户端与服务器端的交互数据进行复制、更改、修改、挂接运行或创作任何衍生作品，形式包括但不限于使用插件、外挂或非经授权的第三方工具/服务接入本软件和相关系统。如果需要进行商业性的销售、复制和散发，例如软件预装和捆绑，必须获得本公司的书面授权和许可。
+
+ 2.3. 用户不得未经本公司许可，将本软件安装在未经本公司明示许可的其他终端设备上，包括但不限于机顶盒、游戏机、电视机、DVD机等。
+
+ 2.4. 用户可以为使用本软件及服务的目的复制本软件的一个副本，仅用作备份。备份副本必须包含原软件中含有的所有著作权信息。
+
+ 2.5. 除本《协议》明示授权外，本公司未授权给用户其他权利，若用户使用其他权利时须另外取得本公司的书面同意。
+
+ 三、软件的获取、安装、升级
+ 3.1. 用户应当按照本公司的指定网站或指定方式下载安装本软件产品。谨防在非指定网站下载本软件，以免移动终端设备感染能破坏用户数据和获取用户隐私信息的恶意程序。如果用户从未经本公司授权的第三方获取本软件或与本软件名称相同的安装程序，本公司无法保证该软件能够正常使用，并对因此给您造成的损失不予负责。
+
+ 3.2. 用户必须选择与所安装终端设备相匹配的本软件版本，否则，由于软件与设备型号不相匹配所导致的任何软件问题、设备问题或损害，均由用户自行承担。
+
+ 3.3. 为了改善用户体验、完善服务内容，本公司有权不时地为您提供本软件替换、修改、升级版本，也有权为替换、修改或升级收取费用，但将收费提前征得您的同意。本软件为用户默认开通“升级提示”功能，视用户使用的软件版本差异，本公司提供给用户自行选择是否需要开通此功能。软件新版本发布后，本公司不保证旧版本软件的继续可用。
+
+ 四、使用规范
+ 4.1. 用户在遵守法律及本《协议》的前提下可依本《协议》使用本软件及服务，用户不得实施如下行为：
+ 4.1.1. 删除本软件及其他副本上一切关于版权的信息，以及修改、删除或避开本软件为保护知识产权而设置的技术措施；
+ 4.1.2. 对本软件进行反向工程，如反汇编、反编译或者其他试图获得本软件的源代码；
+ 4.1.3. 通过修改或伪造软件运行中的指令、数据，增加、删减、变动软件的功能或运行效果，或者将用于上述用途的软件、方法进行运营或向公众传播，无论这些行为是否为商业目的；
+ 4.1.4. 使用本软件进行任何危害网络安全的行为，包括但不限于：使用未经许可的数据或进入未经许可的服务器/账户；未经允许进入公众网络或者他人操作系统并删除、修改、增加存储信息；未经许可企图探查、扫描、测试本软件的系统或网络的弱点或其它实施破坏网络安全的行为； 企图干涉、破坏本软件系统或网站的正常运行，故意传播恶意程序或病毒以及其他破坏干扰正常网络信息服务的行为；伪造TCP/IP数据包名称或部分名称；
+ 4.1.5. 用户通过非本公司公司开发、授权或认可的第三方兼容软件、系统登录或使用本软件及服务，或制作、发布、传播上述工具；
+ 4.1.6. 未经本公司书面同意，用户对软件及其中的信息擅自实施包括但不限于下列行为：使用、出租、出借、复制、修改、链接、转载、汇编、发表、出版，建立镜像站点、擅自借助本软件发展与之有关的衍生产品、作品、服务、插件、外挂、兼容、互联等；
+ 4.1.7. 利用本软件发表、传送、传播、储存违反当地法律法规的内容；
+ 4.1.8. 利用本软件发表、传送、传播、储存侵害他人知识产权、商业秘密等合法权利的内容；
+ 4.1.9. 利用本软件批量发表、传送、传播广告信息及垃圾信息；
+ 4.1.10. 其他以任何不合法的方式、为任何不合法的目的、或以任何与本协议许可使用不一致的方式使用本软件和本公司提供的其他服务；
+
+ 4.2. 信息发布规范
+ 4.2.1．您可使用本软件发表属于您原创或您有权发表的观点看法、数据、文字、信息、用户名、图片、照片、个人信息、音频、视频文件、链接等信息内容。您必须保证，您拥有您所上传信息内容的知识产权或已获得合法授权，您使用本软件及服务的任何行为未侵犯任何第三方之合法权益。
+ 4.2.2．您在使用本软件时需遵守当地法律法规要求。
+ 4.2.3．您在使用本软件时不得利用本软件从事以下行为，包括但不限于：
+ 4.2.3.1.制作、复制、发布、传播、储存违反当地法律法规的内容；
+ 4.2.3.2.发布、传送、传播、储存侵害他人名誉权、肖像权、知识产权、商业秘密等合法权利的内容；
+ 4.2.3.3.虚构事实、隐瞒真相以误导、欺骗他人；
+ 4.2.3.4.发表、传送、传播广告信息及垃圾信息；
+ 4.2.3.5.从事其他违反当地法律法规的行为。
+ 4.2.4. 未经本公司许可，您不得在本软件中进行任何诸如发布广告、销售商品的商业行为。
+
+ 4.3.您理解并同意：
+ 4.3.1. 本公司会对用户是否涉嫌违反上述使用规范做出认定，并根据认定结果中止、终止对您的使用许可或采取其他依本约定可采取的限制措施；
+ 4.3.2. 对于用户使用许可软件时发布的涉嫌违法或涉嫌侵犯他人合法权利或违反本协议的信息，本公司会直接删除；
+ 4.3.3. 对于用户违反上述使用规范的行为对第三方造成损害的，您需要以自己的名义独立承担法律责任，并应确保本公司免于因此产生损失或增加费用；
+ 4.3.4．若用户违反有关法律规定或协议约定，使本公司遭受损失，或受到第三方的索赔，或受到行政管理机关的处罚，用户应当赔偿本公司因此造成的损失和（或）发生的费用，包括合理的律师费、调查取证费用。
+
+ 五、服务风险及免责声明
+ 5.1. 用户必须自行配备移动终端设备上网和使用电信增值业务所需的设备，自行负担个人移动终端设备上网或第三方（包括但不限于电信或移动通信提供商）收取的通讯费、信息费等有关费用。如涉及电信增值服务的，我们建议您与您的电信增值服务提供商确认相关的费用问题。
+
+ 5.2. 用户因第三方如通讯线路故障、技术问题、网络、移动终端设备故障、系统不稳定性及其他各种不可抗力原因而遭受的一切损失，本公司及合作单位不承担责任。
+
+ 5.3. 本软件同大多数互联网软件一样，受包括但不限于用户原因、网络服务质量、社会环境等因素的差异影响，可能受到各种安全问题的侵扰，如他人利用用户的资料，造成现实生活中的骚扰；用户下载安装的其它软件或访问的其他网站中含有“特洛伊木马”等病毒，威胁到用户的终端设备信息和数据的安全，继而影响本软件的正常使用等等。用户应加强信息安全及使用者资料的保护意识，要注意加强密码保护，以免遭致损失和骚扰。
+
+ 5.4. 因用户使用本软件或要求本公司提供特定服务时，本软件可能会调用第三方系统或第三方软件支持用户的使用或访问，使用或访问的结果由该第三方提供，本公司不保证通过第三方系统或第三方软件支持实现的结果的安全性、准确性、有效性及其他不确定的风险，由此若引发的任何争议及损害，本公司不承担任何责任。
+
+ 5.5. 本公司特别提请用户注意，本公司为了保障公司业务发展和调整的自主权，本公司公司拥有随时修改或中断服务而不需通知用户的权利，本公司行使修改或中断服务的权利不需对用户或任何第三方负责。
+
+ 5.6. 除法律法规有明确规定外，我们将尽最大努力确保软件及其所涉及的技术及信息安全、有效、准确、可靠，但受限于现有技术，用户理解本公司不能对此进行担保。
+
+ 5.7. 由于用户因下述任一情况所引起或与此有关的人身伤害或附带的、间接的经济损害赔偿，包括但不限于利润损失、资料损失、业务中断的损害赔偿或其他商业损害赔偿或损失，需由用户自行承担：
+ 5.7.1.使用或未能使用许可软件；
+ 5.7.2.第三方未经许可的使用软件或更改用户的数据；
+ 5.7.3.用户使用软件进行的行为产生的费用及损失；
+ 5.7.4.用户对软件的误解；
+ 5.7.5.非因本公司的原因引起的与软件有关的其他损失。
+
+ 5.8. 用户与其他使用软件的用户之间通过软件进行的行为，因您受误导或欺骗而导致或可能导致的任何人身或经济上的伤害或损失，均由过错方依法承担所有责任。
+
+ 六、知识产权声明
+ 6.1. 本公司是本软件的知识产权权利人。本软件的一切著作权、商标权、专利权、商业秘密等知识产权，以及与本软件相关的所有信息内容（包括但不限于文字、图片、音 频、视频、图表、界面设计、版面框架、有关数据或电子文档等）均受您所在当地法律法规和相应的国际条约保护，本公司享有上述知识产权。
+
+ 6.2 未经本公司书面同意，用户不得为任何商业或非商业目的自行或许可任何第三方实施、利用、转让上述知识产权，本公司保留追究上述行为法律责任的权利。
+
+ 七、协议变更
+ 7.1. 本公司有权在必要时修改本协议条款，协议条款一旦发生变动，将会在相关页面上公布修改后的协议条款。如果不同意所改动的内容，用户应主动取消此项服务。如果用户继续使用服务，则视为接受协议条款的变动。
+
+ 7.2. 本公司和合作公司有权按需要修改或变更所提供的收费服务、收费标准、收费方式、服务费及服务条款。本公司在提供服务时，可能现在或日后对部分服务的用户开始收取一定的费用如用户拒绝支付该等费用，则不能在收费开始后继续使用相关的服务。本公司和合作公司将尽最大努力通过电邮或其他方式通知用户有关的修改或变更。
+
+ 八、其他
+ 8.1. 用户在使用本软件某一特定服务时，该服务可能会另有单独的协议、相关业务规则等（以下统称为“单独协议”），您在使用该项服务前请阅读并同意相关的单独协议。
+
+ 8.2. 本协议生效时间为2021年8月25日。
+
+ 8.3. 本协议所有条款的标题仅为阅读方便，本身并无实际涵义，不能作为本协议涵义解释的依据。
+
+ 8.4. 本协议条款无论因何种原因部分无效或不可执行，其余条款仍有效，对双方具有约束力。
+
+"</string>
+    <string name="user_agreement_content_en">" 【 Important Notes 】
+
+ hereby specially reminds users to read and fully understand this Software License and Service Agreement (hereinafter referred to as This Agreement).The user shall carefully read and fully understand the terms of this Agreement, especially those relating to the exemption or limitation of the Company's liability, dispute resolution and the application of law.Clauses exempting or limiting liability are highlighted in bold.Please read carefully and choose to accept or not accept this Agreement (minors should read in the presence of a legal guardian).Your download, installation, use of the Software and account acquisition and login will be deemed to be your acceptance of this Agreement and you agree to be bound by the terms of this Agreement.
+
+ The Company reserves the right to amend this Agreement, and the updated terms of this Agreement will be published on the website or software, effective from the date of publication.Users can re-download and install the software or check the latest version of the terms of the agreement.After the Company changes the terms of this Agreement, if the User does not accept the modified terms, please immediately stop using the software and Services provided by the Company. The user's continued use of the software and Services provided by the Company will be deemed to have accepted the modified Agreement.
+
+ I. the general
+ 1.1. This Agreement is an agreement between you (hereinafter referred to as User) and the Company and its operating partners (hereinafter referred to as Partners) regarding the user's download, installation and use of the Company's Software (hereinafter referred to as The Software) and the use of the Company's relevant services.
+
+ 1.2. The Software and services are provided by the Company and installed on intelligent mobile terminal devices, including but not limited to, to provide users with services such as binding and operating intelligent products.
+
+ 1.3. The ownership and operation rights of the Software and Services shall be owned by the Company.
+
+ Ii. Scope of Software Authorization
+ 2.1. The Company grants users an individual, non-transferable, non-sublicensible and non-exclusive license to the Software.
+
+ 2.2. Users can install, use, display and run the software on a single mobile terminal for non-commercial purposes.But the user must not for business purpose to run this software, installation, use and operation process of this software or the software can not be released to any terminal equipment data in memory and the software running in the process of the client and the server interaction data copy, change, modify, articulated run or create any derivative works,The form includes but is not limited to using plug-ins, plug-ins or unauthorized third-party tools/services to access the software and related systems.Any commercial sale, reproduction, and distribution, such as pre-installation and bundling of software, must be authorized and licensed in writing by the Company.
+
+ 2.3. Users shall not install the Software on any other terminal equipment without the express permission of The Company, including but not limited to set-top boxes, game consoles, TV sets, DVD players, etc., without the company's permission.
+
+ 2.4. Users may make a copy of the Software for the purpose of using the Software and services for backup only.The backup copy must contain all copyright information contained in the original software.
+
+ 2.5. Except as expressly authorized by this Agreement, No rights are granted to User by The Company, and Any use of such rights by User shall be subject to the written consent of The Company.
+
+ Iii. Obtaining, installing, and upgrading the software
+ 3.1. Users shall download and install the software in accordance with the website or method specified by the Company.Beware of downloading the software from non-designated websites to prevent mobile terminal devices from being infected with malicious programs that can destroy user data and obtain user privacy information.If the user obtains the software or an installation program with the same name as the software from a third party not authorized by the Company, the Company cannot guarantee the normal use of the software and will not be responsible for the losses caused to you.
+
+ 3.2. The user must select the software version that matches the installed terminal device; otherwise, any software problems, equipment problems or damage caused by the mismatch between the software and the device model shall be borne by the user.
+
+ 3.3. In order to improve user experience and improve service content, the Company has the right to provide you with replacement, modification or upgrade version of the Software from time to time, and also has the right to charge for the replacement, modification or upgrade, provided that such charges are agreed by you in advance.The Upgrade Prompt function is enabled for users by default. Depending on the software version used by users, the company provides users with the option to enable this function.After a new version of the software is released, the Company does not guarantee the continued availability of the old version of the software.
+
+ Iv. Usage specifications
+ 4.1. User may use the Software and Services in accordance with this Agreement provided that user complies with laws and this Agreement. User shall not: 4.1.1. Delete all information about copyright in the Software and other copies, and modify, delete or avoid the technical measures set by the software to protect intellectual property rights;
+ 4.1.2. Reverse engineering the software, such as disassembly, decompilation or other attempts to obtain the source code of the software;
+ 4.1.3. Add, subtract or change the functions or effects of the Software by modifying or falsifying instructions and data in the operation of the Software, or operate or disseminate to the public the software and methods used for the above purposes, whether for commercial purposes or not;
+ 4.1.4. Use the software for any behavior that endangers network security, including but not limited to: use of unauthorized data or access to unauthorized servers/accounts;Enter the public network or other people's operating system without permission and delete, modify or add stored information;Unauthorized attempts to probe, scan or test the weaknesses of the software system or network, or other acts to disrupt network security;Attempt to interfere with or destroy the normal operation of the software system or website, intentionally spread malicious programs or viruses, and other acts of damaging and interfering with normal network information services;Forged TCP/IP packet names or partial names;
+ 4.1.5. Users log in to or use the software and services through third-party compatible software and systems not developed, authorized or approved by the Company, or make, publish or disseminate the tools;
+ 4.1.6. Without the written consent of the company without authorization users of the information in the software and its implementation including but not limited to the following ACTS: use, lease, loan, copy, modify, links, reprints, compiled and published, publishing, establishing mirror sites, without authorization, with the help of the software development related derivatives, works, services, plug-in, plugins, compatible, Internet, etc.;
+ 4.1.7. Use the software to publish, transmit, disseminate or store contents in violation of local laws and regulations;
+ 4.1.8. Use the software to publish, transmit, disseminate and store contents that infringe others' intellectual property rights, trade secrets and other legal rights;
+ 4.1.9. Use this software to publish, transmit and spread advertising information and spam information in batches;
+ 4.1.10. Use the Software and other services provided by the Company in any unlawful way, for any unlawful purpose, or in any manner inconsistent with the use permitted herein;
+
+ 4.2. Specification of information Release
+ 4.2.1.You can use the software to publish your original or entitled opinions, data, text, information, user name, pictures, photos, personal information, audio, video files, links and other information.You must guarantee that you own the intellectual property rights of the information content you upload or have obtained the legal authorization, and that your use of the software and services does not infringe the legitimate rights and interests of any third party.
+ 4.2.2.You need to comply with local laws and regulations when using this software.
+ 4.2.3. Holdings.When using the software, you shall not use the software to do the following, including but not limited to:
+ 4.2.3.1. Make, copy, publish, disseminate and store contents in violation of local laws and regulations;
+ 4.2.3.2. Release, transmit, disseminate and store contents that infringe on other people's right of reputation, right of portrait, intellectual property rights, trade secrets and other legal rights;
+ 4.2.3.3. Fabricate facts and conceal the truth to mislead and deceive others;
+ 4.2.3.4. Publish, transmit and spread advertising information and spam information;
+ 4.2.3.5. Engage in other acts in violation of local laws and regulations.
+ 4.2.4. Without the permission of the Company, you shall not carry out any commercial activities such as advertising and selling commodities in the software.
+
+ 4.3. You understand and agree that:
+ 4.3.1. The Company will determine whether the user is suspected of violating the above usage specifications and, based on the determination results, suspend or terminate the use license to you or take other restrictive measures that may be taken in accordance with this Agreement;
+ 4.3.2. The Company will directly delete the information that is suspected of violating the law or infringing the legal rights of others or violating this Agreement when users use the licensed Software;
+ 4.3.3. In case of any damage to a third party caused by the user's violation of the above usage rules, you shall independently bear the legal liability in your own name and ensure that the Company is not liable for any loss or additional expenses incurred thereby;
+ 4.3.4.In the event that the User violates the relevant legal provisions or agreements and causes losses to the Company, or is subject to claims by a third party or penalties by administrative authorities, the User shall indemnify the Company for the losses and/or expenses incurred thereby, including reasonable attorney's fees and investigation and evidence collection costs.
+
+ V. Service Risk and Disclaimer
+ 5.1. Users must equip the equipment required for accessing the Internet and using telecom value-added services by themselves, and bear the communication fees, information fees and other related fees charged by third parties (including but not limited to telecom or mobile communication providers) for accessing the Internet by their own mobile terminal devices.In the case of telecom value-added services, we recommend that you check with your telecom value-added service provider for related charges.
+
+ 5.2. The Company and its partners shall not be liable for all losses suffered by the user due to a third party such as communication line failure, technical problems, network, mobile terminal equipment failure, system instability and other force majeure reasons.
+
+ 5.3. The Software, like most Internet software, is subject to differences including but not limited to user reasons, network service quality, social environment and other factors, and may be subjected to various security problems, such as the use of users' information by others, resulting in harassment in real life;Other software downloaded and installed by users or other websites visited contain Trojan horse and other viruses, which threaten the security of users' terminal equipment information and data, and then affect the normal use of the software and so on.Users should strengthen their awareness of information security and protection of user data, and pay attention to enhancing password protection to avoid losses and harassment.
+
+ 5.4. When users use the Software or require the Company to provide specific services, the software may invoke a third-party system or software to support the user's use or access, and the results of such use or access shall be provided by such third party.The Company does not guarantee the safety, accuracy, validity and other uncertain risks of results achieved through third-party systems or third-party software support, and the Company will not be liable for any disputes and damages arising therefrom.
+
+ 5.5. The Company especially reminds users that in order to protect the autonomy of business development and adjustment of the Company, the Company has the right to modify or interrupt the service at any time without notificating users, and the Company is not responsible to users or any third party for exercising the right to modify or interrupt the service.
+
+ 5.6. Except as expressly provided by laws and regulations, we will try our best to ensure the security, effectiveness, accuracy and reliability of the software and the technology and information involved. However, limited by the existing technology, the user understands that the Company cannot guarantee for this.
+
+ 5.7. Users shall be liable for personal injury or incidental and indirect economic damages caused by or related to any of the following circumstances, including but not limited to damages for loss of profits, data loss, business interruption or other commercial damages or losses:
+ 5.7.1. Use or failure to use the licensed Software;
+ 5.7.2. Unauthorized use of the Software by a third party or change of user data;
+ 5.7.3. Expenses and losses generated by users' behaviors using the software;
+ 5.7.4. Users' misunderstanding of the software;
+ 5.7.5. Other losses related to the software not caused by the Company.
+ 5.8. The fault party shall be liable for any personal or economic injury or loss caused or likely to be caused by the misleading or cheating of users and other users who use the Software through the software.
+
+ Vi. Declaration of Intellectual Property rights
+ 6.1. The Company is the owner of the intellectual property rights of the software.All the software copyright, trademarks, patents, trade secrets and other intellectual property rights, and all of the information content associated with the software (including but not limited to text, images, audio frequency, video, graphics, interface design, layout, framework and relevant data or electronic documents, etc.) are influenced by your local laws and regulations and relevant international treaties to protect,The company enjoys the above intellectual property rights.
+
+ 6.2 Without the written consent of The Company, the User shall not enforce, utilize or transfer the intellectual property rights for any commercial or non-commercial purposes or permit any third party to do so. The Company reserves the right to hold the above-mentioned actions legally liable.
+
+ Vii. Agreement modification
+ 7.1. The Company has the right to modify the terms of this Agreement when necessary. Once the terms of this Agreement are changed, the revised terms of this Agreement will be published on the relevant page.If users do not agree with the changed content, they should take the initiative to cancel this service.If the User continues to use the Services, it shall be deemed to have accepted the change in the terms of the Agreement.
+
+ 7.2. The Company and the Cooperative Venture Company have the right to modify or change the paid services, fee standards, fee methods, service fees and service terms provided as necessary.When providing the Services, The Company may start to charge certain fees to users of certain Services now or in the future. If users refuse to pay such fees, they will not be able to continue to use the relevant services after the fees are started.The Company and the Partner Companies will use their best efforts to notify the User of any modification or change by email or otherwise.
+
+ Viii. other
+ 8.1. When users use a specific service of the Software, such service may have a separate agreement and relevant business rules (hereinafter collectively referred to as the Separate Agreement). Please read and agree to the relevant separate agreement before using the service.
+
+ 8.2. This Agreement shall come into force on August 25, 2021.
+
+ 8.3. The headings of all provisions hereof are for convenience of reading only and have no actual meaning in themselves and shall not be used as the basis for the interpretation of the meaning hereof.
+
+ 8.4. No matter the terms of this Agreement are partially invalid or unenforceable for any reason, the remaining terms shall remain valid and binding on both parties.
+
+ "</string>
+    <string name="user_agreement_en">User Agreement</string>
+    <string name="user_agreement_title_txt">用户协议</string>
+    <string name="user_agreement_title_txt_en">User Agreement</string>
+    <string name="videoview_loading">VideoView loading stream: %s</string>
+    <string name="voiceWord">Forward    Backward     Left    Right     Fly    Land     Stop</string>
+    <string name="webclient_error" formatted="false">E205: WebClient error: %d %s</string>
+    <string name="webview_loading">WebView loading body: %s</string>
+    <string name="webview_received_error" formatted="false">E206: Error %d received, %s, while fetching url %s</string>
+    <string name="wifi_video_load">Try to load wifi-only video on cellular network %s</string>
+    <string name="xadsdk_ad_default_title">点击跳转详情页或第三方应用</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">Not now</string>
+    <string name="xiaomi_market_sdk_update_dialog_ok">Update</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">An update is available</string>
+    <string name="xml_ad_height">Ad height set to %d in xml</string>
+    <string name="xml_ad_size">Ad width set to %s in xml</string>
+    <string name="xml_ad_width">Ad width set to %d in xml</string>
+    <string name="xml_load_landing_page_in_background">setDoesLoadingInBackground has been set to %b in xml</string>
+    <string name="xml_resize_ad_to_fit_container">resizeAdToFitContainer set to %b in xml</string>
+    <string name="xml_set_auto_refresh">Auto-refresh is set to %b in xml</string>
+    <string name="xml_set_expands_to_full_screen_width">setExpandsToFullScreenWidth set to %b in xml</string>
+    <string name="xml_set_opens_native_browser">OpensNativeBrowser is set to %b in xml</string>
+    <string name="xml_set_period">Auto refresh interval set to %dms in xml</string>
+    <string name="xml_set_should_reload">ShouldReloadOnResume is set to %b in xml</string>
+    <string name="xml_set_test">Test mode set to %b in xml</string>
+</resources>

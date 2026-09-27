@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mbridge_cm_progress_status_descri_default">Download</string>
+    <string name="mbridge_cm_progress_status_descri_ins">Install</string>
+    <string name="mbridge_cm_progress_status_descri_open">Open</string>
+    <string name="mbridge_cm_progress_status_descri_pause">Continue</string>
+    <string name="mbridge_download_notify_cancel">cancel</string>
+    <string name="mbridge_download_notify_continue">continue</string>
+    <string name="mbridge_download_notify_download_failed">download failed</string>
+    <string name="mbridge_download_notify_download_finish_to_install">download finished，click to install</string>
+    <string name="mbridge_download_notify_download_interrupt">download failed,please checkout the network</string>
+    <string name="mbridge_download_notify_downloading">downloading</string>
+    <string name="mbridge_download_notify_ins">install</string>
+    <string name="mbridge_download_notify_ins_progress_des">downloaded</string>
+    <string name="mbridge_download_notify_network_error">network error</string>
+    <string name="mbridge_download_notify_open">open</string>
+    <string name="mbridge_download_notify_open_progress_des">installed</string>
+    <string name="mbridge_download_notify_pause">pause</string>
+    <string name="mbridge_download_notify_prefix_download">download:</string>
+    <string name="mbridge_download_notify_prefix_pause">pause:</string>
+    <string name="mbridge_download_notify_start_download">start download</string>
+    <string name="mbridge_download_notify_update_finish_to_install">update finished click to install.</string>
+    <string name="mbridge_download_notify_update_package">updating the installation package</string>
+    <string name="mbridge_reward_heat_count_unit">w</string>
+    <string name="mbridge_reward_viewed_text_str">Viewed</string>
+    <string name="mbridge_splash_count_time_can_skip">SKIP</string>
+    <string name="mbridge_splash_count_time_can_skip_not">Auto close after</string>
+    <string name="mbridge_splash_count_time_can_skip_s">s</string>
+</resources>

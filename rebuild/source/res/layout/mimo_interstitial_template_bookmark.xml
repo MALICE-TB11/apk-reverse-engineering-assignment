@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.zeus.mimo.sdk.ad.interstitial.view.InterstitialTemplateBookMarkView android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.zeus.mimo.sdk.view.EventRecordRelativeLayout android:id="@id/mimo_interstitial_ad_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/mimo_interstitial_blur_bg_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_alignTop="@id/mimo_interstitial_main_page" android:layout_alignBottom="@id/mimo_interstitial_main_page" />
+        <RelativeLayout android:id="@id/mimo_interstitial_main_page" android:background="#66ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.miui.zeus.mimo.sdk.view.CustomBookmarkView android:id="@id/mimo_interstitial_bookmark_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ProgressBar android:id="@id/mimo_interstitial_video_progress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2.1999817dp" android:max="100" android:indeterminate="false" android:progressDrawable="@drawable/mimo_template_video_progress" android:layout_alignParentBottom="true" style="@android:style/Widget.ProgressBar.Horizontal" />
+            <ImageView android:id="@id/mimo_interstitial_iv_volume_button" android:layout_width="32.399994dp" android:layout_height="26.199982dp" android:layout_marginLeft="21.799988dp" android:layout_marginTop="29.799988dp" android:src="@drawable/mimo_template_video_volume_button_image" android:scaleType="fitXY" />
+            <include android:id="@id/mimo_interstitial_skip_count_down" android:layout_width="wrap_content" android:layout_height="26.199982dp" android:layout_marginTop="29.799988dp" android:layout_marginRight="21.799988dp" android:layout_alignParentRight="true" layout="@layout/mimo_interstitial_skip_count_down_view" />
+            <LinearLayout android:orientation="vertical" android:id="@id/mimo_interstitial_six_elements_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.5dp" android:layout_marginRight="14.5dp" android:layout_marginBottom="20.299988dp" android:layout_alignParentBottom="true">
+                <include android:id="@id/mimo_interstitial_six_elements" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/mimo_template_six_elements_view" />
+            </LinearLayout>
+            <include android:id="@id/mimo_interstitial_video_tips" android:visibility="gone" layout="@layout/mimo_template_video_tips_view" />
+        </RelativeLayout>
+        <include android:id="@id/mimo_interstitial_endpage" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/mimo_interstitial_template_endpage" />
+    </com.miui.zeus.mimo.sdk.view.EventRecordRelativeLayout>
+</com.miui.zeus.mimo.sdk.ad.interstitial.view.InterstitialTemplateBookMarkView>

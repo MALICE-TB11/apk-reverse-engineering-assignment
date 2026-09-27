@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mimo_reward_shake_content_layout" android:background="@drawable/mimo_reward_shake_bg" android:layout_width="145.0dp" android:layout_height="145.0dp" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mimo_reward_shake_img" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="24.0dp" android:layout_height="44.599976dp" android:src="@drawable/mimo_shake_top" android:scaleType="fitXY" />
+                <ImageView android:layout_width="55.5dp" android:layout_height="13.0dp" android:layout_marginTop="5.799988dp" android:src="@drawable/mimo_shake_bottom" android:scaleType="fitXY" />
+            </LinearLayout>
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.799988dp" android:text="摇一摇" />
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/mimo_reward_shake_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.799988dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="50.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="40.0dp">
+        <TextView android:textColor="@color/white" android:id="@id/item_music_list_position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" />
+        <TextView android:textColor="@color/white" android:id="@id/item_music_list_song" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="20.0dp" android:layout_toEndOf="@id/item_music_list_position" />
+        <TextView android:textColor="@color/white" android:id="@id/item_music_list_singer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="20.0dp" android:layout_toEndOf="@id/item_music_list_song" />
+        <TextView android:textColor="@color/white" android:id="@id/item_music_list_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/item_music_list_start" />
+        <ImageView android:id="@id/item_music_list_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawable_btn_play" android:layout_centerVertical="true" android:layout_toStartOf="@id/item_music_list_confirm" />
+        <Button android:textColor="@color/white" android:id="@id/item_music_list_confirm" android:background="@color/teal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm_music_cn" android:layout_centerVertical="true" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/lightgrey" android:layout_width="match_parent" android:layout_height="1.0dp" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.zeus.mimo.sdk.ad.splash.view.SplashTemplateB1View android:id="@id/mimo_splash_ad_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mimo_splash_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@id/mimo_splash_image_conatiner" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <ImageView android:id="@id/mimo_splash_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+        <include android:id="@id/mimo_splash_skip_count_down" android:layout_width="wrap_content" android:layout_height="24.699982dp" android:layout_marginTop="21.799988dp" android:layout_marginRight="17.449982dp" android:layout_alignParentRight="true" layout="@layout/mimo_splash_skip_count_down_view" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginLeft="10.899994dp" android:layout_marginRight="10.899994dp" android:layout_toLeftOf="@id/mimo_splash_skip_count_down">
+            <TextView android:textSize="8.699982sp" android:textColor="#4dffffff" android:gravity="center" android:id="@id/mimo_splash_dsp" android:background="@drawable/mimo_dsp_bg_33000000_v1" android:paddingLeft="2.5dp" android:paddingTop="0.70000005dp" android:paddingRight="2.5dp" android:paddingBottom="0.70000005dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <include android:id="@id/mimo_splash_six_elements" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.899994dp" layout="@layout/mimo_template_six_elements_view" />
+        </LinearLayout>
+        <View android:background="@drawable/mimo_splash_bottom_gradient" android:layout_width="match_parent" android:layout_height="164.4dp" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/mimo_splash_info_layout" android:layout_width="match_parent" android:layout_height="82.19998dp" android:layout_alignParentBottom="true">
+            <RelativeLayout android:id="@id/mimo_splash_app_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="27.299988dp" android:layout_centerVertical="true">
+                <ImageView android:id="@id/mimo_splash_app_icon" android:layout_width="52.299988dp" android:layout_height="52.299988dp" android:layout_marginRight="6.1999817dp" android:scaleType="centerCrop" />
+            </RelativeLayout>
+            <TextView android:textSize="14.5sp" android:textStyle="bold" android:textColor="@color/mimo_adWhite" android:ellipsize="end" android:gravity="center" android:id="@id/mimo_splash_download_btn" android:background="@drawable/mimo_template_download_btn_bg" android:paddingLeft="9.0dp" android:paddingRight="9.0dp" android:layout_width="129.1dp" android:layout_height="36.399994dp" android:layout_marginRight="27.299988dp" android:maxLines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14.899994dp" android:layout_marginRight="6.1999817dp" android:layout_toLeftOf="@id/mimo_splash_download_btn" android:layout_toRightOf="@id/mimo_splash_app_icon_container">
+                <TextView android:textSize="21.799988sp" android:textStyle="bold" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center" android:id="@id/mimo_splash_brand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <include android:id="@id/mimo_splash_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.1999817dp" layout="@layout/mimo_template_score_view" />
+            </LinearLayout>
+            <TextView android:textSize="14.539978sp" android:textColor="#80ffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/mimo_splash_summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="6.1999817dp" android:layout_marginBottom="14.899994dp" android:maxLines="1" android:layout_toLeftOf="@id/mimo_splash_download_btn" android:layout_toRightOf="@id/mimo_splash_app_icon_container" android:layout_alignParentBottom="true" android:lineSpacingExtra="1.6999817dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.miui.zeus.mimo.sdk.ad.splash.view.SplashTemplateB1View>

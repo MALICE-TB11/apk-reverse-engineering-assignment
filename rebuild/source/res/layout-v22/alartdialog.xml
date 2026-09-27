@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/alart_bg" android:background="@drawable/dialog_bg_modern" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignLeft="@id/alart_bg" android:layout_alignTop="@id/alart_bg" android:layout_alignRight="@id/alart_bg" android:layout_alignBottom="@id/alart_bg">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/alart_close" android:layout_width="76.0px" android:layout_height="76.0px" android:layout_marginLeft="10.0px" android:src="@mipmap/close_icon_poplist" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/y30" android:textStyle="bold" android:textColor="@color/dialog_title_text" android:gravity="center" android:id="@id/alart_title" android:layout_width="match_parent" android:layout_height="100.0px" android:singleLine="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:background="@color/dialog_divider" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:layout_marginVertical="8.0dp" />
+        <TextView android:textSize="@dimen/y30" android:textStyle="normal" android:textColor="@color/dialog_content_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/alart_content" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="220.0px" android:maxLines="3" />
+        <TextView android:background="@color/dialog_divider" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:layout_marginVertical="8.0dp" />
+        <LinearLayout android:orientation="horizontal" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/alart_confirm_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dp" android:layout_weight="1.0">
+                <Button android:textSize="@dimen/y30" android:textStyle="bold" android:textColor="@color/button_primary_text" android:gravity="center" android:id="@id/alart_btn_confirm" android:background="@drawable/button_primary_modern" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/alart_confirm_txt_en" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/alart_cancel_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_weight="1.0">
+                <Button android:textSize="@dimen/y30" android:textColor="@color/button_secondary_text" android:gravity="center" android:id="@id/alart_btn_cancel" android:background="@drawable/button_secondary_modern" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/alart_cancel_txt_en" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

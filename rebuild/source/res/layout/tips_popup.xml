@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_background" android:background="@drawable/tanx_shape_close_pop_write" android:paddingLeft="11.0dp" android:paddingRight="11.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_uninterested" android:layout_width="match_parent" android:layout_height="30.0dp">
+        <ImageView android:id="@id/iv_uninterested" android:layout_width="11.0dp" android:layout_height="11.0dp" android:src="@mipmap/uninterested_night" />
+        <TextView android:textSize="9.0dp" android:textColor="@color/text_color_333" android:id="@id/tv_uninterested" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dp" android:text="不感兴趣" />
+    </LinearLayout>
+    <View android:id="@id/view_line" android:layout_width="match_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_poor_content" android:layout_width="match_parent" android:layout_height="30.0dp">
+        <ImageView android:id="@id/iv_poor_content" android:layout_width="11.0dp" android:layout_height="11.0dp" android:src="@mipmap/poor_content_night" />
+        <TextView android:textSize="9.0dp" android:textColor="@color/text_color_333" android:id="@id/tv_poor_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dp" android:text="广告内容质量差" />
+    </LinearLayout>
+</LinearLayout>

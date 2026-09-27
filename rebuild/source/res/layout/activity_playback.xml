@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/file_bg_list" android:scaleType="fitXY" />
+    <ImageView android:id="@id/ivPlayBackReturn" android:layout_width="@dimen/y95" android:layout_height="@dimen/y95" android:layout_marginLeft="@dimen/y17" android:layout_marginTop="@dimen/y6" android:src="@drawable/play_return_click" android:scaleType="fitXY" android:onClick="onClick" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/ivPhotoList" android:layout_width="@dimen/y300" android:layout_height="@dimen/y300" android:src="@drawable/playback_photo_click" android:scaleType="fitCenter" android:layout_centerInParent="true" android:onClick="onClick" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/ivVideoList" android:layout_width="@dimen/y300" android:layout_height="@dimen/y300" android:src="@drawable/playback_video_click" android:scaleType="fitCenter" android:layout_centerInParent="true" android:onClick="onClick" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/bannerContainerPlayBack" android:background="@color/adColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

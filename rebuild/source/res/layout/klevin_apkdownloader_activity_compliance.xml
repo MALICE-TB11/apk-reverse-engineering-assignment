@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#80000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/klevin_apkdownloader_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_title_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_icon" android:layout_width="80.0dp" android:layout_height="80.0dp" android:layout_marginTop="32.0dp" android:layout_centerHorizontal="true" />
+            <Button android:id="@id/btn_close" android:background="@mipmap/klevin_dialog_close" android:layout_width="22.0dp" android:layout_height="22.0dp" android:layout_marginTop="16.0dp" android:layout_marginRight="16.0dp" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="8.0dp">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/klevin_apkdownloader_second_confirm_content_value_color" android:id="@id/tv_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <TextView android:textSize="14.0sp" android:textColor="@color/klevin_apkdownloader_second_confirm_content_key_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开发者：" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/klevin_apkdownloader_second_confirm_content_key_color" android:id="@id/tv_app_developer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                <TextView android:textSize="14.0sp" android:textColor="@color/klevin_apkdownloader_second_confirm_content_key_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更新时间：" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/klevin_apkdownloader_second_confirm_content_key_color" android:id="@id/tv_app_updatetime" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                <TextView android:textSize="14.0sp" android:textColor="@color/klevin_apkdownloader_second_confirm_content_key_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="版本：" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/klevin_apkdownloader_second_confirm_content_key_color" android:id="@id/tv_app_version" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+                <TextView android:textSize="13.0sp" android:textColor="@color/klevin_apkdownloader_second_confirm_content_explain_color" android:id="@id/tv_permission_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28.0dp" android:text="权限说明" />
+                <TextView android:background="#cccccc" android:layout_width="1.0dp" android:layout_height="14.0dp" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/klevin_apkdownloader_second_confirm_content_explain_color" android:id="@id/tv_privacy_policy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dp" android:text="隐私政策" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="#ff6740" android:id="@id/tv_wifi_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="当前处于非WiFi环境" />
+        </LinearLayout>
+        <Button android:textSize="22.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_single" android:background="@drawable/klevin_apkdownloader_dialog_positive" android:layout_width="224.0dp" android:layout_height="50.0dp" android:layout_marginLeft="24.0dp" android:layout_marginTop="8.0dp" android:layout_marginRight="24.0dp" android:layout_marginBottom="24.0dp" android:text="立即下载" />
+    </LinearLayout>
+</LinearLayout>

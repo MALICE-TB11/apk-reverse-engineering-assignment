@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.zeus.mimo.sdk.ad.reward.view.RewardVideoTipsView android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/mimo_reward_video_tips_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="@android:color/black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="41.0dp" android:text="观看完视频即可获取奖励" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="46.0dp" android:layout_marginLeft="20.0dp" android:layout_marginTop="25.0dp" android:layout_marginRight="20.0dp" android:layout_marginBottom="27.0dp">
+        <TextView android:textSize="16.0sp" android:textColor="@color/mimo_reward_video_tips_abandon_btn_text_color_selector" android:gravity="center" android:id="@id/mimo_reward_video_abandon" android:background="@drawable/mimo_reward_video_tips_abandon_btn_selector" android:layout_width="0.0dp" android:layout_height="match_parent" android:adjustViewBounds="true" android:text="放弃奖励" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/mimo_reward_video_tips_continue_btn_text_color_selector" android:gravity="center" android:id="@id/mimo_reward_video_continue" android:background="@drawable/mimo_reward_video_tips_continue_btn_selector" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="继续观看" android:layout_weight="1.0" android:layout_marginStart="18.0dp" />
+    </LinearLayout>
+</com.miui.zeus.mimo.sdk.ad.reward.view.RewardVideoTipsView>

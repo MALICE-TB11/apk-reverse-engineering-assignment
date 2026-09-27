@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgPhotoPlayer" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_centerInParent="true" android:contentDescription="@null" />
+    <LinearLayout android:orientation="horizontal" android:background="#80000000" android:padding="@dimen/y17" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/btnReturnPlayer" android:layout_width="0.0dp" android:layout_height="@dimen/y95" android:src="@android:drawable/ic_menu_revert" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        <ImageView android:id="@id/btnRotatePhoto" android:layout_width="0.0dp" android:layout_height="@dimen/y95" android:src="@android:drawable/ic_menu_rotate" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        <ImageView android:id="@id/img_filter" android:layout_width="0.0dp" android:layout_height="@dimen/y95" android:src="@android:drawable/ic_menu_gallery" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        <ImageView android:id="@id/btnShare" android:layout_width="0.0dp" android:layout_height="@dimen/y95" android:src="@android:drawable/ic_menu_share" android:scaleType="fitCenter" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

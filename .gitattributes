@@ -11,5 +11,10 @@ sample.apk filter=lfs diff=lfs merge=lfs -text
 *.java text eol=lf
 *.py text eol=lf
 *.ps1 text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
 .gitignore text eol=lf
 .gitattributes text eol=lf
+
+# Preserve whitespace inside the original decoded multiline string literal.
+rebuild/source/res/values/strings.xml whitespace=-blank-at-eol

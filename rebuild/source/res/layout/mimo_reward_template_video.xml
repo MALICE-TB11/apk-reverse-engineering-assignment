@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mimo_reward_view_video_container" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/mimo_reward_view_background_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    <com.miui.zeus.mimo.sdk.video.TextureVideoView android:layout_gravity="center" android:id="@id/mimo_reward_view_video" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

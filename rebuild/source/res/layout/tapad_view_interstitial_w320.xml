@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rightSquareBannerAdsRelativeLayout" android:background="@android:color/white" android:layout_width="320.0dp" android:layout_height="match_parent" android:layout_alignParentEnd="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/rightSquareAdLogoLinearLayout" android:background="@drawable/tapad_bg_tap_logo_corner2dp_bottom_right" android:layout_width="wrap_content" android:layout_height="12.0dp" android:paddingStart="6.0dp" android:paddingEnd="6.0dp">
+        <ImageView android:id="@id/rightSquareAdLogoImageView" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/tapad_ic_lava_mini" android:scaleType="centerInside" />
+        <TextView android:textSize="8.0dp" android:textColor="@android:color/white" android:id="@id/rightSquareAdLogoTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="广告" />
+    </LinearLayout>
+    <com.tapsdk.tapad.internal.ui.views.HotZoneFrameLayout android:id="@id/rightSquareBannerHotZoneFrameLayout" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/rightBannerMasterLinearLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="38.0dp" android:layout_marginBottom="38.0dp" android:layout_centerVertical="true" android:layout_marginStart="32.0dp" android:layout_marginEnd="32.0dp">
+        <ImageView android:layout_gravity="center" android:id="@id/rightSquareBannerIconImageView" android:layout_width="64.0dp" android:layout_height="64.0dp" android:layout_marginStart="6.0dp" />
+        <TextView android:textSize="20.0dp" android:textColor="#1d2127" android:ellipsize="end" android:gravity="center" android:id="@id/rightSquareBannerTitleTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:lines="1" android:singleLine="true" android:layout_marginEnd="6.0dp" />
+        <TextView android:textSize="16.0dp" android:textColor="#868c92" android:ellipsize="end" android:gravity="center" android:id="@id/rightSquareBannerDescriptionTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="16.0dp" android:lines="2" android:layout_marginStart="6.0dp" android:layout_marginEnd="6.0dp" />
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/rightSquareBannerScoreRelativeLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="32.0dp" android:textStyle="bold" android:textColor="#15c5ce" android:id="@id/rightSquareBannerRealScoreTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_marginStart="2.0dp" />
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_below="@id/rightSquareBannerRealScoreTextView" android:layout_centerHorizontal="true">
+                <ImageView android:layout_width="44.0dp" android:layout_height="12.0dp" android:src="@drawable/tapad_ic_taptap_green_small" android:scaleType="centerInside" />
+                <TextView android:textSize="12.0dp" android:textStyle="bold" android:textColor="#15c5ce" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="评分" android:layout_marginStart="2.0dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <FrameLayout android:id="@id/rightSquareBannerInteractionFrameLayout" android:layout_width="match_parent" android:layout_height="49.0dp" android:layout_marginTop="19.0dp">
+            <FrameLayout android:layout_gravity="center" android:id="@id/rightSquareBannerDownloadFrameLayout" android:background="@drawable/tapad_bg_progress_outer_radius24" android:visibility="gone" android:layout_width="256.0dp" android:layout_height="48.0dp">
+                <ProgressBar android:layout_gravity="center" android:id="@id/rightSquareBannerDownloadProgressBar" android:layout_width="232.0dp" android:layout_height="10.0dp" android:progress="60" style="@style/tapad_download_progress_green" />
+            </FrameLayout>
+            <TextView android:textSize="16.0dp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/rightSquareBannerInteractionTextView" android:background="@drawable/tapad_bg_reward_button_green_corner24dp" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/tapad_footer" />
+</RelativeLayout>

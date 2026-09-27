@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_interactive_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:background="@drawable/klevin_reward_interaction_top_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/rl_compliance" android:background="#99000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dp" android:layout_toLeftOf="@id/ll_policy_permission" android:layout_alignParentLeft="true">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_app_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dp">
+                    <TextView android:textSize="12.0sp" android:textColor="#dedede" android:gravity="center" android:id="@id/tv_app_name_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="应用名称：" />
+                    <TextView android:textSize="12.0sp" android:textColor="#dedede" android:gravity="center" android:id="@id/tv_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                    <TextView android:textSize="12.0sp" android:textColor="#606060" android:gravity="center" android:id="@id/tv_split" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" android:text="|" />
+                    <TextView android:textSize="12.0sp" android:textColor="#dedede" android:gravity="center" android:id="@id/tv_app_version_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="应用版本：" />
+                    <TextView android:textSize="12.0sp" android:textColor="#dedede" android:gravity="center" android:id="@id/tv_app_version_desc" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_app_desc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:layout_marginBottom="1.0dp">
+                    <TextView android:textSize="12.0sp" android:textColor="#dedede" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="应用版本：" />
+                    <TextView android:textSize="12.0sp" android:textColor="#dedede" android:gravity="center" android:id="@id/tv_app_version_desc_spare" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:layout_marginBottom="1.0dp">
+                    <TextView android:textSize="12.0sp" android:textColor="#dedede" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开发者：" />
+                    <TextView android:textSize="12.0sp" android:textColor="#dedede" android:gravity="center" android:id="@id/tv_app_developer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_policy_permission" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="12.0sp" android:textColor="#ff8d70" android:gravity="center" android:autoLink="all" android:id="@id/tv_privacy_policy" android:background="@drawable/klevin_reward_text_underline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="隐私政策" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff8d70" android:gravity="center" android:autoLink="all" android:id="@id/tv_permission_desc" android:background="@drawable/klevin_reward_text_underline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="权限说明" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_exit_mute" android:layout_width="match_parent" android:layout_height="90.0dp" android:layout_below="@id/rl_compliance">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/klevin_ad_iv_close" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@mipmap/klevin_reward_interaction_close" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:id="@id/tv_close_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="观看视频，完成互动后领取奖励" />
+            </LinearLayout>
+            <ImageView android:id="@id/klevin_iv_sound" android:visibility="visible" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@mipmap/klevin_mute_off" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_privacy_permission_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_waiting" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

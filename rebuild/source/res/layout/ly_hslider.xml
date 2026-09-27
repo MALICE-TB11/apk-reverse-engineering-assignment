@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ivSliderPrev" android:layout_width="@dimen/y78" android:layout_height="@dimen/y72" android:src="@drawable/slider_left_click" android:scaleType="fitCenter" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/y189" android:layout_height="@dimen/y41">
+        <ImageView android:id="@id/ivSliderHBar" android:layout_width="@dimen/y189" android:layout_height="@dimen/y41" android:src="@mipmap/play_slider_landspace_bar" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ivSliderHThumb" android:layout_width="@dimen/y36" android:layout_height="@dimen/y41" android:layout_marginLeft="@dimen/y75" android:src="@mipmap/play_slider_landspace_thumb_icon" android:scaleType="fitCenter" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ivSliderNext" android:layout_width="@dimen/y78" android:layout_height="@dimen/y72" android:src="@drawable/slider_right_click" android:scaleType="fitCenter" />
+</LinearLayout>

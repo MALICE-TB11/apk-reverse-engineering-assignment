@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.zeus.mimo.sdk.view.MimoTemplateAppInfoView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mimo_template_download_tag" android:layout_width="6.1999817dp" android:layout_height="8.899994dp" android:src="@drawable/mimo_template_download_num" android:scaleType="fitXY" />
+    <TextView android:textSize="10.899994sp" android:textColor="#80000000" android:ellipsize="end" android:id="@id/mimo_template_download_num" android:paddingTop="0.73dp" android:paddingBottom="0.73dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.9099731dp" android:maxLines="1" />
+    <View android:id="@id/mimo_template_diver" android:background="#33000000" android:layout_width="0.73dp" android:layout_height="8.72998dp" android:layout_marginLeft="5.819977dp" android:layout_marginRight="5.819977dp" />
+    <TextView android:textSize="10.899994sp" android:textColor="#80000000" android:ellipsize="end" android:id="@id/mimo_template_apk_size" android:paddingTop="0.73dp" android:paddingBottom="0.73dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+</com.miui.zeus.mimo.sdk.view.MimoTemplateAppInfoView>

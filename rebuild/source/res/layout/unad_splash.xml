@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/unad_splash_main" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/unad_app_logo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/unad_splash_holder" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_above="@id/unad_app_logo" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/unad_app_logo">
+            <FrameLayout android:id="@id/unad_splash_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:id="@id/unad_logo_view" android:visibility="gone" android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginLeft="5.0dp" android:layout_marginBottom="12.0dp" android:src="@drawable/adgo_logo" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="@dimen/adgo_splash_skip_textsize" android:textColor="@android:color/white" android:gravity="center" android:id="@id/unad_skip_view" android:background="@drawable/adgo_background_circle" android:visibility="gone" android:layout_width="@dimen/adgo_splash_skip_witdh" android:layout_height="@dimen/adgo_splash_skip_height" android:layout_marginRight="@dimen/adgo_splash_skip_marginRight" android:layout_marginBottom="@dimen/adgo_splash_skip_marginBottom" android:text="@string/adgo_splash_skip_name" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/unad_app_logo2" android:visibility="gone" android:layout_width="127.0dp" android:layout_height="78.0dp" android:layout_marginLeft="22.0dp" android:layout_marginTop="5.0dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

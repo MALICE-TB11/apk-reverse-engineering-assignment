@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/interstitial_half_landscape_inner" android:background="@drawable/tapad_bg_white_radius_8dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tapsdk.tapad.internal.ui.views.HotZoneFrameLayout android:id="@id/hotZoneFrameLayout" android:background="@drawable/tapad_bg_white_radius_8dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0dp" android:textStyle="bold" android:textColor="#52575d" android:ellipsize="end" android:id="@id/bottomSquareBannerDescriptionTextView" android:layout_width="match_parent" android:layout_height="18.0dp" android:layout_marginTop="16.0dp" android:layout_marginBottom="16.0dp" android:maxLines="1" android:lines="1" android:singleLine="true" android:layout_marginStart="16.0dp" android:layout_marginEnd="26.0dp" android:layout_alignStart="@id/adCoverImage" android:layout_alignEnd="@id/adCoverImage" />
+        <ImageView android:id="@id/adCoverImage" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="38.0dp" android:layout_marginBottom="26.0dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/video_surface" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="38.0dp" android:layout_marginBottom="26.0dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.tapsdk.tapad.internal.ui.views.video.VideoSurfaceView android:id="@id/adsSurfaceView" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+                <ImageView android:id="@id/volumeImageView" android:background="@drawable/tapad_bg_mediaplayer_audio" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginTop="5.0dp" android:src="@drawable/tapad_ic_audio_open" android:scaleType="centerInside" android:layout_marginStart="5.0dp" />
+                <ImageView android:layout_gravity="center" android:id="@id/mediaPlayerImageView" android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@drawable/tapad_ic_media_play" android:scaleType="center" />
+                <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/rewardSkipLinearLayout" android:background="@drawable/tapad_bg_reward_round_corner18dp" android:layout_width="82.0dp" android:layout_height="30.0dp" android:layout_marginTop="5.0dp" android:layout_marginEnd="8.0dp">
+                    <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/countDownTextView" android:layout_width="wrap_content" android:layout_height="30.0dp" android:text="5秒" android:lines="1" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="2.0dp" />
+                    <View android:layout_gravity="center" android:id="@id/skipDividerView" android:background="#33ffffff" android:layout_width="1.0dp" android:layout_height="match_parent" />
+                    <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/skipTextView" android:layout_width="wrap_content" android:layout_height="30.0dp" android:text="跳过" android:lines="1" android:singleLine="true" android:layout_weight="1.0" android:layout_marginEnd="2.0dp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="40.0dp" android:layout_marginBottom="38.0dp" android:layout_centerVertical="true" android:layout_marginStart="32.0dp" android:layout_marginEnd="32.0dp">
+        <FrameLayout android:id="@id/bottomSquareBannerInteractionFrameLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="16.0dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:translationY="70.0dp" android:layout_marginEnd="6.0dp">
+            <FrameLayout android:layout_gravity="center" android:id="@id/bottomSquareBannerDownloadFrameLayout" android:background="@drawable/tapad_bg_progress_outer_radius24" android:visibility="visible" android:layout_width="170.0dp" android:layout_height="32.0dp">
+                <ProgressBar android:layout_gravity="center" android:id="@id/bottomSquareBannerDownloadProgressBar" android:layout_width="170.0dp" android:layout_height="10.0dp" android:progress="60" style="@style/tapad_download_progress_green" />
+            </FrameLayout>
+            <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/bottomSquareBannerInteractionTextView" android:background="@drawable/tapad_bg_reward_button_green_corner16dp" android:layout_width="170.0dp" android:layout_height="32.0dp" />
+        </FrameLayout>
+    </RelativeLayout>
+    <include layout="@layout/tapad_footer" />
+</RelativeLayout>

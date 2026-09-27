@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/splashColor" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/splashLayout" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <RelativeLayout android:id="@id/splashbg" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/app_logo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/lunch_start_ad_bg" android:scaleType="centerInside" android:layout_above="@id/app_logo" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

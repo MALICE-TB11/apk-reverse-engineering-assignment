@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/box_root" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/bkg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0dp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/txt_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="标题" />
+            <TextView android:textSize="13.0dp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/txt_dialog_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="15.0dp" android:layout_marginBottom="10.0dp" android:text="内容" />
+            <RelativeLayout android:id="@id/box_custom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <com.kongzue.dialog.util.view.MaxHeightLayout android:id="@id/box_input" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:scrollbarSize="7.0dp" android:scrollbarThumbVertical="@drawable/scrollbar_vertical_track" android:textSize="14.0dp" android:textColor="#000000" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/txt_input" android:background="@drawable/editbox_dialog_bkg_ios" android:paddingLeft="5.0dp" android:paddingTop="5.0dp" android:paddingRight="5.0dp" android:paddingBottom="5.0dp" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="15.0dp" android:text="输入文本" android:overScrollMode="never" />
+            </com.kongzue.dialog.util.view.MaxHeightLayout>
+            <ImageView android:id="@id/split_horizontal" android:background="@color/dialogSplitIOSLight" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dp" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/box_button" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="17.0dp" android:textColor="@color/dialogButtonIOSNormal" android:gravity="center" android:id="@id/btn_selectNegative" android:background="@drawable/button_dialog_ios_left_light" android:clickable="true" android:layout_width="match_parent" android:layout_height="50.0dp" android:text="取消" android:layout_weight="1.0" />
+                <ImageView android:id="@id/split_vertical1" android:background="@color/dialogSplitIOSLight" android:visibility="gone" android:layout_width="1.0px" android:layout_height="match_parent" />
+                <TextView android:textSize="17.0dp" android:textColor="@color/dialogButtonIOSNormal" android:gravity="center" android:id="@id/btn_selectOther" android:background="@drawable/button_menu_ios_center_light" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="50.0dp" android:text="其他" android:layout_weight="1.0" />
+                <ImageView android:id="@id/split_vertical2" android:background="@color/dialogSplitIOSLight" android:layout_width="1.0px" android:layout_height="match_parent" />
+                <TextView android:textSize="17.0dp" android:textColor="@color/dialogButtonIOSNormal" android:gravity="center" android:id="@id/btn_selectPositive" android:background="@drawable/button_dialog_ios_right_light" android:clickable="true" android:layout_width="match_parent" android:layout_height="50.0dp" android:text="确定" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

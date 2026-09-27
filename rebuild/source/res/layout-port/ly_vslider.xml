@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivSliderUp" android:layout_width="@dimen/y72" android:layout_height="@dimen/y39" android:src="@drawable/slider_up_click" android:scaleType="fitCenter" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/y41" android:layout_height="@dimen/y95">
+        <ImageView android:id="@id/ivSliderVBar" android:layout_width="@dimen/y41" android:layout_height="@dimen/y95" android:src="@mipmap/play_slider_portrait_bar" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ivSliderVThumb" android:layout_width="@dimen/y41" android:layout_height="@dimen/y36" android:layout_marginTop="@dimen/y30" android:src="@mipmap/play_slider_portrait_thumb_icon" android:scaleType="fitCenter" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivSliderDown" android:layout_width="@dimen/y72" android:layout_height="@dimen/y39" android:src="@drawable/slider_down_click" android:scaleType="fitCenter" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/portraitAdsRelativeLayout" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="135.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/portraitBannerAdLogoLinearLayout" android:background="@drawable/tapad_bg_tap_logo_corner2dp_bottom_right" android:layout_width="wrap_content" android:layout_height="12.0dp" android:paddingStart="6.0dp" android:paddingEnd="6.0dp">
+        <ImageView android:id="@id/portraitBannerAdLogoImageView" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/tapad_ic_lava_mini" android:scaleType="centerInside" />
+        <TextView android:textSize="8.0dp" android:textColor="@android:color/white" android:id="@id/portraitBannerAdLogoTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/portraitAdsMasterRelativeLayout" android:layout_width="match_parent" android:layout_height="115.0dp">
+        <com.tapsdk.tapad.internal.ui.views.HotZoneFrameLayout android:id="@id/portraitBannerAdHotZoneFrameLayout" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:id="@id/portraitIconImageView" android:layout_width="56.0dp" android:layout_height="56.0dp" android:layout_centerVertical="true" android:layout_marginStart="16.0dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/portraitInteractionFrameLayout" android:layout_toEndOf="@id/portraitIconImageView">
+            <TextView android:textSize="16.0dp" android:textColor="#1d2127" android:ellipsize="end" android:id="@id/portraitTitleTextView" android:padding="1.0dp" android:layout_width="wrap_content" android:layout_height="24.0dp" android:lines="1" android:singleLine="true" android:layout_marginStart="8.0dp" />
+            <TextView android:textSize="12.0dp" android:textColor="#868c92" android:ellipsize="end" android:id="@id/portraitDescriptionTextView" android:layout_width="match_parent" android:layout_height="18.0dp" android:lines="1" android:singleLine="true" android:layout_marginStart="8.0dp" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/portraitScoreLinearLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dp">
+                <ImageView android:layout_width="44.0dp" android:layout_height="12.0dp" android:src="@drawable/tapad_ic_taptap_green_small" android:scaleType="centerInside" />
+                <TextView android:textSize="12.0dp" android:textStyle="bold" android:textColor="#15c5ce" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="评分" android:layout_marginStart="2.0dp" />
+                <ImageView android:layout_width="10.0dp" android:layout_height="10.0dp" android:src="@drawable/tapad_ic_star_mini" android:scaleType="centerInside" android:layout_marginStart="2.0dp" />
+                <TextView android:textSize="12.0dp" android:textStyle="bold" android:textColor="#15c5ce" android:id="@id/portraitRealScoreTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/portraitInteractionFrameLayout" android:layout_width="112.0dp" android:layout_height="60.0dp" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true">
+            <FrameLayout android:id="@id/portraitDownloadFrameLayout" android:background="@drawable/tapad_bg_progress_outer_radius20" android:visibility="gone" android:layout_width="112.0dp" android:layout_height="40.0dp">
+                <ProgressBar android:layout_gravity="center" android:id="@id/portraitDownloadProgressBar" android:layout_width="88.0dp" android:layout_height="10.0dp" android:progress="60" style="@style/tapad_download_progress_green" />
+            </FrameLayout>
+            <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/portraitInteractionTextView" android:background="@drawable/tapad_bg_reward_button_green_corner24dp" android:layout_width="match_parent" android:layout_height="40.0dp" />
+        </FrameLayout>
+        <com.tapsdk.tapad.internal.ui.views.TagView android:id="@id/tagView" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginTop="4.0dp" android:layout_marginBottom="8.0dp" android:lines="1" android:layout_alignParentBottom="true" android:layout_marginEnd="6.0dp" android:layout_alignStart="@id/portraitIconImageView">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/firstTag" android:background="@drawable/tapad_bg_tag_outer_radius4" android:layout_width="wrap_content" android:layout_height="20.0dp">
+                <ImageView android:layout_gravity="center" android:background="@drawable/tapad_img" android:layout_width="16.0dp" android:layout_height="16.0dp" />
+            </LinearLayout>
+        </com.tapsdk.tapad.internal.ui.views.TagView>
+    </RelativeLayout>
+    <include layout="@layout/tapad_footer" />
+    <ImageView android:id="@id/portraitCloseBannerImageView" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/tapad_ic_banner_close" android:scaleType="center" android:layout_alignParentRight="true" />
+</RelativeLayout>

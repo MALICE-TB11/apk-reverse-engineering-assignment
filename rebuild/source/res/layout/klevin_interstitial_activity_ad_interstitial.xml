@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#80000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/klevin_iv_interstitial" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="42.0dp" android:layout_marginRight="42.0dp" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/klevin_iv_ad_logo" android:background="@drawable/klevin_interstitial_logo_half_ellipsebg" android:layout_width="81.0dp" android:layout_height="16.0dp" android:src="@mipmap/klevin_logo_nobg" android:adjustViewBounds="true" android:layout_alignRight="@id/klevin_iv_interstitial" android:layout_alignBottom="@id/klevin_iv_interstitial" />
+    <ImageView android:id="@id/klevin_iv_close" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginBottom="7.0dp" android:src="@mipmap/klevin_dialog_close" android:layout_alignRight="@id/klevin_iv_interstitial" />
+</RelativeLayout>

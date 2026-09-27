@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tzh.wifi.wificam.view.ViewPagers android:id="@id/viewPagersInfo" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@id/btnLeftInfo" android:layout_width="@dimen/x85" android:layout_height="@dimen/x71" android:layout_marginLeft="@dimen/x20" android:src="@drawable/play_left_info_click" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" />
+    <ImageView android:id="@id/btnRightInfo" android:layout_width="@dimen/x85" android:layout_height="@dimen/x71" android:layout_marginRight="@dimen/x20" android:src="@drawable/play_right_info_click" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" />
+    <ImageView android:id="@id/btnReturnInfo" android:layout_width="@dimen/x90" android:layout_height="@dimen/x90" android:layout_marginRight="@dimen/x30" android:layout_marginBottom="@dimen/x30" android:src="@drawable/info_return_click" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="onClick" />
+</RelativeLayout>

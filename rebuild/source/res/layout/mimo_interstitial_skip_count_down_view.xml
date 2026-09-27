@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.zeus.mimo.sdk.ad.interstitial.view.InterstitialSkipCountDownView android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/mimo_interstitial_skip_bg" android:paddingLeft="3.6399841dp" android:paddingRight="3.6399841dp" android:layout_width="wrap_content" android:layout_height="26.199982dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.599976sp" android:textColor="#ccffffff" android:gravity="center" android:id="@id/mimo_interstitial_tv_count_down" android:layout_width="28.72998dp" android:layout_height="match_parent" />
+    <View android:id="@id/mimo_interstitial_skip_diver" android:background="#80ffffff" android:layout_width="0.73dp" android:layout_height="8.72998dp" />
+    <TextView android:textSize="11.599976sp" android:textColor="#ccffffff" android:gravity="center" android:id="@id/mimo_interstitial_skip" android:paddingLeft="7.269989dp" android:paddingRight="7.269989dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="关闭" />
+</com.miui.zeus.mimo.sdk.ad.interstitial.view.InterstitialSkipCountDownView>

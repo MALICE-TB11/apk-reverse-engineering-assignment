@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="58.0dp" android:minHeight="76.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mimo_template_close_view" android:layout_width="14.899994dp" android:layout_height="14.899994dp" android:src="@drawable/mimo_template_close" android:scaleType="fitXY" />
+    <RelativeLayout android:id="@id/mimo_template_view_container" android:layout_width="58.19998dp" android:layout_height="58.19998dp" android:layout_marginTop="3.6299744dp">
+        <ImageView android:id="@id/mimo_app_icon_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+        <TextView android:textSize="8.699982sp" android:textColor="#ffffff" android:id="@id/mimo_template_view_ad_mark" android:background="@drawable/mimo_dsp_bg_80000000" android:paddingLeft="2.5dp" android:paddingTop="0.70000005dp" android:paddingRight="2.5dp" android:paddingBottom="0.70000005dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

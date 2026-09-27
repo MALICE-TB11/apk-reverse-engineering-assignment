@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivCenterTxtOne" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x40" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/btnCn" android:layout_width="@dimen/x200" android:layout_height="@dimen/x120" android:src="@mipmap/zone_info_sel_cn_down" android:scaleType="fitCenter" />
+        <ImageView android:id="@id/btnEn" android:layout_width="@dimen/x200" android:layout_height="@dimen/x120" android:layout_marginLeft="@dimen/x60" android:src="@mipmap/zone_info_sel_en" android:scaleType="fitCenter" />
+    </LinearLayout>
+</RelativeLayout>

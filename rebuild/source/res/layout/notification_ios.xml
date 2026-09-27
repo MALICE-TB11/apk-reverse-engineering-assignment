@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kongzue.dialog.util.view.NotifyToastShadowView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/box_body" android:background="@mipmap/img_notification_shadow_ios" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="250.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/btn_notic" android:background="@drawable/img_notification_ios" android:paddingLeft="22.0dp" android:paddingTop="17.0dp" android:paddingRight="22.0dp" android:paddingBottom="27.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/box_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dp">
+                <ImageView android:id="@id/img_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginRight="5.0dp" />
+                <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/dark" android:gravity="center_vertical" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:text="标题" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="15.0dp" android:textColor="@color/dark" android:gravity="center_vertical" android:id="@id/txt_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="内容" android:singleLine="true" android:layout_weight="1.0" />
+            <RelativeLayout android:id="@id/box_custom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.kongzue.dialog.util.view.NotifyToastShadowView>

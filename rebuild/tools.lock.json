@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "apktool": {
+    "version": "3.0.3",
+    "url": "https://repo.maven.apache.org/maven2/org/apktool/apktool-cli/3.0.3/apktool-cli-3.0.3.jar",
+    "size": 22688085,
+    "sha256": "29fc610eed9dd349e75d40fd5af02538e0118b08d56a61ef6f53f8256adadc9a",
+    "checksum_source": "https://repo.maven.apache.org/maven2/org/apktool/apktool-cli/3.0.3/apktool-cli-3.0.3.jar.sha1",
+    "cache": "work/tools/apktool/apktool-cli-3.0.3.jar",
+    "official_sha1": "b8f847b6f17f2a3be91b1136a5427382a872157f",
+    "release_notes": "https://apktool.org/blog/apktool-3.0.3/"
+  },
+  "android_build_tools": {
+    "version": "35.0.0",
+    "platform": "windows",
+    "url": "https://dl.google.com/android/repository/build-tools_r35_windows.zip",
+    "size": 59878107,
+    "sha256": "5753c679a1b90bcf6fbc9945a2ce39dfb9e74f1df0831a1e1866ae5b594326f0",
+    "official_sha1": "af059bb67cf7786f45ee0db85e2d24985df1b4b6",
+    "checksum_source": "https://dl.google.com/android/repository/repository2-3.xml",
+    "cache": "work/tools/signing/build-tools_r35_windows.zip",
+    "files": {
+      "apksigner.jar": {
+        "member": "android-15/lib/apksigner.jar",
+        "sha256": "00ef9948f843fe395d2440ae3ef41405b8040a6d5d46493bd1902ac0ee6deae7"
+      },
+      "zipalign.exe": {
+        "member": "android-15/zipalign.exe",
+        "sha256": "aa2475ce201962b871fb8daec020da03fd6292c9c1f422cd0fe2e39b20d4f673"
+      },
+      "libwinpthread-1.dll": {
+        "member": "android-15/libwinpthread-1.dll",
+        "sha256": "c8544462f6129139a4ccd1739afdaf8e93e73c9602b4a5f2610a30ecbc08f36b"
+      },
+      "NOTICE.txt": {
+        "member": "android-15/NOTICE.txt",
+        "sha256": "54e9b1266dbf9e78f9cf080931beb2c1c807ddb0929e86ec3221058d77024105"
+      },
+      "source.properties": {
+        "member": "android-15/source.properties",
+        "sha256": "084847d70abc41284feee7ea717e7c92eab0d1be05f048c27445a359cfe109d8"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/error_pop_radius" />
+    <stroke android:width="1.0dp" android:color="@color/close_pop_write_line_color" />
+    <solid android:color="@color/white" />
+</shape>

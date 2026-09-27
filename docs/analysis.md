@@ -2,6 +2,8 @@
 
 分析日期：2026-09-26 至 2026-09-27。已完成本样本连接、发送、控制编码和 JNI 主链路的静态定位；未安装 APK、连接飞行器或发送控制数据。
 
+工程补充：已完成保留原界面和依赖的完整 APK 重建，7 个 DEX 全量重新汇编、资源编译及 v1/v2/v3 调试签名验证通过。可编辑源文件、构建步骤及局限见 [重建工程](../rebuild/README.md) 和 [构建记录](../rebuild/BUILD-VERIFICATION.md)；编译成功不改变本报告的实机验证边界。
+
 ## 1. 结论
 
 实际控制链是 `PlayActivity / Rudder → WiFiPresenter → WiFiModelImpl → BaseCmd → Camera.iCmdSend(byte[], int) → libCamera.so → Socket::sendCmd → sendto`。控制帧在 Java 层生成，native 层通过 UDP 发送。连接创建、接收线程和状态上报也位于 `libCamera.so`。这些结论由 Java 方法体、JNI 注册表和 AArch64 指令共同支持。[调用边](call-chain.md)、[控制证据](control-protocol.md)、[native 证据](native-analysis.md)

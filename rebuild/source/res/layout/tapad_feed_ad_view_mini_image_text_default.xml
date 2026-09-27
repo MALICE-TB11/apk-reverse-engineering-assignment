@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tapsdk.tapad.feed.TapFeedAdView android:id="@id/tapad_feed_ad_view_root" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="72.0dp">
+        <include android:id="@id/tapad_material_container" android:layout_width="128.0dp" android:layout_height="match_parent" android:layout_marginEnd="12.0dp" layout="@layout/tapad_feed_material_container" />
+        <TextView android:textSize="14.0dp" android:textColor="@color/tapad_text_description" android:ellipsize="end" android:id="@id/tapad_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_alignTop="@id/tapad_material_container" android:layout_toEndOf="@id/tapad_material_container" android:layout_alignParentEnd="true" />
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/tapad_material_container" android:layout_alignBottom="@id/tapad_material_container" android:layout_alignParentEnd="true" layout="@layout/tapad_feed_foot_logo_container" />
+    </RelativeLayout>
+</com.tapsdk.tapad.feed.TapFeedAdView>

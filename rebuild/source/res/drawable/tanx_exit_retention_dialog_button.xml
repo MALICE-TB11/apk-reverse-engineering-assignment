@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/tanx_exit_retention_button" />
+    <gradient android:startColor="#ff6a6e" android:endColor="#e00b0b" android:angle="0.0" android:type="linear" />
+    <corners android:radius="48.0dp" />
+</shape>

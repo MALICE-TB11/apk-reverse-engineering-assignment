@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/allLayout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/imageLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:onClick="onClick">
+        <com.tzh.wifi.wificam.view.DisplayImage android:id="@id/ivLeftImage" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/play_bg_icon" android:scaleType="fitXY" android:layout_weight="1.0" />
+        <com.tzh.wifi.wificam.view.DisplayImage android:id="@id/ivRightImage" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/play_bg_icon" android:scaleType="fitXY" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/mainLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tzh.wifi.wificam.view.DisplayImage android:id="@id/ivsmallImage" android:visibility="invisible" android:layout_width="@dimen/y320" android:layout_height="@dimen/y240" android:layout_marginBottom="@dimen/y30" android:src="@mipmap/play_bg_icon" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:onClick="onClick" android:layout_marginStart="@dimen/y30" android:layout_toEndOf="@id/ScaleLayout" />
+        <com.tzh.wifi.wificam.view.rudder.Rudder android:id="@id/playRudder" android:background="@color/transparent" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <include android:id="@id/layout_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y80" layout="@layout/ly_left" />
+        <include android:id="@id/layout_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y80" android:layout_alignParentRight="true" layout="@layout/ly_right" />
+        <include android:id="@id/ly_head_second" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y80" android:layout_toLeftOf="@id/layout_right" android:layout_toRightOf="@id/layout_left" android:layout_below="@id/tvAutoPhoto" android:layout_centerHorizontal="true" layout="@layout/ly_center" />
+        <TextView android:textSize="@dimen/y40" android:textColor="@color/red" android:gravity="center_vertical" android:id="@id/tvVoiceWord" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voiceWord" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ScaleLayout" android:layout_width="@dimen/y80" android:layout_height="@dimen/y420" android:layout_marginLeft="@dimen/y15" android:layout_below="@id/layout_left" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/y34" android:textColor="@color/gold" android:gravity="center|bottom" android:id="@id/tvScaleValue" android:visibility="invisible" android:layout_width="@dimen/y80" android:layout_height="@dimen/y50" android:text="1 X" />
+            <com.tzh.wifi.wificam.view.ZoomView android:layout_gravity="center_horizontal" android:id="@id/lyZoomView" android:layout_width="@dimen/y80" android:layout_height="@dimen/y350" />
+        </LinearLayout>
+        <include android:id="@id/ly_record_time" android:layout_width="@dimen/y192" android:layout_height="@dimen/y90" android:layout_marginTop="@dimen/y102" android:layout_toRightOf="@id/layout_left" layout="@layout/ly_record_time" />
+        <ImageView android:id="@id/btnMp3Switch" android:visibility="invisible" android:layout_width="@dimen/y95" android:layout_height="@dimen/y95" android:layout_marginLeft="5.0px" android:layout_marginTop="5.0px" android:src="@mipmap/mp3_red" android:scaleType="fitCenter" android:layout_toRightOf="@id/layout_left" android:layout_below="@id/ly_record_time" android:onClick="onClick" />
+        <TextView android:textSize="@dimen/y34" android:textColor="@color/red" android:id="@id/tvAutoPhoto" android:visibility="invisible" android:layout_width="@dimen/y192" android:layout_height="@dimen/y50" android:layout_marginTop="@dimen/y116" android:text="@string/play_auto_photo" android:layout_toRightOf="@id/layout_left" android:layout_below="@id/btnMp3Switch" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lySliderBottom" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/y110" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <com.tzh.wifi.wificam.view.slider.SliderHor android:id="@id/playLeftSlider" android:layout_width="@dimen/y175" android:layout_height="@dimen/y72" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <com.tzh.wifi.wificam.view.slider.SliderHor android:id="@id/playRightSlider" android:layout_width="@dimen/y175" android:layout_height="@dimen/y72" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/lySliderCenter" android:visibility="invisible" android:layout_width="@dimen/y72" android:layout_height="@dimen/y349" android:layout_above="@id/lyMengencyStop" android:layout_centerHorizontal="true">
+        <com.tzh.wifi.wificam.view.slider.SliderVer android:id="@id/playCenterSlider" android:layout_width="@dimen/y72" android:layout_height="@dimen/y173" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/lyMengencyStop" android:visibility="invisible" android:layout_width="@dimen/y95" android:layout_height="@dimen/y110" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/btnMengencyStop" android:layout_width="@dimen/y95" android:layout_height="@dimen/y95" android:src="@mipmap/zone_onekey_mergency" android:scaleType="fitCenter" android:layout_centerInParent="true" android:onClick="onClick" />
+    </RelativeLayout>
+    <ImageView android:id="@id/ivRoundMove" android:visibility="invisible" android:layout_width="@dimen/y40" android:layout_height="@dimen/y40" android:src="@mipmap/round_move" />
+    <ImageView android:id="@id/ivLoading" android:visibility="invisible" android:layout_width="@dimen/y164" android:layout_height="@dimen/y247" android:src="@mipmap/loading3" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+</RelativeLayout>

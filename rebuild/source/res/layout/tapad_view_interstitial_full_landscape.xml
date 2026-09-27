@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/horizontalRewardCompleteRelativeLayout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/rightBannerView" android:layout_width="320.0dp" android:layout_height="match_parent" android:layout_alignParentEnd="true" layout="@layout/tapad_view_interstitial_w320" />
+    <ImageView android:id="@id/horizontalCoverImageView" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_toStartOf="@id/rightBannerView" />
+</RelativeLayout>

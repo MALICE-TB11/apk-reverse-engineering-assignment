@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/mbridge_viewgroup_ctaroot" android:background="@color/mbridge_reward_cta_bg" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="58.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mbridge.msdk.videocommon.view.MyImageView android:id="@id/mbridge_iv_appicon" android:layout_width="38.0dp" android:layout_height="38.0dp" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    <com.mbridge.msdk.widget.MBDownloadProgressBar android:textSize="18.0sp" android:textColor="#ffffff" android:gravity="center" android:id="@id/mbridge_tv_install" android:background="@drawable/mbridge_reward_shape_end_pager" android:layout_width="190.0dp" android:layout_height="38.0dp" android:text="@string/mbridge_reward_clickable_cta_btntext" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/mbridge_reward_white" android:ellipsize="end" android:gravity="left|center" android:id="@id/mbridge_tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dp" android:layout_marginRight="7.0dp" android:layout_toLeftOf="@id/mbridge_tv_install" android:layout_toRightOf="@id/mbridge_iv_appicon" android:layout_centerVertical="true" />
+</RelativeLayout>

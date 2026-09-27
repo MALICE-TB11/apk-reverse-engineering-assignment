@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/lunch_start_bg" android:scaleType="fitXY" />
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/bannerContainer" android:background="@color/adColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x40" android:layout_marginStart="@dimen/x40" />
+    <ImageView android:id="@id/ivLogoStart" android:layout_width="@dimen/x200" android:layout_height="@dimen/x200" android:layout_marginTop="@dimen/x40" android:layout_marginRight="@dimen/x40" android:src="@drawable/lunch_start_click" android:layout_alignParentRight="true" android:onClick="onClick" />
+    <ImageView android:id="@id/ivLogoInfo" android:layout_width="@dimen/x120" android:layout_height="@dimen/x120" android:layout_marginLeft="@dimen/x30" android:layout_marginBottom="@dimen/x30" android:src="@drawable/lunch_info_click" android:layout_alignParentBottom="true" android:onClick="onClick" />
+    <ImageView android:id="@id/ivLogoHelp" android:layout_width="@dimen/x120" android:layout_height="@dimen/x120" android:layout_marginBottom="@dimen/x30" android:src="@mipmap/play_help_icon" android:layout_alignParentBottom="true" android:onClick="onClick" android:layout_marginEnd="@dimen/x30" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@mipmap/seekbarbg1">
+        <shape>
+            <corners android:radius="5.0dp" />
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress" android:drawable="@mipmap/seekbarbg1">
+        <shape>
+            <corners android:radius="5.0dp" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress" android:drawable="@mipmap/seekbarbg">
+        <shape>
+            <corners android:radius="5.0dp" />
+        </shape>
+    </item>
+</layer-list>

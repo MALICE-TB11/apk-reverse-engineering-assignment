@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ivRecordIcon" android:layout_width="@dimen/y40" android:layout_height="@dimen/y40" android:layout_marginLeft="@dimen/y12" android:src="@mipmap/record_icon" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/y34" android:textColor="@color/red" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tvRecordTime" android:layout_width="@dimen/y134" android:layout_height="@dimen/y50" android:layout_marginLeft="@dimen/y6" android:text="00:00" />
+</LinearLayout>

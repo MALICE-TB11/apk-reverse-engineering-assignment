@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.zeus.mimo.sdk.view.MimoTemplateDeepLinkTipsView android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/mimo_template_deeplink_tips_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.399994sp" android:textColor="@android:color/black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dp" android:layout_marginTop="51.0dp" android:layout_marginRight="18.0dp" android:text="您即将离开当前应用，打开其他应用，是否允许？" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginLeft="18.0dp" android:layout_marginTop="43.0dp" android:layout_marginRight="18.0dp" android:layout_marginBottom="18.0dp">
+        <TextView android:textSize="18.199982sp" android:textColor="@color/mimo_template_deeplink_tips_abandon_btn_text_color_selector" android:gravity="center" android:id="@id/mimo_abandon" android:background="@drawable/mimo_template_deeplink_tips_abandon_btn_selector" android:layout_width="0.0dp" android:layout_height="match_parent" android:adjustViewBounds="true" android:text="取消" android:layout_weight="1.0" />
+        <TextView android:textSize="18.199982sp" android:textColor="@color/mimo_template_deeplink_tips_continue_btn_text_color_selector" android:gravity="center" android:id="@id/mimo_continue" android:background="@drawable/mimo_template_deeplink_tips_continue_btn_selector" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="确认" android:layout_weight="1.0" android:layout_marginStart="14.5dp" />
+    </LinearLayout>
+</com.miui.zeus.mimo.sdk.view.MimoTemplateDeepLinkTipsView>

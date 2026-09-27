@@ -1,0 +1,229 @@
+{
+  "verified_on": "2026-09-27",
+  "environment": {
+    "os": "Windows",
+    "python": "3.10.11",
+    "jdk": "Temurin 25.0.4+7",
+    "apktool": "3.0.3",
+    "android_build_tools": "35.0.0"
+  },
+  "build_result": {
+    "sample_sha256": "49b469e51e4a0e849b5f846b9af94b3f98acbf91735ec8d04f8451c514c684b0",
+    "apktool_version": "3.0.3",
+    "artifact": "rebuild/output/wifi-cam-rebuilt-debug.apk",
+    "artifact_sha256": "1b45a5c04a733d9e0bef363d4a8987170bdcd5d0e7f11991fa69874f7afd84e4",
+    "debug_signed": true,
+    "signature_and_alignment_verified": true,
+    "baseline_checks_passed": true,
+    "runtime_tested": false,
+    "allow_code_changes": false,
+    "editable_source_files": 2478
+  },
+  "artifact_size_bytes": 113106937,
+  "checks": {
+    "original_integrity": true,
+    "rebuilt_integrity": true,
+    "dex_names_match": true,
+    "per_dex_class_descriptors_match": true,
+    "native_library_names_and_bytes_match": true,
+    "asset_names_and_bytes_match": true
+  },
+  "original_counts": {
+    "dex_files": 7,
+    "defined_classes": 47156,
+    "native_libraries": 43,
+    "assets": 188
+  },
+  "rebuilt_counts": {
+    "dex_files": 7,
+    "defined_classes": 47156,
+    "native_libraries": 43,
+    "assets": 188
+  },
+  "all_zip_entries_crc_checked": true,
+  "signature_schemes_verified": [
+    "v1",
+    "v2",
+    "v3"
+  ],
+  "signer_certificate_sha256": "88c519300b3e0f91476a9ec50ededd80e1ca169017a89105e7481ad5b13a59b5",
+  "alignment_check": [
+    "zipalign",
+    "-c",
+    "-P",
+    "16",
+    "4",
+    "rebuild/output/wifi-cam-rebuilt-debug.apk"
+  ],
+  "alignment_exit_code": 0,
+  "tests": {
+    "passed": 33,
+    "failed": 0,
+    "command": "python -m unittest discover -s rebuild/tests -v"
+  },
+  "zip_name_encoding_changes": [
+    {
+      "field": "assets.zip_name_encoding",
+      "original_decoded_name": "assets/musics/µ╖▒µâàσæèτÖ╜.jpg",
+      "rebuilt_decoded_name": "assets/musics/深情告白.jpg",
+      "utf8_name": "assets/musics/深情告白.jpg",
+      "original_utf8_flag": false,
+      "rebuilt_utf8_flag": true,
+      "raw_zip_name_bytes_hex": "6173736574732f6d75736963732fe6b7b1e68385e5918ae799bd2e6a7067",
+      "raw_name_bytes_identical": true,
+      "unique_utf8_name_in_both_archives": true,
+      "content_sha256_identical": true,
+      "content_sha256": "b1b167e48c6cfc7b248050d266298427c7289ec2be9c2381c4f9046c3faff7a5",
+      "accepted": true
+    },
+    {
+      "field": "assets.zip_name_encoding",
+      "original_decoded_name": "assets/musics/µ╖▒µâàσæèτÖ╜.mp3",
+      "rebuilt_decoded_name": "assets/musics/深情告白.mp3",
+      "utf8_name": "assets/musics/深情告白.mp3",
+      "original_utf8_flag": false,
+      "rebuilt_utf8_flag": true,
+      "raw_zip_name_bytes_hex": "6173736574732f6d75736963732fe6b7b1e68385e5918ae799bd2e6d7033",
+      "raw_name_bytes_identical": true,
+      "unique_utf8_name_in_both_archives": true,
+      "content_sha256_identical": true,
+      "content_sha256": "be3072b0dd07cea1f6f2b7a8c0263903450cabde2909be4621649bb06c66bcfb",
+      "accepted": true
+    },
+    {
+      "field": "assets.zip_name_encoding",
+      "original_decoded_name": "assets/musics/Σ╕ÇΦ╖»σÑïΦ┐¢.jpg",
+      "rebuilt_decoded_name": "assets/musics/一路奋进.jpg",
+      "utf8_name": "assets/musics/一路奋进.jpg",
+      "original_utf8_flag": false,
+      "rebuilt_utf8_flag": true,
+      "raw_zip_name_bytes_hex": "6173736574732f6d75736963732fe4b880e8b7afe5a58be8bf9b2e6a7067",
+      "raw_name_bytes_identical": true,
+      "unique_utf8_name_in_both_archives": true,
+      "content_sha256_identical": true,
+      "content_sha256": "b1b167e48c6cfc7b248050d266298427c7289ec2be9c2381c4f9046c3faff7a5",
+      "accepted": true
+    },
+    {
+      "field": "assets.zip_name_encoding",
+      "original_decoded_name": "assets/musics/Σ╕ÇΦ╖»σÑïΦ┐¢.mp3",
+      "rebuilt_decoded_name": "assets/musics/一路奋进.mp3",
+      "utf8_name": "assets/musics/一路奋进.mp3",
+      "original_utf8_flag": false,
+      "rebuilt_utf8_flag": true,
+      "raw_zip_name_bytes_hex": "6173736574732f6d75736963732fe4b880e8b7afe5a58be8bf9b2e6d7033",
+      "raw_name_bytes_identical": true,
+      "unique_utf8_name_in_both_archives": true,
+      "content_sha256_identical": true,
+      "content_sha256": "4fce840cf3095220efa57b67aeb148686ca19129e9683d56be8e28245db5f23d",
+      "accepted": true
+    },
+    {
+      "field": "assets.zip_name_encoding",
+      "original_decoded_name": "assets/musics/Φô¥Φë▓τÜäΦè▒.jpg",
+      "rebuilt_decoded_name": "assets/musics/蓝色的花.jpg",
+      "utf8_name": "assets/musics/蓝色的花.jpg",
+      "original_utf8_flag": false,
+      "rebuilt_utf8_flag": true,
+      "raw_zip_name_bytes_hex": "6173736574732f6d75736963732fe8939de889b2e79a84e88ab12e6a7067",
+      "raw_name_bytes_identical": true,
+      "unique_utf8_name_in_both_archives": true,
+      "content_sha256_identical": true,
+      "content_sha256": "b1b167e48c6cfc7b248050d266298427c7289ec2be9c2381c4f9046c3faff7a5",
+      "accepted": true
+    },
+    {
+      "field": "assets.zip_name_encoding",
+      "original_decoded_name": "assets/musics/Φô¥Φë▓τÜäΦè▒.mp3",
+      "rebuilt_decoded_name": "assets/musics/蓝色的花.mp3",
+      "utf8_name": "assets/musics/蓝色的花.mp3",
+      "original_utf8_flag": false,
+      "rebuilt_utf8_flag": true,
+      "raw_zip_name_bytes_hex": "6173736574732f6d75736963732fe8939de889b2e79a84e88ab12e6d7033",
+      "raw_name_bytes_identical": true,
+      "unique_utf8_name_in_both_archives": true,
+      "content_sha256_identical": true,
+      "content_sha256": "7a45bc9ccafc828096626856e822f4e71bbfe6bd1b5696257975d9517499f12d",
+      "accepted": true
+    },
+    {
+      "field": "assets.zip_name_encoding",
+      "original_decoded_name": "assets/musics/σ╛«τ¼æΘÿ│σàë.jpg",
+      "rebuilt_decoded_name": "assets/musics/微笑阳光.jpg",
+      "utf8_name": "assets/musics/微笑阳光.jpg",
+      "original_utf8_flag": false,
+      "rebuilt_utf8_flag": true,
+      "raw_zip_name_bytes_hex": "6173736574732f6d75736963732fe5beaee7ac91e998b3e585892e6a7067",
+      "raw_name_bytes_identical": true,
+      "unique_utf8_name_in_both_archives": true,
+      "content_sha256_identical": true,
+      "content_sha256": "b1b167e48c6cfc7b248050d266298427c7289ec2be9c2381c4f9046c3faff7a5",
+      "accepted": true
+    },
+    {
+      "field": "assets.zip_name_encoding",
+      "original_decoded_name": "assets/musics/σ╛«τ¼æΘÿ│σàë.mp3",
+      "rebuilt_decoded_name": "assets/musics/微笑阳光.mp3",
+      "utf8_name": "assets/musics/微笑阳光.mp3",
+      "original_utf8_flag": false,
+      "rebuilt_utf8_flag": true,
+      "raw_zip_name_bytes_hex": "6173736574732f6d75736963732fe5beaee7ac91e998b3e585892e6d7033",
+      "raw_name_bytes_identical": true,
+      "unique_utf8_name_in_both_archives": true,
+      "content_sha256_identical": true,
+      "content_sha256": "e11fcfbd9811f8c620e4763f4e71a235ffc2223c65cbfc21d8767c7bc0ba43f4",
+      "accepted": true
+    }
+  ],
+  "dex": {
+    "classes.dex": {
+      "original_sha256": "55c1405dacab63090a50cc1ad091fe7b1535efb71851fdc86e700c9908c5ea3b",
+      "rebuilt_sha256": "9e57f9bbc962c7bd6f28ce1b7ee7210020ac04537ead9255a7919478d7a6356c",
+      "class_defs_count": 7412,
+      "class_descriptors_sha256": "bcb25fc1b2c6ea49e06210c33fed8ff0c73dc299e57b7a7b24a231dc45f1ab08",
+      "rebuilt_integrity_passed": true
+    },
+    "classes2.dex": {
+      "original_sha256": "45f772be0bae7d207305eae3bccd96e35386a99ac0b97d3164bc61a9a8635f7d",
+      "rebuilt_sha256": "6c98c2e4c7cb1743bb5ba26901da70abdb3bbd54e3a862e099a67e327f545d15",
+      "class_defs_count": 1,
+      "class_descriptors_sha256": "0e1261dd2a45908409395de6cfc607b8e644c43af1b8915e3f7815f03c1129ea",
+      "rebuilt_integrity_passed": true
+    },
+    "classes3.dex": {
+      "original_sha256": "96028923356f5ba5732a579d3907bbcd0c7e94c98267eb529e111361b61e308c",
+      "rebuilt_sha256": "44d3a70066ec3cf8f6713acc45c67dd020d390f68d063c98761c437608e4839d",
+      "class_defs_count": 7419,
+      "class_descriptors_sha256": "321362489cced4d191d341e371ed95d4162074879bdb053963d515ddd3015254",
+      "rebuilt_integrity_passed": true
+    },
+    "classes4.dex": {
+      "original_sha256": "4d495c20ee078d13242610c9ad7316fac8861506e6390b44e8d8ce7ed517081d",
+      "rebuilt_sha256": "f2b7d9600371d934fcb664b039c858e84e4eb43526c9ee776bc77587c607fa9f",
+      "class_defs_count": 9824,
+      "class_descriptors_sha256": "d27cbf1059b5631a00eab87cca2dfc877689f309380352e445134aafeab9cc79",
+      "rebuilt_integrity_passed": true
+    },
+    "classes5.dex": {
+      "original_sha256": "9759705e461f3a9143d17c37795cd4b3a7898a7e58360fe43a998d1f553603d4",
+      "rebuilt_sha256": "976eee5310c8df9a9828dac09c833c2aa3f3624289176b037032a1c5f6264afe",
+      "class_defs_count": 8960,
+      "class_descriptors_sha256": "4dda6dd279f79cc51e83d7f9a1258e46f3c1d80380ef0b2ed0b93065e3232487",
+      "rebuilt_integrity_passed": true
+    },
+    "classes6.dex": {
+      "original_sha256": "e4d88582ab9caaa71521888dd209c6bfe2f1a3ec414f0113eb38887c3954de2c",
+      "rebuilt_sha256": "0a2b0c8171505cad0c27bc839c173424951750925c4d84c02b5dd87e8affc5d2",
+      "class_defs_count": 8396,
+      "class_descriptors_sha256": "2eb0c9a8034b52b699f6b58abe869f48c4b6968e9472e8035a2d9d31279cfde5",
+      "rebuilt_integrity_passed": true
+    },
+    "classes7.dex": {
+      "original_sha256": "c00b9cda630126ac2ee564d2c10022f8c845d12a370642455b03fd23a8cca1b3",
+      "rebuilt_sha256": "2938c7b741e6492f60783d9e7a9a0e1f498aefdc41ec665c7469a00837c9e7a4",
+      "class_defs_count": 5144,
+      "class_descriptors_sha256": "973da0e943d27a9279c96c9312a773cdec14a9b7f79dedbf07aa1bd73e4b12d7",
+      "rebuilt_integrity_passed": true
+    }
+  }
+}

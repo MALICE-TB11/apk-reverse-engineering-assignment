@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/box_body" android:background="@drawable/rect_bottom_dialog" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/img_tab" android:layout_width="30.0dp" android:layout_height="4.0dp" android:layout_marginTop="15.0dp" android:src="@drawable/rect_share_material_tab" />
+        <TextView android:textSize="18.0dp" android:textColor="@color/tipTextColor" android:gravity="center_horizontal" android:id="@id/txt_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dp" android:layout_marginTop="15.0dp" android:layout_marginRight="25.0dp" android:layout_marginBottom="15.0dp" android:text="分享" />
+        <RelativeLayout android:id="@id/box_custom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/title_split_line" android:background="@color/dialogSplitIOSLight" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0px" />
+        <com.kongzue.dialog.util.view.TableLayout android:id="@id/box_item" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

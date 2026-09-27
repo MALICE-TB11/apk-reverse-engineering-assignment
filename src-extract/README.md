@@ -2,6 +2,8 @@
 
 这些是逆向分析证据，不是可编译的 Android 项目，也不是重建后的飞控客户端。
 
+可编译的完整 APK 工程已另行整理到 [rebuild/](../rebuild/README.md)，包含业务 Smali、全部资源 XML，以及补齐完整依赖、构建、签名和校验脚本。
+
 - [connection/](connection/)：C01–C06，带原始 JADX 文件行号；样本哈希、工具配置和来源文件哈希见 [Java 证据索引](../docs/evidence/java-evidence.json)。
 - [control/](control/README.md)：P01–P05，编码器、调度、按钮/摇杆调用、Smali 与资源选区。
 - [native/](native/)：JNI、Socket、状态回调的 AArch64 指令、原始字节与虚拟地址，说明见 [native 报告](../docs/native-analysis.md)。

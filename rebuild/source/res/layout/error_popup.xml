@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_background" android:background="@drawable/tanx_shape_error_pop_write" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dp" android:textColor="@color/text_color_111" android:gravity="center" android:id="@id/tv_title" android:paddingLeft="11.0dp" android:paddingRight="11.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="异常情况" />
+    <TextView android:textSize="14.0dp" android:textColor="@color/text_color_666" android:gravity="center" android:id="@id/tv_msg" android:paddingLeft="11.0dp" android:paddingRight="11.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="抱歉，广告加载异常，请退出重试。" />
+    <View android:id="@id/view_line" android:background="@color/color_e6e6e6" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginTop="24.0dp" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_ad_close" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="14.0dp" android:textColor="@color/color_99999" android:gravity="center" android:id="@id/tv_close" android:clickable="false" android:layout_width="wrap_content" android:layout_height="40.0dp" android:text="退出" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/btnPlayReturn" android:layout_width="@dimen/y95" android:layout_height="@dimen/y95" android:src="@drawable/play_return_click" android:scaleType="fitCenter" android:layout_centerHorizontal="true" android:onClick="onClick" />
+        <ImageView android:id="@id/btnPlayRecord" android:layout_width="@dimen/y95" android:layout_height="@dimen/y95" android:src="@mipmap/play_record_icon" android:scaleType="fitCenter" android:layout_below="@id/btnPlayReturn" android:layout_centerHorizontal="true" android:onClick="onClick" />
+        <ImageView android:id="@id/btnPlaySnap" android:layout_width="@dimen/y95" android:layout_height="@dimen/y95" android:src="@drawable/play_photo_click" android:scaleType="fitCenter" android:layout_below="@id/btnPlayRecord" android:layout_centerHorizontal="true" android:onClick="onClick" />
+        <ImageView android:id="@id/btnPlayBack" android:layout_width="@dimen/y95" android:layout_height="@dimen/y95" android:src="@drawable/play_playback_click" android:scaleType="fitCenter" android:layout_below="@id/btnPlaySnap" android:layout_centerHorizontal="true" android:onClick="onClick" />
+        <ImageView android:id="@id/btnCameraSwitch" android:layout_width="@dimen/y95" android:layout_height="@dimen/y95" android:src="@drawable/play_camera_sw_click" android:scaleType="fitCenter" android:layout_below="@id/btnPlayBack" android:layout_centerHorizontal="true" android:onClick="onClick" />
+    </RelativeLayout>
+</LinearLayout>

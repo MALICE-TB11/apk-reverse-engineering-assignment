@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mimo_reward_template_guide_image" android:layout_width="218.19998dp" android:layout_height="218.19998dp" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <TextView android:textSize="16.399994sp" android:textStyle="bold" android:textColor="@color/mimo_adWhite" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dp" android:text="点击立即下载" android:shadowColor="#b3000000" android:shadowDx="0.0" android:shadowDy="4.0" android:shadowRadius="0.1" android:layout_alignBottom="@id/mimo_reward_template_guide_image" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/mimo_reward_close_img" android:layout_width="24.699982dp" android:layout_height="24.699982dp" android:layout_marginTop="29.799988dp" android:layout_marginRight="21.799988dp" android:src="@drawable/mimo_template_close_v2" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

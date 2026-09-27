@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/mimo_btn_progress" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ff0d84ff" android:ellipsize="end" android:gravity="center" android:id="@id/mimo_btn_text" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/mimo_cancel" android:padding="4.0dp" android:visibility="invisible" android:layout_width="22.0dp" android:layout_height="22.0dp" android:src="@drawable/mimo_download_progress_close_blue" android:layout_centerVertical="true" android:layout_marginEnd="6.0dp" android:layout_alignParentEnd="true" />
+    <com.miui.zeus.mimo.sdk.view.LightningView android:id="@id/mimo_lightning_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

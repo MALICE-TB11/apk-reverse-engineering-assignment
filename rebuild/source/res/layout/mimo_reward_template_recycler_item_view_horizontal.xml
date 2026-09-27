@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.zeus.mimo.sdk.ad.reward.recycler.RewardTemplateRecyclerItemView android:background="@drawable/mimo_recycler_item_shadow" android:padding="20.0dp" android:layout_width="206.5dp" android:layout_height="336.6953dp" android:layout_centerInParent="true" app:shadow_color="#4d000000"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/mimo_recycler_item_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/mimo_avatar" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="0.36dp" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <View android:id="@id/mimo_avatar_bg" android:background="@drawable/mimo_reward_recycler_item_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+</com.miui.zeus.mimo.sdk.ad.reward.recycler.RewardTemplateRecyclerItemView>

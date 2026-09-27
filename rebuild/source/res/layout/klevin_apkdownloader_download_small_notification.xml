@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/klevin_apkdownloader_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_toRightOf="@id/klevin_notify_small_icon" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" android:layout_toEndOf="@id/klevin_notify_small_icon">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#808487" android:id="@id/tv_small_task_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#808487" android:id="@id/tv_small_task_begin_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#4b4f4e" android:id="@id/klevin_notify_small_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ImageView android:id="@id/klevin_notify_small_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginLeft="10.0dp" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" />
+</RelativeLayout>

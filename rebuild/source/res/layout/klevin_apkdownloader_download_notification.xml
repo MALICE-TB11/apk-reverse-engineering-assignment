@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/klevin_apkdownloader_dialog_bg" android:layout_width="match_parent" android:layout_height="80.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="60.0dp" android:layout_toRightOf="@id/klevin_notify_icon" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" android:layout_toEndOf="@id/klevin_notify_icon">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#808487" android:id="@id/tv_task_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#808487" android:id="@id/tv_task_begin_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#4b4f4e" android:id="@id/klevin_notify_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:includeFontPadding="false" />
+        <TextView android:textSize="10.0sp" android:textStyle="normal" android:textColor="#3f4342" android:ellipsize="end" android:id="@id/klevin_notify_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <ProgressBar android:id="@id/notify_download_progress" android:layout_width="match_parent" android:layout_height="5.0dp" android:layout_marginTop="3.0dp" android:progressDrawable="@drawable/klevin_apkdownloader_notification_progress" style="?android:progressBarStyleHorizontal" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#111111" android:ellipsize="end" android:id="@id/tv_no_more_reminders" android:background="@drawable/klevin_apkdownloader_no_more_remebers_bg" android:paddingLeft="10.0dp" android:paddingTop="5.0dp" android:paddingRight="10.0dp" android:paddingBottom="3.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dp" android:layout_marginRight="12.0dp" android:text="不在提醒" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/klevin_notify_icon" android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_marginLeft="10.0dp" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" />
+    <ImageView android:id="@id/klevin_notify_pause_restart" android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_marginLeft="10.0dp" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" />
+</RelativeLayout>

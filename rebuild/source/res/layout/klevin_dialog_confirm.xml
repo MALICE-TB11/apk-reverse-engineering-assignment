@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/klevin_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#333333" android:gravity="center" android:id="@id/klevin_close_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dp" android:layout_marginTop="25.0dp" android:layout_marginRight="32.0dp" />
+            <ImageView android:id="@id/klevin_close_button" android:background="@mipmap/klevin_close_icon" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginRight="12.0dp" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#666666" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/klevin_close_message" android:layout_width="225.0dp" android:layout_height="wrap_content" android:layout_marginLeft="24.0dp" android:layout_marginTop="20.0dp" android:layout_marginRight="24.0dp" android:layout_marginBottom="12.0dp" android:minWidth="210.0dp" android:minHeight="60.0dp" />
+        <FrameLayout android:id="@id/klevin_dialog_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="338.0dp" android:layout_height="wrap_content">
+            <Button android:textSize="18.0sp" android:textColor="#999999" android:gravity="center" android:id="@id/klevin_close_negativeButton" android:background="@drawable/klevin_dialog_negative" android:visibility="visible" android:layout_width="0.0dp" android:layout_height="40.0dp" android:layout_marginLeft="24.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="8.0dp" android:layout_marginBottom="29.0dp" android:layout_weight="1.0" />
+            <Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/klevin_close_positiveButton" android:background="@drawable/klevin_dialog_positive" android:visibility="visible" android:layout_width="0.0dp" android:layout_height="40.0dp" android:layout_marginLeft="8.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="24.0dp" android:layout_marginBottom="29.0dp" android:layout_weight="1.0" />
+            <Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/klevin_single_button" android:background="@drawable/klevin_dialog_positive" android:visibility="gone" android:layout_width="match_parent" android:layout_height="45.0dp" android:layout_marginLeft="15.0dp" android:layout_marginTop="16.0dp" android:layout_marginRight="15.0dp" android:layout_marginBottom="16.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
